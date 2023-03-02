@@ -11,7 +11,7 @@ class RecipeController extends Controller
 
     public function __construct(RecipeService $recipeService)
     {
-        $this->middleware('auth:api');
+        $this->middleware('auth:api')->except(['all']);
         $this->recipeService = $recipeService;
     }
 
