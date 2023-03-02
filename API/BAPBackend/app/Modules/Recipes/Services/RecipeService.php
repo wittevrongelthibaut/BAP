@@ -17,4 +17,9 @@ class RecipeService extends Service{
         return $this->model->all();
     }
 
+    public function retrieveRecipeById($id)
+    {
+        return $this->model->where('id', $id)->first();
+    }
+
 }
