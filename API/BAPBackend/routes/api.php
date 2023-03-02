@@ -24,5 +24,6 @@ Route::controller(RecipeController::class)->group(function () {
 Route::group(['middleware'=> ['isauth']], function(){
     Route::controller(MenuController::class)->group(function () {
         Route::get('/menus', 'all');
+        Route::post('/menus', 'create');
     });
 });
