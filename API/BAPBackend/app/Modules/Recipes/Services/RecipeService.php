@@ -22,7 +22,7 @@ class RecipeService extends Service{
         return $this->model->where('id', $id)->first();
     }
 
-    public function retrieveRandomRecipes($limit = 5)
+    public function retrieveRandomRecipes($limit)
     {
         return $this->model->inRandomOrder()->limit($limit)->get();
     }
