@@ -11,5 +11,10 @@ class RecipeService extends Service{
     {
         parent::__construct($model);
     }
-    
+
+    public function all()
+    {
+        return $this->model->all();
+    }
+
 }
