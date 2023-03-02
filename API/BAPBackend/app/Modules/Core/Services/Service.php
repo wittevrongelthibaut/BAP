@@ -13,12 +13,14 @@ abstract class Service{
     protected  $rules = [];
 
     protected $model;
+    private $customError;
 
     public function __construct(Model $model)
     {
         $this->model = $model;
         $this->errors = [];
         $this->result = [];
+        $this->customError = [];
     }
     protected function validate($data, $id = false)
     {
@@ -63,6 +65,14 @@ abstract class Service{
 
     public function getResult(){
         return $this->result;
+    }
+
+    public function addError($errormessage){
+        $this -> customError = ["error" => [$errormessage]];
+    }
+
+    public function getCustomErrors(){
+        return $this->customError;
     }
 
 }
