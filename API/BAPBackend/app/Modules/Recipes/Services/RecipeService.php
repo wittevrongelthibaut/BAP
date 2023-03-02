@@ -27,4 +27,10 @@ class RecipeService extends Service{
         return $this->model->inRandomOrder()->limit($limit)->get();
     }
 
+    public function retrieveRecipesInMenu($menuId)
+    {
+        return $this->model->whereHas('menus', function($query) use ($menuId){
+            $query->where('menu_id', $menuId);
+        })->get();
+    }
 }

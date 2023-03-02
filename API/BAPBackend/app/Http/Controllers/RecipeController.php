@@ -25,4 +25,8 @@ class RecipeController extends Controller
     public function retrieveRandomRecipes($limit = 5){
         return $this->recipeService->retrieveRandomRecipes($limit);
     }
+
+    public function retrieveRecipesInMenu($menuId){
+        return $this->recipeService->retrieveRecipesInMenu($menuId);
+    }
 }
