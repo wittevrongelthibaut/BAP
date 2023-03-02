@@ -9,6 +9,11 @@ class Menu extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'user_id',
+        'name'
+    ];
+
     public function recipes()
     {
         return $this->belongsToMany(Recipe::class);
