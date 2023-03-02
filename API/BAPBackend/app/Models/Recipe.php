@@ -9,6 +9,11 @@ class Recipe extends Model
 {
     use HasFactory;
 
+    protected $casts = [
+        'ingredients' => 'array',
+        'instructions' => 'array',
+    ];
+
     public function menus()
     {
         return $this->belongsToMany(Menu::class);
