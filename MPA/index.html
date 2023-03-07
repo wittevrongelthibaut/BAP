@@ -11,6 +11,18 @@
         <h1>Plan To Plate</h1>
         <a href="login.html">login</a>
     </header>
-    
+    <main>
+        <h2>Select the type of recipes you want to receive and how many per type.</h2>
+        <form action="index.html" method="post">
+            <input type="checkbox" name="breakfast" value="breakfast">
+            <label for="breakfast">Breakfast</label>
+            <input type="checkbox" name="lunch" value="lunch">
+            <label for="lunch">Lunch</label>
+            <input type="checkbox" name="dinner" value="dinner">
+            <label for="dinner">Dinner</label>
+            <label for="number">Number of recipes per type</label>
+            <input type="number" name="number" min="1" max="10">
+            <input type="submit" value="Generate Menus">
+        </main>
 </body>
 </html>
