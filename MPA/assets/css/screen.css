@@ -1,7 +1,21 @@
-/* create a beautiful header in a nice kind of green */
 header {
   background-color: #1B4D4C;
   font-size: 2em;
   font-weight: bold;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 }
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+header a:hover {
+  transition: 0.5s;
+  color: #B0DDC2;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=screen.css.map */
