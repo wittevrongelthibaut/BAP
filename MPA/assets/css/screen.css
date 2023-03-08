@@ -1,0 +1,7 @@
+/* create a beautiful header in a nice kind of green */
+header {
+  background-color: #1B4D4C;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
