@@ -21,4 +21,72 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-  }
+}
+
+#mealGen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1B4D4C;
+    color: #EAEBEB;
+    width: fit-content;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    h2 {
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    label {
+        margin: 1rem;
+        font-size: 2rem;
+    }
+    label:last-of-type{
+        display: block;
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+    input[type="number"] {
+        width: 7rem;
+        height: 7rem;
+        border-radius: 50%;
+        border: none;
+        outline: none;
+        text-align: center;
+        font-size: 20px;
+        display: block;
+        margin: 0 auto;
+        font-size: 2em;
+    }
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    input[type="number"] {
+      -moz-appearance: textfield;
+    }
+
+    input[type="submit"] {
+        display: block;
+        margin: 1rem auto;
+        background-color: #B0DDC2;
+        color: #1B4D4C;
+        border: none;
+        outline: none;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        font-size: 1.5em;
+        font-weight: bold;
+        cursor: pointer;
+        &:hover {
+            transition: 0.5s;
+            background-color: #0A1A11;
+            color: #B0DDC2;
+        }
+    }
+}
