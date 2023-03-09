@@ -90,3 +90,22 @@ input[type="submit"] {
         color: #B0DDC2;
     }
 }
+
+button{
+    display: block;
+    margin: 1rem auto;
+    background-color: #B0DDC2;
+    color: #1B4D4C;
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    &:hover {
+        transition: 0.5s;
+        background-color: #0A1A11;
+        color: #B0DDC2;
+    }
+}
