@@ -3,7 +3,28 @@
 document.addEventListener("DOMContentLoaded", init);
 
 function init() {
-    console.log(retrieveQueryParameters());
+    fillRecipeHtml();
+}
+
+async function fillRecipeHtml() {
+    const parameters = retrieveQueryParameters();
+    const recipes = await APIgetRandomRecipes(parameters.amount);
+    createRecipeCards(recipes);
+}
+
+function createRecipeCards(recipes){
+    console.log(recipes);
+    recipes.forEach(recipe => {
+
+        const recipeCardTemplate = document.querySelector('#recipeCardTemplate');
+        const recipeCardHTML = recipeCardTemplate.content.cloneNode(true);
+
+        recipeCardHTML.querySelector('article').dataset.id = recipe.id;
+        recipeCardHTML.querySelector('h3').innerHTML = recipe.title;
+        //recipeCardHTML.querySelector('img').src = recipe.image;
+
+        document.querySelector('main').appendChild(recipeCardHTML);
+    });
 }
 
 function retrieveQueryParameters(){
