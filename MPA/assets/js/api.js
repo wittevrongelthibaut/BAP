@@ -10,3 +10,9 @@ async function APIauthentication (formdata, slug){
     .then(response => response.json())
     .then(data => { return data; });
 }
+
+async function APIgetRandomRecipes(amount){
+    return await fetch(`${API_URL}/recipes/random/${amount}`)
+    .then(response => response.json())
+    .then(data => { return data; });
+}
