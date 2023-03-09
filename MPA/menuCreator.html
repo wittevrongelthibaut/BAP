@@ -8,7 +8,7 @@
     <script src="assets/js/menuCreator.js"></script>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/screen.css">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <title>Plan To Plate</title>
 </head>
 <body>
@@ -21,13 +21,15 @@
         <h2>Recipes: Lunch</h2>
         <h2>Recipes: Dinner</h2>
         <button>Save Menu</button>
-        <template id="recipeField">
-            <article>
+        <template id="recipeCardTemplate">
+            <article data-id="">
                 <img src="https://via.placeholder.com/150" alt="recipe image">
                 <h3>Recipe Name</h3>
-                <span class="material-symbols-outlined">refresh</span>
-                <span class="material-symbols-outlined">done</span>
-                <span class="material-symbols-outlined">arrow_forward_ios</span>
+                <div>
+                    <span class="material-symbols-outlined">refresh</span>
+                    <span class="material-symbols-outlined">done</span>
+                    <span class="material-symbols-outlined">arrow_forward_ios</span>
+                </div>
             </article>
         </template>
     </main>
