@@ -71,7 +71,8 @@ header a:hover {
 #mealGen input[type=number] {
   -moz-appearance: textfield;
 }
-#mealGen input[type=submit] {
+
+input[type=submit] {
   display: block;
   margin: 1rem auto;
   background-color: #B0DDC2;
@@ -84,7 +85,7 @@ header a:hover {
   font-weight: bold;
   cursor: pointer;
 }
-#mealGen input[type=submit]:hover {
+input[type=submit]:hover {
   transition: 0.5s;
   background-color: #0A1A11;
   color: #B0DDC2;
