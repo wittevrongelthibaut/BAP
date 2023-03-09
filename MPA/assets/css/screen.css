@@ -110,4 +110,46 @@ button:hover {
   color: #B0DDC2;
 }
 
+article {
+  color: #1B4D4C;
+}
+article h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 2rem;
+}
+article article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  background-color: #f8f4f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+article article h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0;
+}
+article article div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10%;
+}
+article article div span {
+  background-color: #B0DDC2;
+  color: #1B4D4C;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+article article div span:hover {
+  transition: 0.5s;
+  background-color: #0A1A11;
+  color: #B0DDC2;
+}
+
 /*# sourceMappingURL=screen.css.map */
