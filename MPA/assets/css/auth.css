@@ -1,0 +1,43 @@
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  background-color: #1B4D4C;
+  color: #EAEBEB;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem #000;
+}
+form label {
+  display: block;
+  font-size: 1.5rem;
+  margin-left: 9%;
+}
+form input {
+  display: block;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  width: 80%;
+  padding: 1rem;
+}
+form input[type=submit] {
+  width: 50%;
+}
+form a {
+  color: #B0DDC2;
+  text-decoration: none;
+}
+form a:hover {
+  transition: 0.5s;
+  color: #0A1A11;
+}
+form p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=auth.css.map */
