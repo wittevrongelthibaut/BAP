@@ -23,7 +23,7 @@ function createRecipeCards(recipes){
         recipeCardHTML.querySelector('h3').innerHTML = recipe.title;
         //recipeCardHTML.querySelector('img').src = recipe.image;
 
-        document.querySelector('main').appendChild(recipeCardHTML);
+        document.querySelector(`main #${recipe.tag}`).appendChild(recipeCardHTML);
     });
 }
 
