@@ -8,8 +8,8 @@ function init(){
 
 async function generateMenu(e){
     e.preventDefault();
-    const amount = document.querySelector('input[type="number"]').value;
-    const recipes = await APIgetRandomRecipes(amount);
-    console.log(recipes);
+    const formdata = new FormData(document.querySelector('form'));
+    const urlParams = new URLSearchParams(formdata);
+    window.location.href = `menuCreator.html?${urlParams}`;
 }
 
