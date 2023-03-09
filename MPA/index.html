@@ -19,14 +19,14 @@
         <div id="mealGen">
             <h2>Select the type of recipes you want to receive and how many per type.</h2>
             <form action="index.html" method="post">
-                <input type="checkbox" name="breakfast" value="breakfast">
+                <input type="checkbox" name="mealtime" value="breakfast" id="breakfast">
                 <label for="breakfast">Breakfast</label>
-                <input type="checkbox" name="lunch" value="lunch">
+                <input type="checkbox" name="mealtime" value="lunch" id="lunch">
                 <label for="lunch">Lunch</label>
-                <input type="checkbox" name="dinner" value="dinner">
+                <input type="checkbox" name="mealtime" value="dinner" id="dinner">
                 <label for="dinner">Dinner</label>
-                <label for="number">Number of recipes per type</label>
-                <input type="number" name="number" min="1" max="10" value="1">
+                <label for="amount">Number of recipes per type</label>
+                <input type="number" name="amount" min="1" max="10" value="1" id="amount">
                 <input type="submit" value="Generate Menus">
             </form>
         </div>
