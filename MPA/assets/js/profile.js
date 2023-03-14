@@ -9,7 +9,6 @@ function init() {
 
 function logout(e){
     e.preventDefault();
-    console.log('eerste')
     const href = e.target.href;
     APIlogout(href);
 }
