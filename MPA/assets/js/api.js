@@ -29,3 +29,15 @@ async function APIlogout(href){
     localStorage.clear();
     window.location.href = href;
 }
+
+async function APIgetSavedMenus(){
+    return await fetch(API_URL + "/menus", {
+        method: "GET",
+        headers: {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer " + localStorage.getItem("token")
+        }
+    })
+    .then(response => response.json())
+    .then(data => { return data; });
+}
