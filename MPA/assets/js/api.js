@@ -16,3 +16,16 @@ async function APIgetRandomRecipes(amount){
     .then(response => response.json())
     .then(data => { return data; });
 }
+
+async function APIlogout(href){
+    fetch(API_URL + "/logout", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer " + localStorage.getItem("token")
+        }
+    })
+    .then(response => response.json())
+    localStorage.clear();
+    window.location.href = href;
+}
