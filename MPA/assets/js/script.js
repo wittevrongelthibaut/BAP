@@ -3,6 +3,7 @@
 document.addEventListener("DOMContentLoaded", init);
 
 function init(){
+    replaceLoginWithUser();
     document.querySelector('input[type="submit"]').addEventListener('click', generateMenu);
 }
 
