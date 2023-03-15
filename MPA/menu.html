@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/menuCreator.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/screen.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <title>Plan To Plate</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Plan To Plate</a></h1>
+        <a href="login.html">login</a>
+    </header>
+    <main>
+        <article id="breakfast">
+            <h2>Recipes: Breakfast</h2>
+        </article>
+        <article id="lunch">
+            <h2>Recipes: Lunch</h2>
+        </article>
+        <article id="dinner">
+            <h2>Recipes: Dinner</h2>
+        </article>
+        <template id="recipeCardTemplate">
+            <article class="article" data-id="">
+                <img src="https://via.placeholder.com/100" alt="recipe image">
+                <h3>Recipe Name</h3>
+                <div>
+                    <span class="material-symbols-outlined">arrow_forward_ios</span>
+                </div>
+            </article>
+        </template>
+    </main>
+    
+</body>
+</html>
