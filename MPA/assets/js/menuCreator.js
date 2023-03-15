@@ -22,6 +22,7 @@ function createRecipeCards(recipes){
 
         recipeCardHTML.querySelector('article').dataset.id = recipe.id;
         recipeCardHTML.querySelector('h3').innerHTML = recipe.title;
+        recipeCardHTML.querySelector('div > span:last-of-type').addEventListener('click', () => navigateToRecipe(recipe.id));
         //recipeCardHTML.querySelector('img').src = recipe.image;
 
         document.querySelector(`main #${recipe.tag}`).appendChild(recipeCardHTML);
