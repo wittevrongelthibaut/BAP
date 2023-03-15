@@ -14,7 +14,6 @@ async function fillRecipeHtml() {
 }
 
 function createRecipeCards(recipes){
-    console.log(recipes);
     recipes.forEach(recipe => {
 
         const recipeCardTemplate = document.querySelector('#recipeCardTemplate');
