@@ -41,3 +41,9 @@ async function APIgetSavedMenus(){
     .then(response => response.json())
     .then(data => { return data; });
 }
+
+async function APIgetRecipeById(id){
+    return await fetch(API_URL + "/recipes/" + id)
+    .then(response => response.json())
+    .then(data => { return data; });
+}
