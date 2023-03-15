@@ -14,3 +14,7 @@ function replaceLoginWithUser(){
         document.querySelector("header > a:last-of-type").href = "profile.html";
     }
 }
+
+function navigateToRecipe(id){
+    window.location.href = `recipe.html?id=${id}`;
+}
