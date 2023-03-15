@@ -133,4 +133,11 @@ h2 {
   color: #B0DDC2;
 }
 
+h2 + img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
 /*# sourceMappingURL=screen.css.map */
