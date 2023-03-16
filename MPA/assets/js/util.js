@@ -18,3 +18,7 @@ function replaceLoginWithUser(){
 function navigateToRecipe(id){
     window.location.href = `recipe.html?id=${id}`;
 }
+
+function toggleOverlay(){
+    document.querySelector('#overlay').classList.toggle('hidden');
+}
