@@ -153,4 +153,51 @@ h2 + img {
   display: none;
 }
 
+#final-confirmation {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 30rem;
+  height: max-content;
+  z-index: 1;
+  background-color: #F5F5F5;
+  border-radius: 1rem;
+  text-align: center;
+}
+#final-confirmation h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: #1B4D4C 2px solid;
+}
+#final-confirmation label {
+  text-align: left;
+  display: block;
+  margin-left: 9%;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+#final-confirmation input[type=text] {
+  width: 80%;
+  height: 3rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+#final-confirmation input[type=submit] {
+  display: inline;
+}
+#final-confirmation button {
+  display: inline;
+}
+
 /*# sourceMappingURL=screen.css.map */
