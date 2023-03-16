@@ -13,11 +13,11 @@
     <title>Plan To Plate</title>
 </head>
 <body>
+    <div id="overlay" class="hidden"></div>
     <header>
         <h1><a href="index.html">Plan To Plate</a></h1>
         <a href="login.html">login</a>
     </header>
-    <div id="overlay" class="hidden"></div>
     <main>
         <article id="breakfast">
             <h2>Recipes: Breakfast</h2>
@@ -38,6 +38,17 @@
                     <span class="material-symbols-outlined">arrow_forward_ios</span>
                 </div>
             </article>
+        </template>
+        <template id="confirmation-div">
+            <div id="final-confirmation">
+                <form>
+                    <h3>Save menu</h3>
+                    <label for="menu-name">Menu Name</label>
+                    <input type="text" id="menu-name" name="menu-name">
+                    <input type="submit" class="button" value="Save">
+                    <button class="button">Cancel</button>
+                </form>
+            </div>
         </template>
     </main>
     
