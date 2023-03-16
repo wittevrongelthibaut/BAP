@@ -16,7 +16,6 @@ async function fillRecipeHtml() {
 async function getRandomRecipes(parameters){
     const recipes = JSON.parse(sessionStorage.getItem('recipes'));
     if(checkSessionStorageRecipes(recipes, parameters) || checkSessionStorageMealtime(parameters.mealtime) ){
-        console.log('test');
         sessionStorage.setItem('recipes', JSON.stringify(await APIgetRandomRecipes(parameters.amount)));
         sessionStorage.setItem('mealtime', JSON.stringify(parameters.mealtime));
     }
