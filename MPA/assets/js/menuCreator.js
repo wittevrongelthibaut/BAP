@@ -9,8 +9,30 @@ function init() {
 
 async function fillRecipeHtml() {
     const parameters = retrieveQueryParameters();
-    const recipes = await APIgetRandomRecipes(parameters.amount);
+    const recipes = await getRandomRecipes(parameters);
     createRecipeCards(recipes);
+}
+
+async function getRandomRecipes(parameters){
+    const recipes = JSON.parse(sessionStorage.getItem('recipes'));
+    if(checkSessionStorageRecipes(recipes, parameters) || checkSessionStorageMealtime(parameters.mealtime) ){
+        console.log('test');
+        sessionStorage.setItem('recipes', JSON.stringify(await APIgetRandomRecipes(parameters.amount)));
+        sessionStorage.setItem('mealtime', JSON.stringify(parameters.mealtime));
+    }
+    return JSON.parse(sessionStorage.getItem('recipes'));
+}
+
+function checkSessionStorageRecipes(recipes, parameters){
+    return recipes === null || recipes.length != (parameters.amount);
+}
+
+function checkSessionStorageMealtime(mealtimes){
+    return !checkEqualObjects(JSON.parse(sessionStorage.getItem('mealtime')), mealtimes);
+}
+
+function checkEqualObjects(object1, object2){
+    return JSON.stringify(object1) === JSON.stringify(object2);
 }
 
 function createRecipeCards(recipes){
