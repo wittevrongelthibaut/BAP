@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", init);
 function init() {
     replaceLoginWithUser();
     fillRecipeHtml();
+    document.querySelector('button').addEventListener('click', openConfirmation);
 }
 
 async function fillRecipeHtml() {
@@ -73,4 +74,36 @@ function createParameterObject(rawParameters){
         else parameterObject.amount = value;
       });
     return parameterObject;
+}
+
+async function saveMenu(e){
+    e.preventDefault();
+    const menu = createMenuObject();
+    const data = await APIsaveMenu(menu);
+    if(data.status === 200){
+    window.location.href = 'savedMenus.html';
+    }
+}
+
+function createMenuObject(){
+    const recipe = sessionStorage.getItem('recipes');
+    const recipeIdList = JSON.parse(recipe).map(recipe => recipe.id);
+    const menuName = document.querySelector('#final-confirmation input[type="text"]').value;
+    return { name: menuName, recipes: recipeIdList};
+}
+
+function openConfirmation(){
+    toggleOverlay();
+    const confirmationTemplate = document.querySelector('#confirmation-div');
+    const confirmationHTML = confirmationTemplate.content.cloneNode(true);
+    confirmationHTML.querySelector('input[type="submit"]').addEventListener('click', saveMenu);
+    confirmationHTML.querySelector('button').addEventListener('click', closeConfirmation);
+    document.querySelector('body').appendChild(confirmationHTML);
+}
+
+function closeConfirmation(e){
+    e.preventDefault();
+    const confirmationDiv = document.querySelector('#final-confirmation');
+    confirmationDiv.remove();
+    toggleOverlay();
 }
