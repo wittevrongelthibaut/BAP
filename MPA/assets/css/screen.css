@@ -200,4 +200,8 @@ h2 + img {
   display: inline;
 }
 
+.align-right {
+  margin: 1rem 1rem 0 auto;
+}
+
 /*# sourceMappingURL=screen.css.map */
