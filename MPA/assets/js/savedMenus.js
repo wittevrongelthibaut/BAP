@@ -20,7 +20,12 @@ function createSavedMenus(savedMenus){
         savedMenuHTML.querySelector('article').dataset.id = menu.id;
         savedMenuHTML.querySelector('h3').innerHTML = menu.name;
         savedMenuHTML.querySelector('p').innerHTML = menu.created_at;
+        savedMenuHTML.querySelector('span').addEventListener('click', () => navigateToMenu(menu.id));
 
         document.querySelector(`main`).appendChild(savedMenuHTML);
     });
+}
+
+function navigateToMenu(id) {
+    window.location.href = `menu.html?id=${id}`;
 }
