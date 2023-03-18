@@ -60,3 +60,15 @@ async function APIsaveMenu(body){
     .then(response => response.json())
     .then(data => { return data; });
 }
+
+async function APIgetMenuRecipes(id){
+    return await fetch(API_URL + "/recipes/in-menu/" + id, {
+        method: "GET",
+        headers: {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer " + localStorage.getItem("token")
+        }
+    })
+    .then(response => response.json())
+    .then(data => { return data; });
+}
