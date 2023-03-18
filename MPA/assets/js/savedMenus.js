@@ -3,8 +3,10 @@
 document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
+    insertLoading('beforeend', 'main');
     replaceLoginWithUser();
     await fillSavedMenus();
+    removeLoading();
 }
 
 async function fillSavedMenus() {

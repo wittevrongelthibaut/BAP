@@ -5,9 +5,12 @@ let recipes;
 document.addEventListener("DOMContentLoaded", init);
 
 async function init(){
+    insertLoading('afterbegin', 'main')
     replaceLoginWithUser();
     await setRecipes();
     createRecipeCards(recipes);
+    removeLoading();
+    removeHiddenClass();
 }
 
 async function setRecipes(){
