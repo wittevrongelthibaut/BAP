@@ -45,3 +45,18 @@ function insertLoading(place, selectorString){
 function removeLoading(){
     document.querySelector('.lds-ring').remove();
 }
+
+function showArticles() {
+    const articles = document.querySelectorAll('article');
+    articles.forEach((article) => {
+      const elements = article.querySelectorAll('*');
+      if (elements.length > 1) {
+        article.classList.remove('hidden');
+      }
+    });
+  }
+  
+  function removeHiddenClass(){
+    showArticles();
+    document.querySelector('button').classList.remove('hidden');
+}
