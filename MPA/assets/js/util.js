@@ -37,3 +37,11 @@ function createRecipeCards(recipes){
         document.querySelector(`main #${recipe.tag}`).appendChild(recipeCardHTML);
     });
 }
+
+function insertLoading(place, selectorString){
+    document.querySelector(`${selectorString}`).insertAdjacentHTML(`${place}`, '<div class="lds-ring"><div></div><div></div><div></div><div></div></div>');
+}
+
+function removeLoading(){
+    document.querySelector('.lds-ring').remove();
+}
