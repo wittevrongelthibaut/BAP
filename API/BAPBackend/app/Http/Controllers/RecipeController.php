@@ -29,4 +29,8 @@ class RecipeController extends Controller
     public function retrieveRecipesInMenu($menuId){
         return $this->recipeService->retrieveRecipesInMenu($menuId);
     }
+
+    public function retrieveIngredientsInRecipes($menuId){
+        return $this->recipeService->retrieveIngredientsInRecipes($menuId);
+    }
 }

@@ -33,4 +33,22 @@ class RecipeService extends Service{
             $query->where('menu_id', $menuId);
         })->get();
     }
+
+    public function retrieveIngredientsInRecipes($menuId){
+        $recipes = $this->retrieveRecipesInMenu($menuId);
+        $ingredients = ['breakfast' => [], 'lunch' => [], 'dinner' => []];
+        foreach($recipes as $recipe){
+            foreach($recipe->ingredients as $ingredient){
+                if($recipe->tag === 'breakfast'){
+                    $ingredients['breakfast'][] = $ingredient;
+                } elseif($recipe->tag === 'lunch'){
+                    $ingredients['lunch'][] = $ingredient;
+                } elseif($recipe->tag === 'dinner'){
+                    $ingredients['dinner'][] = $ingredient;
+                }
+            }
+        }
+        return $ingredients;
+    }
+    
 }
