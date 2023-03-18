@@ -35,21 +35,6 @@ function checkEqualObjects(object1, object2){
     return JSON.stringify(object1) === JSON.stringify(object2);
 }
 
-function createRecipeCards(recipes){
-    recipes.forEach(recipe => {
-
-        const recipeCardTemplate = document.querySelector('#recipeCardTemplate');
-        const recipeCardHTML = recipeCardTemplate.content.cloneNode(true);
-
-        recipeCardHTML.querySelector('article').dataset.id = recipe.id;
-        recipeCardHTML.querySelector('h3').innerHTML = recipe.title;
-        recipeCardHTML.querySelector('div > span:last-of-type').addEventListener('click', () => navigateToRecipe(recipe.id));
-        //recipeCardHTML.querySelector('img').src = recipe.image;
-
-        document.querySelector(`main #${recipe.tag}`).appendChild(recipeCardHTML);
-    });
-}
-
 function retrieveQueryParameters(){
     const rawParameters = splitQueryParameters();
     return createParameterObject(rawParameters);
