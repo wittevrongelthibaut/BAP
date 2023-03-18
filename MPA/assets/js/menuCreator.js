@@ -2,10 +2,13 @@
 
 document.addEventListener("DOMContentLoaded", init);
 
-function init() {
+async function init() {
+    insertLoading('afterbegin', 'main')
     replaceLoginWithUser();
-    fillRecipeHtml();
+    await fillRecipeHtml();
     document.querySelector('button').addEventListener('click', openConfirmation);
+    removeLoading();
+    removeHiddenClass();
 }
 
 async function fillRecipeHtml() {
@@ -22,6 +25,22 @@ async function getRandomRecipes(parameters){
     }
     return JSON.parse(sessionStorage.getItem('recipes'));
 }
+
+function removeHiddenClass(){
+    showArticles();
+    document.querySelector('button').classList.remove('hidden');
+}
+
+function showArticles() {
+    const articles = document.querySelectorAll('article');
+    articles.forEach((article) => {
+      const elements = article.querySelectorAll('*');
+      if (elements.length > 1) {
+        article.classList.remove('hidden');
+      }
+    });
+  }
+  
 
 function checkSessionStorageRecipes(recipes, parameters){
     return recipes === null || recipes.length != (parameters.amount);
@@ -92,3 +111,4 @@ function closeConfirmation(e){
     confirmationDiv.remove();
     toggleOverlay();
 }
+
