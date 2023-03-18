@@ -30,6 +30,7 @@ Route::group(['middleware'=> ['isauth']], function(){
 
     Route::controller(RecipeController::class)->group(function () {
         Route::get('/recipes/in-menu/{menuId}', 'retrieveRecipesInMenu');
+        Route::get('/recipes/in-menu/{menuId}/ingredients', 'retrieveIngredientsInRecipes');
     });
 
 });
