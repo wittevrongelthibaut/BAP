@@ -56,7 +56,9 @@ function showArticles() {
     });
   }
   
-  function removeHiddenClass(){
+  function removeHiddenClass(containsHiddenButton){
     showArticles();
-    document.querySelector('button').classList.remove('hidden');
+    if(containsHiddenButton){
+        document.querySelector('button').classList.remove('hidden');
+    }
 }
