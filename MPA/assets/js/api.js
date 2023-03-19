@@ -3,7 +3,7 @@
 const API_URL = "http://bapbackend.local/api";
 
 async function APIauthentication (formdata, slug){
-    return await fetch(API_URL + slug, {
+    return fetch(API_URL + slug, {
         method: "POST",
         body: formdata
     })
@@ -12,7 +12,7 @@ async function APIauthentication (formdata, slug){
 }
 
 async function APIgetRandomRecipes(amount){
-    return await fetch(`${API_URL}/recipes/random/${amount}`)
+    return fetch(`${API_URL}/recipes/random/${amount}`)
     .then(response => response.json())
     .then(data => { return data; });
 }
@@ -31,7 +31,7 @@ async function APIlogout(href){
 }
 
 async function APIgetSavedMenus(){
-    return await fetch(API_URL + "/menus", {
+    return fetch(API_URL + "/menus", {
         method: "GET",
         headers: {
             "Content-Type": "application/json",
@@ -43,7 +43,7 @@ async function APIgetSavedMenus(){
 }
 
 async function APIgetRecipeById(id){
-    return await fetch(API_URL + "/recipes/" + id)
+    return fetch(API_URL + "/recipes/" + id)
     .then(response => response.json())
     .then(data => { return data; });
 }
@@ -62,7 +62,19 @@ async function APIsaveMenu(body){
 }
 
 async function APIgetMenuRecipes(id){
-    return await fetch(API_URL + "/recipes/in-menu/" + id, {
+    return fetch(API_URL + "/recipes/in-menu/" + id, {
+        method: "GET",
+        headers: {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer " + localStorage.getItem("token")
+        }
+    })
+    .then(response => response.json())
+    .then(data => { return data; });
+}
+
+async function APIgetMenuIngredients(id){
+    return fetch(API_URL + `/recipes/in-menu/${id}/ingredients`, {
         method: "GET",
         headers: {
             "Content-Type": "application/json",
