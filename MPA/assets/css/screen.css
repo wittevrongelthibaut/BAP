@@ -245,4 +245,16 @@ main > .lds-ring {
   margin: auto;
 }
 
+#backwards {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+#backwards:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: #1B4D4C;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=screen.css.map */
