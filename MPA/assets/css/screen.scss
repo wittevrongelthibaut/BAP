@@ -31,16 +31,13 @@ h2{
 }
 
 #mealGen{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background-color: #1B4D4C;
     color: #EAEBEB;
     width: fit-content;
     padding: 2rem;
     border-radius: 1rem;
     text-align: center;
+    margin: 5rem auto;
     h2 {
         font-size: 2em;
         font-weight: bold;
