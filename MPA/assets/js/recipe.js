@@ -5,12 +5,12 @@ document.addEventListener("DOMContentLoaded", init);
 function init() {
     replaceLoginWithUser();
     fillRecipeHtml();
+    document.querySelector("#backwards").addEventListener("click", navigateBackInHistory);
 }
 
 async function fillRecipeHtml() {
     const id = retrieveQueryParameterId();
     const recipe = await APIgetRecipeById(id);
-    console.log(recipe);
     changeRecipeTitleHeader(recipe.title);
     //changeRecipeImage(recipe.image);
     fillIngredientsList(recipe.ingredients);
