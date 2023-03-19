@@ -6,8 +6,9 @@ async function init(){
     insertLoading('afterbegin', 'main')
     replaceLoginWithUser();
     await insertIngredients();
+    document.querySelector("button").addEventListener("click", () => downloadIngredients());
     removeLoading();
-    removeHiddenClass(false);
+    removeHiddenClass(true);
 }
 
 async function insertIngredients(){
@@ -39,6 +40,21 @@ function createLiForUl(mealtime, list){
         listItem.innerText = item;
         list.appendChild(listItem);
       }
+}
+
+function downloadIngredients(){
+    const main = document.querySelector("main");
+    const textContent = main.innerText;
+
+    const blob = new Blob([textContent], { type: 'text/plain' });
+
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'ingredients.txt';
+    
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
 }
 
   
