@@ -56,9 +56,13 @@ function showArticles() {
     });
   }
   
-  function removeHiddenClass(containsHiddenButton){
+function removeHiddenClass(containsHiddenButton){
     showArticles();
     if(containsHiddenButton){
         document.querySelector('button').classList.remove('hidden');
     }
+}
+
+function navigateBackInHistory(){
+    window.history.back();
 }
