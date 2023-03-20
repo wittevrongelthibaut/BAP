@@ -76,8 +76,9 @@ async function saveMenu(e){
 }
 
 function createMenuObject(){
-    const recipe = sessionStorage.getItem('recipes');
-    const recipeIdList = JSON.parse(recipe).map(recipe => recipe.id);
+    const recipesList = JSON.parse(sessionStorage.getItem('recipes'));
+    const recipesArray = Object.values(recipesList).flat();
+    const recipeIdList = recipesArray.map(recipe => recipe.id);
     const menuName = document.querySelector('#final-confirmation input[type="text"]').value;
     return { name: menuName, recipes: recipeIdList};
 }
