@@ -69,3 +69,13 @@ function createRecipeArticle(recipe, containsRefreshButton){
     }
     document.querySelector(`main #${recipe.tag}`).appendChild(recipeCardHTML);
 }
+
+function navigateToRecipe(id){
+    clearMain();
+    window.history.pushState({}, "", `index.html?id=${id}`);
+    initialiseRecipe();
+}
+
+function navigateBackInHistory(){
+    window.history.back();
+}
