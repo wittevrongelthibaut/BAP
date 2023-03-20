@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", init);
 
 
 function init(){
-    document.querySelector("header > a:last-of-type").addEventListener("click", showLoginForm);
+    replaceLoginWithUser();
+    document.querySelector("header > a:last-of-type").addEventListener("click", showLoginForm, true);
     document.querySelector('#mealGen input[type="submit"]').addEventListener("click", generateMenu);
 }
 
