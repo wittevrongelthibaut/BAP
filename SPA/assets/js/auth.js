@@ -37,3 +37,9 @@ function saveLoginResponse(data){
     localStorage.setItem('token', data.authorisation.token);
     localStorage.setItem('user', JSON.stringify(data.user));
 }
+
+async function logout(e){
+    e.preventDefault();
+    await APIlogout();
+    window.location.href = "index.html";
+}
