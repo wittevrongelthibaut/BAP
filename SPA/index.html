@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/screen.css">
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/script.js"></script>
+    <title>Plan to Plate</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Plan To Plate</a></h1>
+        <a href="login.html">login</a>
+    </header>
+    <main>
+        <div id="mealGen">
+            <h2>Select the type of recipes you want to receive and how many per type.</h2>
+            <form action="index.html" method="post">
+                <input type="checkbox" name="mealtime" value="breakfast" id="breakfast">
+                <label for="breakfast">Breakfast</label>
+                <input type="checkbox" name="mealtime" value="lunch" id="lunch">
+                <label for="lunch">Lunch</label>
+                <input type="checkbox" name="mealtime" value="dinner" id="dinner">
+                <label for="dinner">Dinner</label>
+                <label for="amount">Number of recipes per type</label>
+                <input type="number" name="amount" min="1" max="10" value="1" id="amount">
+                <input class="button" type="submit" value="Generate Menus">
+            </form>
+        </div>
+        </main>
+</body>
+</html>
