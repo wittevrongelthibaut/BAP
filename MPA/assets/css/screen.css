@@ -257,4 +257,8 @@ main > .lds-ring {
   text-decoration: none;
 }
 
+.controls {
+  display: flex;
+}
+
 /*# sourceMappingURL=screen.css.map */
