@@ -22,3 +22,50 @@ function replaceLoginWithUser(){
         loginButton.addEventListener("click", showProfileScreen);
     }
 }
+
+function insertLoading(place, selectorString){
+    document.querySelector(`${selectorString}`).insertAdjacentHTML(`${place}`, '<div class="lds-ring"><div></div><div></div><div></div><div></div></div>');
+}
+
+function removeLoading(){
+    document.querySelector('.lds-ring').remove();
+}
+
+function showArticles() {
+    const articles = document.querySelectorAll('article');
+    articles.forEach((article) => {
+      const elements = article.querySelectorAll('*');
+      if (elements.length > 1) {
+        article.classList.remove('hidden');
+      }
+    });
+  }
+
+function removeHiddenClass(containsHiddenButton){
+    showArticles();
+    if(containsHiddenButton){
+        document.querySelector('button').classList.remove('hidden');
+    }
+}
+
+function createRecipeCardsMenuCreator(recipes){
+    for (const mealtime in recipes) {
+        recipes[mealtime].forEach(recipe => {
+            createRecipeArticle(recipe, true);
+        });
+    }
+}
+
+function createRecipeArticle(recipe, containsRefreshButton){
+    const recipeCardTemplate = document.querySelector('#recipeCardTemplate');
+    const recipeCardHTML = recipeCardTemplate.content.cloneNode(true);
+    
+    recipeCardHTML.querySelector('article').dataset.id = recipe.id;
+    recipeCardHTML.querySelector('h3').innerHTML = recipe.title;
+    recipeCardHTML.querySelector('div > span:last-of-type').addEventListener('click', () => navigateToRecipe(recipe.id));
+    //recipeCardHTML.querySelector('img').src = recipe.image;
+    if(containsRefreshButton){
+        recipeCardHTML.querySelector('div > span').addEventListener('click', (e) => refreshRecipe(e,recipe.id, recipe.tag));
+    }
+    document.querySelector(`main #${recipe.tag}`).appendChild(recipeCardHTML);
+}
