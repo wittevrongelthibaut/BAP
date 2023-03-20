@@ -27,7 +27,9 @@ async function getRandomRecipes(parameters){
 }
 
 function checkSessionStorageRecipes(recipes, parameters){
-    return recipes === null || recipes.length != (parameters.amount);
+    const recipesArray = Object.values(recipes).flat();
+
+    return recipes === null || recipesArray.length != (parameters.amount * parameters.mealtime.length);
 }
 
 function checkSessionStorageMealtime(mealtimes){
