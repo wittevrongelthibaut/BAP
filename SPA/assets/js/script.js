@@ -15,6 +15,7 @@ function generateMenu(e){
     const urlParams = new URLSearchParams(formdata);
     window.history.pushState({}, "", `?${urlParams}`);
     clearMain();
+    initialiseMenuCreator();
 }
 
 function showProfileScreen(){
