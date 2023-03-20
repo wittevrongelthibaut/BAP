@@ -9,6 +9,7 @@
     <script src="assets/js/api.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/auth.js"></script>
+    <script src="assets/js/recipe.js"></script>
     <script src="assets/js/menuCreator.js"></script>
     <script src="assets/js/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
@@ -107,5 +108,19 @@
             </article>
         </template>
         
+        <template id="recipeTemplate">
+            <p id="backwards"><span class="material-symbols-outlined">arrow_back_ios</span>Back to menu</p>
+            <h2>RecipeName</h2>
+            <img src="https://via.placeholder.com/500" alt="recipe image">
+            <div id="recipe">
+                <h3>Ingredients list:</h3>
+                <ul>
+                </ul>
+                <h3>Instructions</h3>
+                <ol>
+                </ol>
+            </div>
+            
+        </template>
 </body>
 </html>
