@@ -326,4 +326,35 @@ main > .lds-ring {
   text-align: center;
 }
 
+#recipe h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+  border-bottom: 1px solid #1B4D4C;
+  margin: 2rem;
+}
+#recipe ul {
+  margin: 3rem;
+}
+#recipe ul li {
+  margin: 1rem;
+  font-size: 1.2em;
+}
+#recipe ul li:before {
+  content: "-";
+  color: #1B4D4C;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+#recipe ol {
+  margin: 3rem;
+  list-style: decimal;
+}
+#recipe ol li {
+  margin: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2em;
+}
+
 /*# sourceMappingURL=screen.css.map */
