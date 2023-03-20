@@ -3,12 +3,12 @@
 async function initialiseMenuCreator(){
     insertLoading('afterbegin', 'main');
     replaceLoginWithUser();
-    await fillRecipeHtml();
+    await fillMenuRecipeHtml();
     removeLoading();
     removeHiddenClass(true);
 }
 
-async function fillRecipeHtml() {
+async function fillMenuRecipeHtml() {
     const parameters = retrieveQueryParameters();
     const recipes = await getRandomRecipes(parameters);
     insertMenuCreatorHtml();
