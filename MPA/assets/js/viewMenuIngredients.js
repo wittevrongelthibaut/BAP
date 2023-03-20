@@ -28,6 +28,7 @@ function createListsFromIngredients(obj) {
       
       const article = document.querySelector(`#${key}`);
       const list = document.createElement("ul");
+      list.classList.add("ingredientsList");
       
       createLiForUl(mealtime, list);
 
