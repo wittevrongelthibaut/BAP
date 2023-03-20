@@ -8,7 +8,7 @@ async function init() {
     await fillRecipeHtml();
     document.querySelector('button').addEventListener('click', openConfirmation);
     removeLoading();
-    removeHiddenClass();
+    removeHiddenClass(true);
 }
 
 async function fillRecipeHtml() {
