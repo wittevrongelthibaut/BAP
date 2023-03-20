@@ -261,4 +261,19 @@ main > .lds-ring {
   display: flex;
 }
 
+.ingredientsList {
+  margin: 3rem;
+}
+.ingredientsList li {
+  margin: 1rem;
+  font-size: 1.2em;
+}
+.ingredientsList li:before {
+  content: "-";
+  color: #1B4D4C;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+
 /*# sourceMappingURL=screen.css.map */

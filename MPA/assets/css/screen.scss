@@ -257,3 +257,18 @@ main > .lds-ring {
 .controls{
     display: flex;
 }
+
+.ingredientsList{
+        margin: 3rem;
+        li {
+            margin: 1rem;
+            font-size: 1.2em;
+        }
+        li:before{
+            content: "-";
+            color: #1B4D4C;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+        }
+}
