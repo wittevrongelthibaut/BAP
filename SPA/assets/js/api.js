@@ -28,7 +28,6 @@ async function APIlogout(href){
     })
     .then(response => response.json())
     localStorage.clear();
-    window.location.href = href;
 }
 
 async function APIgetSavedMenus(){
