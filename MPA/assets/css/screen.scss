@@ -74,6 +74,12 @@ h2{
     input[type="number"] {
       -moz-appearance: textfield;
     }
+    input[type=checkbox]{
+        accent-color: #B0DDC2;
+        cursor: pointer;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
 }
 
 .button{
