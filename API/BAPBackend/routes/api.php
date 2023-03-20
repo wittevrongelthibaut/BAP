@@ -16,7 +16,7 @@ Route::controller(AuthController::class)->group(function () {
 Route::controller(RecipeController::class)->group(function () {
     Route::get('/recipes', 'all');
     Route::get('/recipes/{id}', 'retrieveRecipeById');
-    Route::get('/recipes/random/{limit?}', 'retrieveRandomRecipes');
+    Route::get('/recipes/random/{params}', 'retrieveRandomRecipes');
 });
 
 
