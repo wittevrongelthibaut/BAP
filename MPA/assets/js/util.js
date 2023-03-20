@@ -25,19 +25,19 @@ function toggleOverlay(){
 
 function createRecipeCards(recipes){
     recipes.forEach(recipe => {
-        createRecipeArticle(recipe);
+        createRecipeArticle(recipe, false);
     });
 }
 
 function createRecipeCardsMenuCreator(recipes){
     for (const mealtime in recipes) {
         recipes[mealtime].forEach(recipe => {
-            createRecipeArticle(recipe);
+            createRecipeArticle(recipe, true);
         });
     }
 }
 
-function createRecipeArticle(recipe){
+function createRecipeArticle(recipe, containsRefreshButton){
     const recipeCardTemplate = document.querySelector('#recipeCardTemplate');
     const recipeCardHTML = recipeCardTemplate.content.cloneNode(true);
     
@@ -45,6 +45,9 @@ function createRecipeArticle(recipe){
     recipeCardHTML.querySelector('h3').innerHTML = recipe.title;
     recipeCardHTML.querySelector('div > span:last-of-type').addEventListener('click', () => navigateToRecipe(recipe.id));
     //recipeCardHTML.querySelector('img').src = recipe.image;
+    if(containsRefreshButton){
+        recipeCardHTML.querySelector('div > span').addEventListener('click', (e) => refreshRecipe(e,recipe.id, recipe.tag));
+    }
     document.querySelector(`main #${recipe.tag}`).appendChild(recipeCardHTML);
 }
 
@@ -75,4 +78,20 @@ function removeHiddenClass(containsHiddenButton){
 
 function navigateBackInHistory(){
     window.history.back();
+}
+
+async function refreshRecipe(e,id, tag){
+    const allRecipes = JSON.parse(sessionStorage.getItem('recipes'));
+    const recipe = allRecipes[tag].find(recipe => recipe.id === id);
+    const index = allRecipes[tag].indexOf(recipe);
+    const parameterObject = {
+        mealtime: [tag],
+        amount: 1
+    }
+    const newRecipe = await APIgetRandomRecipes(parameterObject);
+    allRecipes[tag][index] = newRecipe[tag][0];
+    sessionStorage.setItem('recipes', JSON.stringify(allRecipes));
+    const article = e.target.parentElement.parentElement;
+    article.remove();
+    createRecipeArticle(newRecipe[tag][0], true);
 }
