@@ -15,7 +15,10 @@ function checkLoggedIn(){
 function replaceLoginWithUser(){
     if(checkLoggedIn()){
         const user = JSON.parse(localStorage.getItem("user"));
-        document.querySelector("header > a:last-of-type").innerHTML = user.name;
-        document.querySelector("header > a:last-of-type").href = "profile.html";
+        const loginButton = document.querySelector("header > a:last-of-type");
+        loginButton.removeEventListener("click", showLoginForm);
+        loginButton.innerHTML = user.name;
+        loginButton.href = "#profile";
+        loginButton.addEventListener("click", showProfileScreen);
     }
 }
