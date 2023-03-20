@@ -19,7 +19,9 @@ function generateMenu(e){
 
 function showProfileScreen(){
     clearMain();
+    replaceLoginWithUser();
     const profileTemplate = document.querySelector("#profileTemplate");
     const profileHtml = profileTemplate.content.cloneNode(true);
+    profileHtml.querySelector("a:last-of-type").addEventListener("click", logout);
     document.querySelector("main").appendChild(profileHtml);
 }
