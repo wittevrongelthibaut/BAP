@@ -18,7 +18,7 @@ async function APIgetRandomRecipes(parameters){
     .then(data => { return data; });
 }
 
-async function APIlogout(href){
+async function APIlogout(){
     fetch(API_URL + "/logout", {
         method: "POST",
         headers: {
