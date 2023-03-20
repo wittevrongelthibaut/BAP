@@ -14,13 +14,13 @@ async function init() {
 async function fillRecipeHtml() {
     const parameters = retrieveQueryParameters();
     const recipes = await getRandomRecipes(parameters);
-    createRecipeCards(recipes);
+    createRecipeCardsMenuCreator(recipes);
 }
 
 async function getRandomRecipes(parameters){
     const recipes = JSON.parse(sessionStorage.getItem('recipes'));
     if(checkSessionStorageRecipes(recipes, parameters) || checkSessionStorageMealtime(parameters.mealtime) ){
-        sessionStorage.setItem('recipes', JSON.stringify(await APIgetRandomRecipes(parameters.amount)));
+        sessionStorage.setItem('recipes', JSON.stringify(await APIgetRandomRecipes(parameters)));
         sessionStorage.setItem('mealtime', JSON.stringify(parameters.mealtime));
     }
     return JSON.parse(sessionStorage.getItem('recipes'));
