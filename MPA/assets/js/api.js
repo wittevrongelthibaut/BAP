@@ -11,8 +11,9 @@ async function APIauthentication (formdata, slug){
     .then(data => { return data; });
 }
 
-async function APIgetRandomRecipes(amount){
-    return fetch(`${API_URL}/recipes/random/${amount}`)
+async function APIgetRandomRecipes(parameters){
+    const url = createRandomRecipesUrl(parameters);
+    return fetch(`${API_URL}/recipes/random/params?${url}`)
     .then(response => response.json())
     .then(data => { return data; });
 }
@@ -83,4 +84,13 @@ async function APIgetMenuIngredients(id){
     })
     .then(response => response.json())
     .then(data => { return data; });
+}
+
+function createRandomRecipesUrl(parameters){
+    let url = "";
+    parameters.mealtime.forEach(mealtime => {
+        url += `&mealtime[]=${mealtime}`;
+    });
+    url += `&amount=${parameters.amount}`;
+    return url;
 }
