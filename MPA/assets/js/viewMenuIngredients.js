@@ -3,7 +3,8 @@
 document.addEventListener("DOMContentLoaded", init);
 
 async function init(){
-    insertLoading('afterbegin', 'main')
+    document.querySelector("#backwards").addEventListener("click", navigateBackInHistory);
+    insertLoading('beforeend', 'main')
     replaceLoginWithUser();
     await insertIngredients();
     document.querySelector("button").addEventListener("click", () => downloadIngredients());

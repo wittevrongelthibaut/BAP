@@ -3,6 +3,7 @@
 document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
+    document.querySelector("#backwards").addEventListener("click", navigateBackInHistory);
     insertLoading('beforeend', 'main');
     replaceLoginWithUser();
     await fillSavedMenus();
