@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
-    insertLoading('afterbegin', 'main')
+    insertLoading('afterbegin', 'main');
     replaceLoginWithUser();
     await fillRecipeHtml();
     document.querySelector('button').addEventListener('click', openConfirmation);
