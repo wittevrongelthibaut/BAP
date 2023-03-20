@@ -22,9 +22,13 @@ class RecipeService extends Service{
         return $this->model->where('id', $id)->first();
     }
 
-    public function retrieveRandomRecipes($limit)
+    public function retrieveRandomRecipes($queryParams)
     {
-        return $this->model->inRandomOrder()->limit($limit)->get();
+        $recipes = [];
+        foreach($queryParams['mealtime'] as $mealtime){
+            $recipes[$mealtime] = $this->model->where('tag', $mealtime)->inRandomOrder()->limit($queryParams['amount'])->get();
+        }
+        return $recipes;
     }
 
     public function retrieveRecipesInMenu($menuId)
