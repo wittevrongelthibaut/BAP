@@ -9,7 +9,9 @@
     <script src="assets/js/api.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/auth.js"></script>
+    <script src="assets/js/menuCreator.js"></script>
     <script src="assets/js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <title>Plan to Plate</title>
 </head>
 <body>
@@ -79,6 +81,30 @@
                 <a class="button" href="savedMenus.html">Saved Menus</a>
                 <a class="button" href="login.html">Logout</a>
             </div>
+        </template>
+
+        <template id="menuCreatorTemplate">
+            <article id="breakfast" class="hidden">
+                <h2>Recipes: Breakfast</h2>
+            </article>
+            <article id="lunch" class="hidden">
+                <h2>Recipes: Lunch</h2>
+            </article>
+            <article id="dinner" class="hidden">
+                <h2>Recipes: Dinner</h2>
+            </article>
+            <button class="button hidden">Save Menu</button>
+        </template>
+
+        <template id="recipeCardTemplate">
+            <article class="article" data-id="">
+                <img src="https://via.placeholder.com/100" alt="recipe image">
+                <h3>Recipe Name</h3>
+                <div>
+                    <span class="material-symbols-outlined">refresh</span>
+                    <span class="material-symbols-outlined">arrow_forward_ios</span>
+                </div>
+            </article>
         </template>
         
 </body>
