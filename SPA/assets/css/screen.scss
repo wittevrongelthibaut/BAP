@@ -278,3 +278,43 @@ main > .lds-ring {
             width: 1em;
         }
 }
+
+.auth-form{
+    margin: 5rem auto;
+    width: 30%;
+    background-color: #1B4D4C;
+    color: #EAEBEB;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem #000;
+    label {
+        display: block;
+        font-size: 1.5rem;
+        margin-left: 9%;
+    }
+    input {
+        display: block;
+        margin: 1rem auto;
+        border-radius: 1rem;
+        border: none;
+        outline: none;
+        font-size: 1.5rem;
+        width: 80%;
+        padding: 1rem;
+    }
+    input[type="submit"] {
+        width: 50%;
+    }
+    a{
+        color: #B0DDC2;
+        text-decoration: none;
+        &:hover {
+            transition: 0.5s;
+            color: #0A1A11;
+        }
+    }
+
+    p {
+        text-align: center;
+    }
+}
