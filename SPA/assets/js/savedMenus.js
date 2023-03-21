@@ -29,5 +29,6 @@ function createSavedMenus(savedMenus){
 }
 
 function navigateToMenu(id) {
-    window.location.href = `menu.html?id=${id}`;
+    window.history.pushState({}, "", `index.html?id=${id}`);
+    initialiseViewMenu();
 }
