@@ -88,3 +88,7 @@ function navigateToRecipe(id){
 function navigateBackInHistory(){
     window.history.back();
 }
+
+function toggleOverlay(){
+    document.querySelector('#overlay').classList.toggle('hidden');
+}
