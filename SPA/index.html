@@ -11,6 +11,7 @@
     <script src="assets/js/auth.js"></script>
     <script src="assets/js/recipe.js"></script>
     <script src="assets/js/menuCreator.js"></script>
+    <script src="assets/js/viewMenu.js"></script>
     <script src="assets/js/savedMenus.js"></script>
     <script src="assets/js/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
@@ -98,7 +99,7 @@
             <button class="button hidden">Save Menu</button>
         </template>
 
-        <template id="recipeCardTemplate">
+        <template id="recipeCreatorCardTemplate">
             <article class="article" data-id="">
                 <img src="https://via.placeholder.com/100" alt="recipe image">
                 <h3>Recipe Name</h3>
@@ -151,6 +152,16 @@
             </article>
             <article id="dinner" class="hidden">
                 <h2>Recipes: Dinner</h2>
+            </article>
+        </template>
+
+        <template id="recipeCardTemplate">
+            <article class="article" data-id="">
+                <img src="https://via.placeholder.com/100" alt="recipe image">
+                <h3>Recipe Name</h3>
+                <div>
+                    <span class="material-symbols-outlined">arrow_forward_ios</span>
+                </div>
             </article>
         </template>
 
