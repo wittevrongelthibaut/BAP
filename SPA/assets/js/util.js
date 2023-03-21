@@ -48,6 +48,12 @@ function removeHiddenClass(containsHiddenButton){
     }
 }
 
+function createRecipeCards(recipes){
+    recipes.forEach(recipe => {
+        createRecipeArticle(recipe, false);
+    });
+}
+
 function createRecipeCardsMenuCreator(recipes){
     for (const mealtime in recipes) {
         recipes[mealtime].forEach(recipe => {
@@ -57,7 +63,10 @@ function createRecipeCardsMenuCreator(recipes){
 }
 
 function createRecipeArticle(recipe, containsRefreshButton){
-    const recipeCardTemplate = document.querySelector('#recipeCardTemplate');
+    let recipeCardTemplate = document.querySelector('#recipeCardTemplate');
+    if(containsRefreshButton){ 
+        recipeCardTemplate = document.querySelector('#recipeCreatorCardTemplate');
+    }
     const recipeCardHTML = recipeCardTemplate.content.cloneNode(true);
     
     recipeCardHTML.querySelector('article').dataset.id = recipe.id;
