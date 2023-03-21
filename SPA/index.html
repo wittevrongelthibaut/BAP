@@ -11,6 +11,7 @@
     <script src="assets/js/auth.js"></script>
     <script src="assets/js/recipe.js"></script>
     <script src="assets/js/menuCreator.js"></script>
+    <script src="assets/js/savedMenus.js"></script>
     <script src="assets/js/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <title>Plan to Plate</title>
@@ -79,8 +80,8 @@
 
         <template id="profileTemplate">
             <div id="profile">
-                <a class="button" href="savedMenus.html">Saved Menus</a>
-                <a class="button" href="login.html">Logout</a>
+                <a class="button" href="#savedMenus">Saved Menus</a>
+                <a class="button" href="#">Logout</a>
             </div>
         </template>
 
@@ -120,7 +121,38 @@
                 <ol>
                 </ol>
             </div>
-            
         </template>
+        
+        <template id="savedMenuScreenTemplate">
+            <p id="backwards"><span class="material-symbols-outlined">arrow_back_ios</span>Back to profile</p>
+            <h2>Saved Menus</h2>
+        </template>
+
+        <template id="savedMenuTemplate">
+            <article class="article" data-id="">
+                <p>date</p>
+                <h3>Recipe Name</h3>
+                <div>
+                    <span class="material-symbols-outlined">arrow_forward_ios</span>
+                </div>
+            </article>
+        </template>
+
+        <template id="menuTemplate">
+            <div class="controls">
+                <p id="backwards"><span class="material-symbols-outlined">arrow_back_ios</span>Back to menus</p>
+                <button class="button align-right hidden">ingredients</button>
+            </div>
+            <article id="breakfast" class="hidden">
+                <h2>Recipes: Breakfast</h2>
+            </article>
+            <article id="lunch" class="hidden">
+                <h2>Recipes: Lunch</h2>
+            </article>
+            <article id="dinner" class="hidden">
+                <h2>Recipes: Dinner</h2>
+            </article>
+        </template>
+
 </body>
 </html>
