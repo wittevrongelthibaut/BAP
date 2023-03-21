@@ -22,7 +22,8 @@ async function setRecipes(){
 }
 
 function navToIngredients(menuId){
-    window.location.href = `ingredients.html?menuid=${menuId}`;
+    window.history.pushState({}, "", `index.html?menuid=${menuId}`);
+    initialiseIngredients();
 }
 
 function insertMenuTemplate(){
