@@ -24,5 +24,14 @@ function showProfileScreen(){
     const profileTemplate = document.querySelector("#profileTemplate");
     const profileHtml = profileTemplate.content.cloneNode(true);
     profileHtml.querySelector("a:last-of-type").addEventListener("click", logout);
+    profileHtml.querySelector("a:first-of-type").addEventListener("click", showSavedMenusScreen);
     document.querySelector("main").appendChild(profileHtml);
+}
+
+function showSavedMenusScreen(){
+    clearMain();
+    const savedMenuScreenTemplate = document.querySelector("#savedMenuScreenTemplate");
+    const savedMenuScreenHtml = savedMenuScreenTemplate.content.cloneNode(true);
+    document.querySelector("main").appendChild(savedMenuScreenHtml);
+    initialiseSavedMenus();
 }
