@@ -14,6 +14,7 @@ function showRegisterForm(){
     clearMain();
     const registerFormTemplate = document.querySelector("#registerFormTemplate");
     const registerFormHtml = registerFormTemplate.content.cloneNode(true);
+    registerFormHtml.querySelector('input[type="submit"]').addEventListener('click', register);
 
     document.querySelector("main").appendChild(registerFormHtml);
 }
@@ -27,6 +28,20 @@ function login(e){
             saveLoginResponse(data);
             showProfileScreen();
             window.history.pushState({}, "", `#profile`);
+        } else {
+            console.log(data);
+        }
+    });
+}
+
+function register(e){
+    e.preventDefault();
+    let formdata = new FormData(document.querySelector('form'));
+    APIauthentication(formdata, "/register")
+    .then(data => {
+        if(data.status == "success"){
+            saveLoginResponse(data);
+            window.location.href = "index.html";
         } else {
             console.log(data);
         }
