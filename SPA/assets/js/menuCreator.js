@@ -105,3 +105,19 @@ function closeConfirmation(e){
     confirmationDiv.remove();
     toggleOverlay();
 }
+
+async function refreshRecipe(e,id, tag){
+    const allRecipes = JSON.parse(sessionStorage.getItem('recipes'));
+    const recipe = allRecipes[tag].find(recipe => recipe.id === id);
+    const index = allRecipes[tag].indexOf(recipe);
+    const parameterObject = {
+        mealtime: [tag],
+        amount: 1
+    }
+    const newRecipe = await APIgetRandomRecipes(parameterObject);
+    allRecipes[tag][index] = newRecipe[tag][0];
+    sessionStorage.setItem('recipes', JSON.stringify(allRecipes));
+    const article = e.target.parentElement.parentElement;
+    article.remove();
+    createRecipeArticle(newRecipe[tag][0], true);
+}
