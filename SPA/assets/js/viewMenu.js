@@ -22,7 +22,7 @@ async function setRecipes(){
 }
 
 function navToIngredients(menuId){
-    window.history.pushState({}, "", `index.html?menuid=${menuId}`);
+    savePreviousPage('viewSavedMenu',`index.html?menuid=${menuId}`);
     initialiseIngredients();
 }
 
