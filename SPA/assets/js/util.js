@@ -80,13 +80,9 @@ function createRecipeArticle(recipe, containsRefreshButton){
 }
 
 function navigateToRecipe(id){
+    savePreviousPage('menuCreator',`index.html?id=${id}`);
     clearMain();
-    window.history.pushState({}, "", `index.html?id=${id}`);
     initialiseRecipe();
-}
-
-function navigateBackInHistory(){
-    window.history.back();
 }
 
 function toggleOverlay(){
