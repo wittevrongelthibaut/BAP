@@ -1,6 +1,10 @@
 "use strict";
 
 async function initialiseSavedMenus(){
+    clearMain();
+    const savedMenuScreenTemplate = document.querySelector("#savedMenuScreenTemplate");
+    const savedMenuScreenHtml = savedMenuScreenTemplate.content.cloneNode(true);
+    document.querySelector("main").appendChild(savedMenuScreenHtml);
     replaceLoginWithUser();
     document.querySelector("#backwards").addEventListener("click", navigateBackInHistory);
     insertLoading('beforeend', 'main');
@@ -29,6 +33,7 @@ function createSavedMenus(savedMenus){
 }
 
 function navigateToMenu(id) {
-    window.history.pushState({}, "", `index.html?id=${id}`);
+    savePreviousPage('viewSavedMenu',`index.html?id=${id}`);
+    //window.history.pushState({}, "", `index.html?id=${id}`);
     initialiseViewMenu();
 }
