@@ -1,6 +1,7 @@
 "use strict";
 
 async function initialiseMenuCreator(){
+    clearMain();
     insertLoading('afterbegin', 'main');
     replaceLoginWithUser();
     await fillMenuRecipeHtml();
