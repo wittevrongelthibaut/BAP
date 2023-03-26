@@ -13,12 +13,12 @@ function generateMenu(e){
     e.preventDefault();
     const formdata = new FormData(document.querySelector('form'));
     const urlParams = new URLSearchParams(formdata);
-    window.history.pushState({}, "", `?${urlParams}`);
-    clearMain();
+    savePreviousPage('menuCreator', `?${urlParams}`);
     initialiseMenuCreator();
 }
 
 function showProfileScreen(){
+    savePreviousPage('profile', '#profile');
     clearMain();
     replaceLoginWithUser();
     const profileTemplate = document.querySelector("#profileTemplate");
@@ -29,9 +29,6 @@ function showProfileScreen(){
 }
 
 function showSavedMenusScreen(){
-    clearMain();
-    const savedMenuScreenTemplate = document.querySelector("#savedMenuScreenTemplate");
-    const savedMenuScreenHtml = savedMenuScreenTemplate.content.cloneNode(true);
-    document.querySelector("main").appendChild(savedMenuScreenHtml);
+    savePreviousPage('savedMenus', '#savedMenus');
     initialiseSavedMenus();
 }
