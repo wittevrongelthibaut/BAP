@@ -37,4 +37,10 @@ form p {
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  form {
+    width: 80%;
+  }
+}
+
 /*# sourceMappingURL=auth.css.map */
