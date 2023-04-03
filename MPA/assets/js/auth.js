@@ -23,7 +23,13 @@ function login(e){
     .then(data => {
         if(data.status == "success"){
             saveLoginResponse(data);
+            if(isLoginRedirect()){
+                checkLoginRedirect();
+            }
+            else
+            {
             window.location.href = "index.html";
+            }
         } else {
             console.log(data);
         }
@@ -37,7 +43,13 @@ function register(e){
     .then(data => {
         if(data.status == "success"){
             saveLoginResponse(data);
+            if(isLoginRedirect()){
+                checkLoginRedirect();
+            }
+            else
+            {
             window.location.href = "index.html";
+            }
         } else {
             console.log(data);
         }
@@ -47,4 +59,29 @@ function register(e){
 function saveLoginResponse(data){
     localStorage.setItem('token', data.authorisation.token);
     localStorage.setItem('user', JSON.stringify(data.user));
+}
+
+async function saveMenuRedirect(){
+
+    sessionStorage.removeItem('loginRedirect');
+    const menu = JSON.parse(sessionStorage.getItem('menuToSave'));
+
+    sessionStorage.removeItem('menuToSave');
+    const data = await APIsaveMenu(menu);
+
+    if(data.status === 200){
+        sessionStorage.removeItem('menuToSave');
+        window.location.href = 'savedMenus.html';
+    }
+}
+
+function isLoginRedirect(){
+    return sessionStorage.getItem('loginRedirect') ? true : false;
+}
+
+function checkLoginRedirect(){
+    const message = sessionStorage.getItem('loginRedirect');
+    if(message === 'could not save menu'){
+        saveMenuRedirect();
+    }
 }

@@ -70,9 +70,15 @@ function createParameterObject(rawParameters){
 async function saveMenu(e){
     e.preventDefault();
     const menu = createMenuObject();
+    sessionStorage.setItem('menuToSave', JSON.stringify(menu));
     const data = await APIsaveMenu(menu);
     if(data.status === 200){
-    window.location.href = 'savedMenus.html';
+        sessionStorage.removeItem('menuToSave');
+        window.location.href = 'savedMenus.html';
+    }
+    else{
+        sessionStorage.setItem('loginRedirect', 'could not save menu');
+        window.location.href = 'login.html';
     }
 }
 
