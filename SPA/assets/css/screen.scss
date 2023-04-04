@@ -175,6 +175,7 @@ h2 + img {
 }
 
 #final-confirmation{
+    width: 30%;
     position: absolute;
     margin: auto;
     top: 0;
@@ -410,5 +411,9 @@ main > .lds-ring {
     #checkboxList{
         display: flex;
         flex-direction: column;
+    }
+
+    #final-confirmation{
+        width: 100%;
     }
 }
