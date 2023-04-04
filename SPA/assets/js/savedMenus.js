@@ -34,6 +34,5 @@ function createSavedMenus(savedMenus){
 
 function navigateToMenu(id) {
     savePreviousPage('viewSavedMenu',`index.html?id=${id}`);
-    //window.history.pushState({}, "", `index.html?id=${id}`);
     initialiseViewMenu();
 }
