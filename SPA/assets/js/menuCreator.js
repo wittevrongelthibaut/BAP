@@ -76,10 +76,17 @@ function createParameterObject(rawParameters){
 async function saveMenu(e){
     e.preventDefault();
     const menu = createMenuObject();
+    sessionStorage.setItem('menuToSave', JSON.stringify(menu));
     const data = await APIsaveMenu(menu);
     if(data.status === 200){
+        sessionStorage.removeItem('menuToSave');
         showProfileScreen();
         closeConfirmation(e);
+    }
+    else{
+        sessionStorage.setItem('loginRedirect', 'could not save menu');
+        closeConfirmation(e);
+        showLoginForm();
     }
 }
 

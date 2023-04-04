@@ -26,9 +26,16 @@ function login(e){
     .then(data => {
         if(data.status == "success"){
             saveLoginResponse(data);
-            showProfileScreen();
-            window.history.pushState({}, "", `#profile`);
-        } else {
+            if(isLoginRedirect()){
+                checkLoginRedirect();
+            }
+            else
+            {
+                showProfileScreen();
+                window.history.pushState({}, "", `#profile`);
+            }
+        }
+        else {
             console.log(data);
         }
     });
@@ -41,7 +48,13 @@ function register(e){
     .then(data => {
         if(data.status == "success"){
             saveLoginResponse(data);
-            window.location.href = "index.html";
+            if(isLoginRedirect()){
+                checkLoginRedirect();
+            }
+            else
+            {
+                window.location.href = "index.html";
+            }
         } else {
             console.log(data);
         }
@@ -57,4 +70,30 @@ async function logout(e){
     e.preventDefault();
     await APIlogout();
     window.location.href = "index.html";
+}
+
+async function saveMenuRedirect(){
+
+    sessionStorage.removeItem('loginRedirect');
+    const menu = JSON.parse(sessionStorage.getItem('menuToSave'));
+
+    sessionStorage.removeItem('menuToSave');
+    const data = await APIsaveMenu(menu);
+
+    if(data.status === 200){
+        sessionStorage.removeItem('menuToSave');
+        showProfileScreen();
+        window.history.pushState({}, "", `#profile`);
+    }
+}
+
+function isLoginRedirect(){
+    return sessionStorage.getItem('loginRedirect') ? true : false;
+}
+
+function checkLoginRedirect(){
+    const message = sessionStorage.getItem('loginRedirect');
+    if(message === 'could not save menu'){
+        saveMenuRedirect();
+    }
 }
