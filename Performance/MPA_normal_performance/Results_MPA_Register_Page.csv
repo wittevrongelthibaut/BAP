@@ -1,0 +1,146 @@
+"loadTime","docTime","fullyLoaded","bytesOut","bytesOutDoc","bytesIn","bytesInDoc","requests","requestsFull","requestsDoc","responses_200","responses_404","responses_other","result","testStartOffset","cached","optimization_checked","main_frame","loadEventStart","loadEventEnd","domContentLoadedEventStart","domContentLoadedEventEnd","URL","connections","final_base_page_request","final_base_page_request_id","final_url","domInteractive","firstPaint","firstContentfulPaint","firstMeaningfulPaint","renderBlockingCSS","renderBlockingJS","TTFB","basePageSSLTime","score_cache","score_cdn","score_gzip","score_cookies","score_keep-alive","score_minify","score_combine","score_compress","score_etags","score_progressive_jpeg","gzip_total","gzip_savings","minify_total","minify_savings","image_total","image_savings","base_page_cdn","cpu.ParseHTML","cpu.HTMLDocumentParser::FetchQueuedPreloads","cpu.EventDispatch","cpu.MarkDOMContent","cpu.V8.GC_TIME_TO_SAFEPOINT","cpu.CommitLoad","cpu.ResourceFetcher::requestResource","cpu.EvaluateScript","cpu.v8.compile","cpu.ParseAuthorStyleSheet","cpu.UpdateLayoutTree","cpu.Layout","cpu.PrePaint","cpu.Paint","cpu.Layerize","cpu.FunctionCall","cpu.MarkLoad","cpu.largestContentfulPaint::Candidate","cpu.Idle","tester","start_epoch","osVersion","os_version","osPlatform","date","browserVersion","browser_version","fullyLoadedCPUms","fullyLoadedCPUpct","document_URL","document_hostname","document_origin","domElements","domComplete","PerformancePaintTiming.first-paint","PerformancePaintTiming.first-contentful-paint","base_page_ip_ptr","base_page_cname","base_page_dns_server","browser_name","eventName","test_run_time_ms","testUrl","Colordepth","Dpi","Images","Resolution","generated-content-percent","generated-content-size","meta-viewport","rendered-html","lastVisualChange","render","visualComplete85","visualComplete90","visualComplete95","visualComplete99","visualComplete","SpeedIndex","LargestContentfulPaintType","LargestContentfulPaintNodeType","chromeUserTiming.navigationStart","chromeUserTiming.fetchStart","chromeUserTiming.domLoading","chromeUserTiming.responseEnd","chromeUserTiming.domInteractive","chromeUserTiming.domContentLoadedEventStart","chromeUserTiming.domContentLoadedEventEnd","chromeUserTiming.domComplete","chromeUserTiming.unloadEventStart","chromeUserTiming.unloadEventEnd","chromeUserTiming.markAsMainFrame","chromeUserTiming.commitNavigationEnd","chromeUserTiming.loadEventStart","chromeUserTiming.loadEventEnd","chromeUserTiming.firstPaint","chromeUserTiming.firstContentfulPaint","chromeUserTiming.firstMeaningfulPaintCandidate","chromeUserTiming.firstMeaningfulPaint","chromeUserTiming.LargestTextPaint","chromeUserTiming.LargestContentfulPaint","chromeUserTiming.TotalLayoutShift","chromeUserTiming.CumulativeLayoutShift","TTIMeasurementEnd","LastInteractive","testID","run","step","effectiveBps","domTime","aft","titleTime","domLoading","server_rtt","edge-processed","maxFID","TotalBlockingTime","effectiveBpsDoc","bytes.html","requests.html","bytesUncompressed.html","bytes.js","requests.js","bytesUncompressed.js","bytes.css","requests.css","bytesUncompressed.css","bytes.image","requests.image","bytesUncompressed.image","bytes.flash","requests.flash","bytesUncompressed.flash","bytes.font","requests.font","bytesUncompressed.font","bytes.video","requests.video","bytesUncompressed.video","bytes.other","requests.other","bytesUncompressed.other","id","cpu.HitTest",
+"330","330","373","13492","13492","3457","3457","7","7","7","6","1","0","99999","0","0","1","696043F3D5B0B72B02FA6971A9A44275","321","321","318","320","https://mpa.thibautwittevrongel.com/register.html","2","0","8861FA73414F815A7D1F94496C78BFA1","https://mpa.thibautwittevrongel.com/register.html","318","334.8000000007","345","345","3","2","185","57","50","100","100","-1","100","-1","-1","-1","-1","-1","5507","0","-1","-1","0","0","Cloudflare","1","0","0","0","0","0","5","1","1","1","5","14","0","0","0","2","0","0","343","nl-ams-gcp-a01-10.164.0.6","1683468425.9752","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683468427.7433","113.0.0.0","113.0.0.0","610","8.8023088023","https://mpa.thibautwittevrongel.com/register.html","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","24","321","334.8000000007","334.8000000007","","","dora.ns.cloudflare.com","Chrome","Step_1","5091","https://mpa.thibautwittevrongel.com/register.html","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-1.82","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link rel=""stylesheet"" href=""assets/css/auth.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/auth.js""></script>
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<form action=""index.html"" method=""post"">
+<label for=""name"">Username</label>
+<input type=""text"" name=""name"" id=""name"">
+<label for=""email"">Email</label>
+<input type=""email"" name=""email"" id=""email"">
+<label for=""password"">Password</label>
+<input type=""password"" name=""password"" id=""password"">
+<input type=""submit"" class=""button"" value=""Register"">
+</form>
+</main>
+
+</body></html>","300","300","300","300","300","300","300","300","text","H1","38","17","212","204","328","328","329","330","211","211","211","211","330","330","344","344","344","344","345","345","0","0","3406","300","230507_AiDc23_5AX","1","1","18388","0","0","39","0","0","1","0","0","23841","343","1","950","1125","2","3711","1890","3","5645","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230507_AiDc23_5AX","",
+"336","336","380","13492","13492","3626","3626","7","7","7","6","1","0","99999","0","0","1","E756DD90D62B3957A167D03241180231","332","332","321","323","https://mpa.thibautwittevrongel.com/register.html","2","0","AB26D0087F5DCA8901ECE734639806F0","https://mpa.thibautwittevrongel.com/register.html","321","353.6999999993","358","358","3","2","180","58","50","100","100","-1","100","-1","-1","-1","-1","-1","5641","0","-1","-1","0","0","Cloudflare","1","0","1","0","0","0","8","1","1","1","6","13","0","0","0","2","0","0","345","nl-ams-gcp-a03-10.164.0.8","1683468427.4052","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683468429.3579","113.0.0.0","113.0.0.0","720","10.4196816208","https://mpa.thibautwittevrongel.com/register.html","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","24","331","353.6999999993","353.6999999993","","","dora.ns.cloudflare.com","Chrome","Step_1","5302","https://mpa.thibautwittevrongel.com/register.html","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-1.82","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link rel=""stylesheet"" href=""assets/css/auth.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/auth.js""></script>
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<form action=""index.html"" method=""post"">
+<label for=""name"">Username</label>
+<input type=""text"" name=""name"" id=""name"">
+<label for=""email"">Email</label>
+<input type=""email"" name=""email"" id=""email"">
+<label for=""password"">Password</label>
+<input type=""password"" name=""password"" id=""password"">
+<input type=""submit"" class=""button"" value=""Register"">
+</form>
+</main>
+
+</body></html>","400","400","400","400","400","400","400","400","text","H1","41","13","208","198","325","325","327","336","207","207","207","208","336","336","358","358","358","358","358","358","0","0","3417","400","230507_AiDc23_5AX","2","1","18130","0","0","42","0","0","1","0","0","23243","343","1","950","1218","2","4319","1966","3","5827","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230507_AiDc23_5AX","",
+"339","339","387","13492","13492","4047","4047","7","7","7","6","1","0","99999","0","0","1","84DA9AE19665C6FFAA26F92E810ADFB4","325","325","322","324","https://mpa.thibautwittevrongel.com/register.html","2","0","CCC7EE13C87056406429362C43A10F86","https://mpa.thibautwittevrongel.com/register.html","322","373.0999999978","387","387","3","2","186","59","50","100","100","-1","100","-1","-1","-1","-1","-1","5988","0","-1","-1","0","0","Cloudflare","3","1","0","0","0","0","11","1","1","1","6","14","0","0","0","1","0","0","348","nl-ams-gcp-a04-10.164.0.9","1683468427.9484","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683468429.8493","113.0.0.0","113.0.0.0","740","10.632183908","https://mpa.thibautwittevrongel.com/register.html","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","24","325","373.0999999978","373.0999999978","","","dora.ns.cloudflare.com","Chrome","Step_1","5257","https://mpa.thibautwittevrongel.com/register.html","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-1.82","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link rel=""stylesheet"" href=""assets/css/auth.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/auth.js""></script>
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<form action=""index.html"" method=""post"">
+<label for=""name"">Username</label>
+<input type=""text"" name=""name"" id=""name"">
+<label for=""email"">Email</label>
+<input type=""email"" name=""email"" id=""email"">
+<label for=""password"">Password</label>
+<input type=""password"" name=""password"" id=""password"">
+<input type=""submit"" class=""button"" value=""Register"">
+</form>
+</main>
+
+</body></html>","400","400","400","400","400","400","400","400","text","H1","46","23","221","213","337","337","338","339","220","220","220","221","339","339","387","387","387","387","387","387","0","0","3429","400","230507_AiDc23_5AX","3","1","20134","0","0","47","0","0","1","0","0","26450","343","1","950","1268","2","4943","2337","3","7313","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230507_AiDc23_5AX","",
+"312","312","350","13492","13492","3457","3457","7","7","7","6","1","0","99999","0","0","1","C8FD5A902C46ED2D2F490E6543E0D6A9","296","296","294","295","https://mpa.thibautwittevrongel.com/register.html","2","0","DC32A9290BEAE4669AD80C95CB47D7EF","https://mpa.thibautwittevrongel.com/register.html","294","318","333","333","3","2","165","55","50","100","100","-1","100","-1","-1","-1","-1","-1","5514","0","-1","-1","0","0","Cloudflare","7","0","0","0","0","0","4","1","1","1","4","15","0","0","0","1","0","0","314","nl-ams-gcp-a01-10.164.0.6","1683468434.0982","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683468435.8744","113.0.0.0","113.0.0.0","560","8.1871345029","https://mpa.thibautwittevrongel.com/register.html","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","24","296","318","318","","","dora.ns.cloudflare.com","Chrome","Step_1","5061","https://mpa.thibautwittevrongel.com/register.html","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-1.82","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link rel=""stylesheet"" href=""assets/css/auth.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/auth.js""></script>
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<form action=""index.html"" method=""post"">
+<label for=""name"">Username</label>
+<input type=""text"" name=""name"" id=""name"">
+<label for=""email"">Email</label>
+<input type=""email"" name=""email"" id=""email"">
+<label for=""password"">Password</label>
+<input type=""password"" name=""password"" id=""password"">
+<input type=""submit"" class=""button"" value=""Register"">
+</form>
+</main>
+
+</body></html>","300","300","300","300","300","300","300","300","text","H1","42","22","197","190","309","309","310","311","197","197","197","197","312","312","332","332","332","332","333","333","0","0","3388","300","230507_AiDc23_5AX","4","1","18686","0","0","43","0","0","1","0","0","23517","343","1","950","1125","2","3711","1890","3","5645","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230507_AiDc23_5AX","",
+"310","310","379","13492","11490","3457","3358","7","7","6","6","1","0","99999","0","0","1","CF8DDB3EB1DEB1972D1D2B215806C8E4","305","305","278","279","https://mpa.thibautwittevrongel.com/register.html","2","0","AAA97BEEB2A28EAE8103895D017AA40B","https://mpa.thibautwittevrongel.com/register.html","278","330.8999999985","336","336","3","2","166","54","50","100","100","-1","100","-1","-1","-1","-1","-1","5495","0","-1","-1","0","0","Cloudflare","1","0","0","0","0","0","7","1","1","1","10","15","0","1","0","1","0","0","340","nl-ams-gcp-a03-10.164.0.8","1683468435.9642","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683468437.8793","113.0.0.0","113.0.0.0","730","10.595065312","https://mpa.thibautwittevrongel.com/register.html","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","24","305","330.8999999985","330.8999999985","","","dora.ns.cloudflare.com","Chrome","Step_1","5347","https://mpa.thibautwittevrongel.com/register.html","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-1.82","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link rel=""stylesheet"" href=""assets/css/auth.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/auth.js""></script>
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<form action=""index.html"" method=""post"">
+<label for=""name"">Username</label>
+<input type=""text"" name=""name"" id=""name"">
+<label for=""email"">Email</label>
+<input type=""email"" name=""email"" id=""email"">
+<label for=""password"">Password</label>
+<input type=""password"" name=""password"" id=""password"">
+<input type=""submit"" class=""button"" value=""Register"">
+</form>
+</main>
+
+</body></html>","300","300","300","300","300","300","300","300","text","H1","36","13","189","181","283","283","284","310","188","188","188","189","310","310","335","335","335","335","336","336","0","0","3409","300","230507_AiDc23_5AX","5","1","16230","0","0","41","0","0","1","0","0","23319","343","1","950","1125","2","3711","1890","3","5645","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230507_AiDc23_5AX","0",

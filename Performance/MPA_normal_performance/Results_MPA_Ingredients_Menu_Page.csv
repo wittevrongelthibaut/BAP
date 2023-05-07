@@ -1,0 +1,171 @@
+"loadTime","docTime","fullyLoaded","bytesOut","bytesOutDoc","bytesIn","bytesInDoc","requests","requestsFull","requestsDoc","responses_200","responses_404","responses_other","result","testStartOffset","cached","optimization_checked","main_frame","loadEventStart","loadEventEnd","domContentLoadedEventStart","domContentLoadedEventEnd","URL","connections","final_base_page_request","final_base_page_request_id","final_url","domInteractive","firstPaint","firstContentfulPaint","firstMeaningfulPaint","renderBlockingCSS","renderBlockingJS","TTFB","basePageSSLTime","score_cache","score_cdn","score_gzip","score_cookies","score_keep-alive","score_minify","score_combine","score_compress","score_etags","score_progressive_jpeg","gzip_total","gzip_savings","minify_total","minify_savings","image_total","image_savings","base_page_cdn","cpu.ParseHTML","cpu.HTMLDocumentParser::FetchQueuedPreloads","cpu.EventDispatch","cpu.MarkDOMContent","cpu.V8.GC_TIME_TO_SAFEPOINT","cpu.CommitLoad","cpu.ResourceFetcher::requestResource","cpu.EvaluateScript","cpu.v8.compile","cpu.ParseAuthorStyleSheet","cpu.FunctionCall","cpu.MarkLoad","cpu.UpdateLayoutTree","cpu.Layout","cpu.PrePaint","cpu.HitTest","cpu.Paint","cpu.Layerize","cpu.largestContentfulPaint::Candidate","cpu.Idle","tester","start_epoch","osVersion","os_version","osPlatform","date","browserVersion","browser_version","fullyLoadedCPUms","fullyLoadedCPUpct","document_URL","document_hostname","document_origin","domElements","domComplete","PerformancePaintTiming.first-paint","PerformancePaintTiming.first-contentful-paint","base_page_ip_ptr","base_page_cname","base_page_dns_server","browser_name","eventName","test_run_time_ms","testUrl","Colordepth","Dpi","Images","Resolution","generated-content-percent","generated-content-size","meta-viewport","rendered-html","lastVisualChange","render","visualComplete85","visualComplete90","visualComplete95","visualComplete99","visualComplete","SpeedIndex","LargestContentfulPaintType","LargestContentfulPaintNodeType","chromeUserTiming.navigationStart","chromeUserTiming.fetchStart","chromeUserTiming.domLoading","chromeUserTiming.responseEnd","chromeUserTiming.domInteractive","chromeUserTiming.domContentLoadedEventStart","chromeUserTiming.domContentLoadedEventEnd","chromeUserTiming.domComplete","chromeUserTiming.unloadEventStart","chromeUserTiming.unloadEventEnd","chromeUserTiming.markAsMainFrame","chromeUserTiming.commitNavigationEnd","chromeUserTiming.loadEventStart","chromeUserTiming.loadEventEnd","chromeUserTiming.firstPaint","chromeUserTiming.firstContentfulPaint","chromeUserTiming.firstMeaningfulPaintCandidate","chromeUserTiming.LayoutShift","chromeUserTiming.firstMeaningfulPaint","chromeUserTiming.LargestTextPaint","chromeUserTiming.LargestContentfulPaint","chromeUserTiming.TotalLayoutShift","chromeUserTiming.CumulativeLayoutShift","TTIMeasurementEnd","LastInteractive","testID","run","step","effectiveBps","domTime","aft","titleTime","domLoading","server_rtt","edge-processed","maxFID","TotalBlockingTime","effectiveBpsDoc","bytes.html","requests.html","bytesUncompressed.html","bytes.js","requests.js","bytesUncompressed.js","bytes.css","requests.css","bytesUncompressed.css","bytes.image","requests.image","bytesUncompressed.image","bytes.flash","requests.flash","bytesUncompressed.flash","bytes.font","requests.font","bytesUncompressed.font","bytes.video","requests.video","bytesUncompressed.video","bytes.other","requests.other","bytesUncompressed.other","id",
+"424","424","633","31706","21367","218833","5192","11","11","7","9","1","1","99999","0","0","1","C8F8567469003788B74F3592D7F20D73","415","415","312","319","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","5","0","F1F003DB940374D6C540BADD61A9250C","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","312","457.3000000007","467","694","3","3","192","62","21","100","100","-1","100","-1","-1","-1","-1","-1","8346","0","-1","-1","0","0","Cloudflare","1","0","0","0","0","0","4","1","1","1","6","0","3","20","1","0","0","0","0","595","nl-ams-gcp-a03-10.164.0.8","1683468107.8985","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683468109.8564","113.0.0.0","113.0.0.0","1000","13.5135135135","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","54","415","457.3000000007","457.3000000007","","","dora.ns.cloudflare.com","Chrome","Step_1","5907","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","45.2","0.91","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/viewMenuIngredients.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right"">download</button>
+</div>
+<article id=""breakfast"" class="""">
+<h2>Ingredients: Breakfast</h2>
+<ul class=""ingredientsList""><li>zelfrijzende bloem 250 gram</li><li>eieren 3</li><li>melk 5 dl</li><li>vanillesuiker 1 zakje</li></ul></article>
+<article id=""lunch"" class="""">
+<h2>Ingredients: Lunch</h2>
+<ul class=""ingredientsList""><li>1 tablespoon olive oil</li><li>1 small onion, chopped</li><li>2 garlic cloves, minced</li><li>2 (14 oz.) cans diced tomatoes</li><li>2 cups vegetable broth</li><li>1/4 cup heavy cream</li><li>Salt and freshly ground black pepper</li><li>2 tablespoons chopped fresh basil</li></ul></article>
+<article id=""dinner"" class="""">
+<h2>Ingredients: Dinner</h2>
+<ul class=""ingredientsList""><li>1/4 cup olive oil</li><li>3 tablespoons red wine vinegar</li><li>1 tablespoon honey</li><li>2 garlic cloves, minced</li><li>1/2 teaspoon dried oregano</li><li>1/2 teaspoon salt</li><li>1/4 teaspoon black pepper</li><li>1 pound boneless, skinless chicken breasts, cut into 1-inch pieces</li><li>1 red onion, cut into 1-inch pieces</li><li>1 red bell pepper, cut into 1-inch pieces</li><li>1 zucchini, cut into 1-inch pieces</li><li>8-10 wooden skewers, soaked in water for 30 minutes</li></ul></article>
+</main>
+
+</body></html>","700","500","500","700","700","700","700","522","text","H1","46","15","220","213","322","322","329","424","219","219","219","220","424","424","466","466","466","672","694","467","467","0.0001124189","0.0001124189","3695","500","230507_BiDc40_5FK","1","1","496219","0","0","47","0","0","1","0","0","22379","453","2","1125","2317","3","7532","2422","3","7321","0","0","0","0","0","0","213136","1","8108","0","0","0","406","1","768","230507_BiDc40_5FK",
+"420","420","614","31706","21367","218330","4689","11","11","7","9","1","1","99999","0","0","1","13B029CEDB2E0AFE4D26C53EA382BB0E","404","404","311","320","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","5","0","F0927700BEFBD8400D9724E4ABE0E14C","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","311","435.8000000007","452","684","3","3","187","57","50","100","100","-1","100","-1","-1","-1","-1","-1","7978","0","-1","-1","0","0","Cloudflare","1","0","0","0","0","0","10","1","1","1","8","0","5","12","1","0","1","0","0","573","nl-ams-gcp-a04-10.164.0.9","1683468109.1789","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683468111.0774","113.0.0.0","113.0.0.0","949","12.8378378378","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","54","404","435.8000000007","435.8000000007","","","dora.ns.cloudflare.com","Chrome","Step_1","5688","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","45.2","0.91","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/viewMenuIngredients.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right"">download</button>
+</div>
+<article id=""breakfast"" class="""">
+<h2>Ingredients: Breakfast</h2>
+<ul class=""ingredientsList""><li>zelfrijzende bloem 250 gram</li><li>eieren 3</li><li>melk 5 dl</li><li>vanillesuiker 1 zakje</li></ul></article>
+<article id=""lunch"" class="""">
+<h2>Ingredients: Lunch</h2>
+<ul class=""ingredientsList""><li>1 tablespoon olive oil</li><li>1 small onion, chopped</li><li>2 garlic cloves, minced</li><li>2 (14 oz.) cans diced tomatoes</li><li>2 cups vegetable broth</li><li>1/4 cup heavy cream</li><li>Salt and freshly ground black pepper</li><li>2 tablespoons chopped fresh basil</li></ul></article>
+<article id=""dinner"" class="""">
+<h2>Ingredients: Dinner</h2>
+<ul class=""ingredientsList""><li>1/4 cup olive oil</li><li>3 tablespoons red wine vinegar</li><li>1 tablespoon honey</li><li>2 garlic cloves, minced</li><li>1/2 teaspoon dried oregano</li><li>1/2 teaspoon salt</li><li>1/4 teaspoon black pepper</li><li>1 pound boneless, skinless chicken breasts, cut into 1-inch pieces</li><li>1 red onion, cut into 1-inch pieces</li><li>1 red bell pepper, cut into 1-inch pieces</li><li>1 zucchini, cut into 1-inch pieces</li><li>8-10 wooden skewers, soaked in water for 30 minutes</li></ul></article>
+</main>
+
+</body></html>","700","500","500","700","700","700","700","522","text","H1","49","24","221","213","328","328","336","420","220","220","220","221","420","420","451","451","451","658","684","452","452","0.0001124189","0.0001124189","3685","500","230507_BiDc40_5FK","2","1","511311","0","0","50","0","0","1","0","0","20124","453","2","1125","2185","3","6404","2051","3","5835","0","0","0","0","0","0","213136","1","5535","0","0","0","406","1","768","230507_BiDc40_5FK",
+"405","405","606","31706","21367","218330","4689","11","11","7","9","1","1","99999","0","0","1","5F17FF1A54B27F7FE5C7B90671C24383","400","400","298","306","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","5","0","FCE20C9671EB7EBDE95B0B960DC762D7","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","298","436","441","673","3","3","183","56","50","100","100","-1","100","-1","-1","-1","-1","-1","7966","0","-1","-1","0","0","Cloudflare","1","0","0","0","0","0","7","1","3","1","6","0","3","16","1","0","3","0","0","564","nl-ams-gcp-a01-10.164.0.6","1683468112.2434","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683468114.0267","113.0.0.0","113.0.0.0","939","12.5500667557","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","54","400","436","436","","","dora.ns.cloudflare.com","Chrome","Step_1","5570","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","45.2","0.91","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/viewMenuIngredients.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right"">download</button>
+</div>
+<article id=""breakfast"" class="""">
+<h2>Ingredients: Breakfast</h2>
+<ul class=""ingredientsList""><li>zelfrijzende bloem 250 gram</li><li>eieren 3</li><li>melk 5 dl</li><li>vanillesuiker 1 zakje</li></ul></article>
+<article id=""lunch"" class="""">
+<h2>Ingredients: Lunch</h2>
+<ul class=""ingredientsList""><li>1 tablespoon olive oil</li><li>1 small onion, chopped</li><li>2 garlic cloves, minced</li><li>2 (14 oz.) cans diced tomatoes</li><li>2 cups vegetable broth</li><li>1/4 cup heavy cream</li><li>Salt and freshly ground black pepper</li><li>2 tablespoons chopped fresh basil</li></ul></article>
+<article id=""dinner"" class="""">
+<h2>Ingredients: Dinner</h2>
+<ul class=""ingredientsList""><li>1/4 cup olive oil</li><li>3 tablespoons red wine vinegar</li><li>1 tablespoon honey</li><li>2 garlic cloves, minced</li><li>1/2 teaspoon dried oregano</li><li>1/2 teaspoon salt</li><li>1/4 teaspoon black pepper</li><li>1 pound boneless, skinless chicken breasts, cut into 1-inch pieces</li><li>1 red onion, cut into 1-inch pieces</li><li>1 red bell pepper, cut into 1-inch pieces</li><li>1 zucchini, cut into 1-inch pieces</li><li>8-10 wooden skewers, soaked in water for 30 minutes</li></ul></article>
+</main>
+
+</body></html>","700","400","400","700","700","700","700","433","text","H1","35","13","206","198","303","303","311","405","204","204","205","205","405","405","440","440","440","645","673","441","441","0.0001124189","0.0001124189","3659","400","230507_BiDc40_5FK","3","1","516146","0","0","37","0","0","1","0","0","21121","453","2","1125","2185","3","6404","2051","3","5835","0","0","0","0","0","0","213136","1","9497","0","0","0","406","1","768","230507_BiDc40_5FK",
+"381","381","575","31706","21367","218330","4689","11","11","7","9","1","1","99999","0","0","1","1DD7B2290C5D9B8A31994F7E32972DEF","371","371","288","292","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","5","0","89C0C01411F16FB7376B956AEA649555","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","288","408.5999999978","419","646","3","3","170","56","50","100","100","-1","100","-1","-1","-1","-1","-1","8065","0","-1","-1","0","0","Cloudflare","4","0","0","0","0","0","7","3","1","1","2","0","5","13","1","0","1","0","0","537","nl-ams-gcp-a03-10.164.0.8","1683468117.1644","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683468119.1022","113.0.0.0","113.0.0.0","1009","13.8356164384","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","54","371","408.5999999978","408.5999999978","","","dora.ns.cloudflare.com","Chrome","Step_1","5798","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","45.2","0.91","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/viewMenuIngredients.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right"">download</button>
+</div>
+<article id=""breakfast"" class="""">
+<h2>Ingredients: Breakfast</h2>
+<ul class=""ingredientsList""><li>zelfrijzende bloem 250 gram</li><li>eieren 3</li><li>melk 5 dl</li><li>vanillesuiker 1 zakje</li></ul></article>
+<article id=""lunch"" class="""">
+<h2>Ingredients: Lunch</h2>
+<ul class=""ingredientsList""><li>1 tablespoon olive oil</li><li>1 small onion, chopped</li><li>2 garlic cloves, minced</li><li>2 (14 oz.) cans diced tomatoes</li><li>2 cups vegetable broth</li><li>1/4 cup heavy cream</li><li>Salt and freshly ground black pepper</li><li>2 tablespoons chopped fresh basil</li></ul></article>
+<article id=""dinner"" class="""">
+<h2>Ingredients: Dinner</h2>
+<ul class=""ingredientsList""><li>1/4 cup olive oil</li><li>3 tablespoons red wine vinegar</li><li>1 tablespoon honey</li><li>2 garlic cloves, minced</li><li>1/2 teaspoon dried oregano</li><li>1/2 teaspoon salt</li><li>1/4 teaspoon black pepper</li><li>1 pound boneless, skinless chicken breasts, cut into 1-inch pieces</li><li>1 red onion, cut into 1-inch pieces</li><li>1 red bell pepper, cut into 1-inch pieces</li><li>1 zucchini, cut into 1-inch pieces</li><li>8-10 wooden skewers, soaked in water for 30 minutes</li></ul></article>
+</main>
+
+</body></html>","700","400","400","700","700","700","700","433","text","H1","45","18","200","191","298","298","302","381","199","199","199","200","381","381","418","418","418","621","646","419","419","0.0001124189","0.0001124189","3645","400","230507_BiDc40_5FK","4","1","539086","0","0","49","0","0","1","0","0","22222","453","2","1125","2185","3","6404","2051","3","5835","0","0","0","0","0","0","213136","1","5535","0","0","0","406","1","768","230507_BiDc40_5FK",
+"405","405","589","31706","21367","218833","5192","11","11","7","9","1","1","99999","0","0","1","2B255C9D96667589F7F761A1F0D62B8C","392","392","294","305","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","5","0","FC31122907D7D4E8C237014AEB45D4B0","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","294","423","436","664","3","3","166","55","21","100","100","-1","100","-1","-1","-1","-1","-1","8343","0","-1","-1","0","0","Cloudflare","2","1","3","0","0","0","6","1","1","1","5","0","4","12","1","0","1","0","0","553","nl-ams-gcp-a04-10.164.0.9","1683468118.0889","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683468119.9806","113.0.0.0","113.0.0.0","939","12.7544097693","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","54","392","423","423","","","dora.ns.cloudflare.com","Chrome","Step_1","5730","https://mpa.thibautwittevrongel.com/ingredients.html?menuid=81","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","45.2","0.91","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/viewMenuIngredients.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right"">download</button>
+</div>
+<article id=""breakfast"" class="""">
+<h2>Ingredients: Breakfast</h2>
+<ul class=""ingredientsList""><li>zelfrijzende bloem 250 gram</li><li>eieren 3</li><li>melk 5 dl</li><li>vanillesuiker 1 zakje</li></ul></article>
+<article id=""lunch"" class="""">
+<h2>Ingredients: Lunch</h2>
+<ul class=""ingredientsList""><li>1 tablespoon olive oil</li><li>1 small onion, chopped</li><li>2 garlic cloves, minced</li><li>2 (14 oz.) cans diced tomatoes</li><li>2 cups vegetable broth</li><li>1/4 cup heavy cream</li><li>Salt and freshly ground black pepper</li><li>2 tablespoons chopped fresh basil</li></ul></article>
+<article id=""dinner"" class="""">
+<h2>Ingredients: Dinner</h2>
+<ul class=""ingredientsList""><li>1/4 cup olive oil</li><li>3 tablespoons red wine vinegar</li><li>1 tablespoon honey</li><li>2 garlic cloves, minced</li><li>1/2 teaspoon dried oregano</li><li>1/2 teaspoon salt</li><li>1/4 teaspoon black pepper</li><li>1 pound boneless, skinless chicken breasts, cut into 1-inch pieces</li><li>1 red onion, cut into 1-inch pieces</li><li>1 red bell pepper, cut into 1-inch pieces</li><li>1 zucchini, cut into 1-inch pieces</li><li>8-10 wooden skewers, soaked in water for 30 minutes</li></ul></article>
+</main>
+
+</body></html>","700","400","400","700","700","700","700","433","text","H1","43","22","200","194","307","307","318","405","198","198","198","198","405","405","435","435","435","636","664","436","436","0.0001124189","0.0001124189","3660","400","230507_BiDc40_5FK","5","1","517335","0","0","49","0","0","1","0","0","21723","453","2","1125","2317","3","7532","2422","3","7321","0","0","0","0","0","0","213136","1","14924","0","0","0","406","1","768","230507_BiDc40_5FK",

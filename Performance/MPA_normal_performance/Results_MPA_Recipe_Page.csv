@@ -1,0 +1,156 @@
+"loadTime","docTime","fullyLoaded","bytesOut","bytesOutDoc","bytesIn","bytesInDoc","requests","requestsFull","requestsDoc","responses_200","responses_404","responses_other","result","testStartOffset","cached","optimization_checked","main_frame","loadEventStart","loadEventEnd","domContentLoadedEventStart","domContentLoadedEventEnd","URL","connections","final_base_page_request","final_base_page_request_id","final_url","domInteractive","firstPaint","firstContentfulPaint","firstMeaningfulPaint","firstImagePaint","renderBlockingCSS","renderBlockingJS","TTFB","basePageSSLTime","score_cache","score_cdn","score_gzip","score_cookies","score_keep-alive","score_minify","score_combine","score_compress","score_etags","score_progressive_jpeg","gzip_total","gzip_savings","minify_total","minify_savings","image_total","image_savings","base_page_cdn","cpu.ParseHTML","cpu.HTMLDocumentParser::FetchQueuedPreloads","cpu.EventDispatch","cpu.MarkDOMContent","cpu.V8.GC_TIME_TO_SAFEPOINT","cpu.CommitLoad","cpu.ResourceFetcher::requestResource","cpu.EvaluateScript","cpu.v8.compile","cpu.ParseAuthorStyleSheet","cpu.FunctionCall","cpu.UpdateLayoutTree","cpu.Layout","cpu.ResourceChangePriority","cpu.PrePaint","cpu.Paint","cpu.Layerize","cpu.largestContentfulPaint::Candidate","cpu.HitTest","cpu.MarkLoad","cpu.Idle","tester","start_epoch","osVersion","os_version","osPlatform","date","browserVersion","browser_version","fullyLoadedCPUms","fullyLoadedCPUpct","document_URL","document_hostname","document_origin","domElements","domComplete","PerformancePaintTiming.first-paint","PerformancePaintTiming.first-contentful-paint","base_page_ip_ptr","base_page_cname","base_page_dns_server","browser_name","eventName","test_run_time_ms","testUrl","Colordepth","Dpi","Images","Resolution","generated-content-percent","generated-content-size","meta-viewport","rendered-html","lastVisualChange","render","visualComplete85","visualComplete90","visualComplete95","visualComplete99","visualComplete","SpeedIndex","LargestContentfulPaintType","LargestContentfulPaintNodeType","LargestContentfulPaintImageURL","chromeUserTiming.navigationStart","chromeUserTiming.fetchStart","chromeUserTiming.domLoading","chromeUserTiming.responseEnd","chromeUserTiming.domInteractive","chromeUserTiming.domContentLoadedEventStart","chromeUserTiming.domContentLoadedEventEnd","chromeUserTiming.domComplete","chromeUserTiming.unloadEventStart","chromeUserTiming.unloadEventEnd","chromeUserTiming.markAsMainFrame","chromeUserTiming.commitNavigationEnd","chromeUserTiming.firstPaint","chromeUserTiming.firstContentfulPaint","chromeUserTiming.firstMeaningfulPaintCandidate","chromeUserTiming.LayoutShift","chromeUserTiming.firstMeaningfulPaint","chromeUserTiming.loadEventStart","chromeUserTiming.loadEventEnd","chromeUserTiming.firstImagePaint","chromeUserTiming.LargestTextPaint","chromeUserTiming.LargestContentfulPaint","chromeUserTiming.LargestImagePaint","chromeUserTiming.TotalLayoutShift","chromeUserTiming.CumulativeLayoutShift","TTIMeasurementEnd","LastInteractive","testID","run","step","effectiveBps","domTime","aft","titleTime","domLoading","server_rtt","edge-processed","maxFID","TotalBlockingTime","effectiveBpsDoc","bytes.html","requests.html","bytesUncompressed.html","bytes.js","requests.js","bytesUncompressed.js","bytes.css","requests.css","bytesUncompressed.css","bytes.image","requests.image","bytesUncompressed.image","bytes.flash","requests.flash","bytesUncompressed.flash","bytes.font","requests.font","bytesUncompressed.font","bytes.video","requests.video","bytesUncompressed.video","bytes.other","requests.other","bytesUncompressed.other","id",
+"969","969","1014","37201","37201","223109","223109","13","13","13","11","1","1","99999","0","0","1","01C09D628ABF3F01124289486EFCD1FA","958","958","303","309","https://mpa.thibautwittevrongel.com/recipe.html?id=1","6","0","3FD05B407DE1D0E853E26D17A980A1D0","https://mpa.thibautwittevrongel.com/recipe.html?id=1","303","452.700000003","463","665","1005","4","3","191","58","50","92","100","-1","100","-1","-1","100","-1","-1","8316","0","-1","-1","4701","0","Cloudflare","1","0","0","0","0","0","7","1","1","1","7","3","34","0","1","1","0","0","0","0","957","nl-ams-gcp-a03-10.164.0.8","1683467648.0985","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683467650.1354","113.0.0.0","113.0.0.0","1140","13.9877300614","https://mpa.thibautwittevrongel.com/recipe.html?id=1","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","34","958","452.700000003","452.700000003","","","dora.ns.cloudflare.com","Chrome","Step_1","6281","https://mpa.thibautwittevrongel.com/recipe.html?id=1","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[{""url"":""https://via.placeholder.com/500"",""width"":500,""height"":500,""naturalWidth"":500,""naturalHeight"":500}]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","36.71","0.56","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/recipe.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link rel=""stylesheet"" href=""assets/css/recipe.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menu</p>
+<h2>Pannenkoeken</h2>
+<img src=""https://via.placeholder.com/500"" alt=""recipe image"">
+<h3>Ingredients list:</h3>
+<ul>
+<li>zelfrijzende bloem 250 gram</li><li>eieren 3</li><li>melk 5 dl</li><li>vanillesuiker 1 zakje</li></ul>
+<h3>Instructions</h3>
+<ol>
+<li>Zeef de bloem met de vanillesuiker. Maak in het midden een kuiltje, breek daarin de eieren. Roer alles door elkaar met een garde.</li><li>Schenk er in een straaltje 300 ml melk bij. Bewerk tot een glad mengsel.</li><li>Klop dan de rest van de melk door het beslag zodat het lichter wordt. Vind je het beslag nog te dik, voeg dan eventueel nog wat extra melk toe (in totaal heb je 500 à 600 ml melk nodig).</li><li>Bak de pannenkoeken in een grote koekenpan, in hete boter of olie.</li></ol>
+</main>
+
+</body></html>","1000","500","1000","1000","1000","1000","1000","639","image","IMG","https://via.placeholder.com/500","45","17","220","211","314","314","319","968","218","218","218","220","463","463","463","970","665","969","969","1005","665","1005","1005","0.1879396114","0.1879396114","4050","500","230507_AiDc8J_57Y","1","1","271092","0","0","47","0","0","1","0","0","286772","436","2","993","2035","3","6258","2266","4","6287","4701","1","4701","0","0","0","213136","1","8106","0","0","0","436","1","770","230507_AiDc8J_57Y",
+"905","905","964","37201","37201","223612","223612","13","13","13","11","1","1","99999","0","0","1","0C313E90DE28A1D1B4B6B16246C116FA","894","894","311","313","https://mpa.thibautwittevrongel.com/recipe.html?id=1","6","0","F9DD41AA623B4CB01C8D65F1CA3DB49E","https://mpa.thibautwittevrongel.com/recipe.html?id=1","311","455.0999999978","466","631","916","4","3","193","61","28","92","100","-1","100","-1","-1","100","-1","-1","8745","0","-1","-1","4701","0","Cloudflare","1","0","0","0","0","0","7","1","1","1","6","5","18","0","1","1","0","0","0","0","921","nl-ams-gcp-a01-10.164.0.6","1683467649.134","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683467651.0236","113.0.0.0","113.0.0.0","930","11.625","https://mpa.thibautwittevrongel.com/recipe.html?id=1","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","34","894","455.0999999978","455.0999999978","","","dora.ns.cloudflare.com","Chrome","Step_1","6015","https://mpa.thibautwittevrongel.com/recipe.html?id=1","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[{""url"":""https://via.placeholder.com/500"",""width"":500,""height"":500,""naturalWidth"":500,""naturalHeight"":500}]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","36.71","0.56","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/recipe.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link rel=""stylesheet"" href=""assets/css/recipe.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menu</p>
+<h2>Pannenkoeken</h2>
+<img src=""https://via.placeholder.com/500"" alt=""recipe image"">
+<h3>Ingredients list:</h3>
+<ul>
+<li>zelfrijzende bloem 250 gram</li><li>eieren 3</li><li>melk 5 dl</li><li>vanillesuiker 1 zakje</li></ul>
+<h3>Instructions</h3>
+<ol>
+<li>Zeef de bloem met de vanillesuiker. Maak in het midden een kuiltje, breek daarin de eieren. Roer alles door elkaar met een garde.</li><li>Schenk er in een straaltje 300 ml melk bij. Bewerk tot een glad mengsel.</li><li>Klop dan de rest van de melk door het beslag zodat het lichter wordt. Vind je het beslag nog te dik, voeg dan eventueel nog wat extra melk toe (in totaal heb je 500 à 600 ml melk nodig).</li><li>Bak de pannenkoeken in een grote koekenpan, in hete boter of olie.</li></ol>
+</main>
+
+</body></html>","900","500","900","900","900","900","900","610","image","IMG","https://via.placeholder.com/500","42","19","222","214","322","322","324","905","221","221","221","222","465","465","465","902","631","905","905","916","631","928","928","0.1879396114","0.1879396114","3997","500","230507_AiDc8J_57Y","2","1","290028","0","0","43","0","0","1","0","0","314061","436","2","993","2167","3","7386","2637","4","7773","4701","1","4701","0","0","0","213136","1","5535","0","0","0","436","1","770","230507_AiDc8J_57Y",
+"864","864","939","37201","37201","223612","223612","13","13","13","11","1","1","99999","0","0","1","F48D6A3F33FE3FA06DA11B37185C2C67","856","856","282","285","https://mpa.thibautwittevrongel.com/recipe.html?id=1","6","0","2BD30D5B79D3A03D1BC3C2BE810E83A3","https://mpa.thibautwittevrongel.com/recipe.html?id=1","282","430","438","615","885","4","3","182","56","28","92","100","-1","100","-1","-1","100","-1","-1","8721","0","-1","-1","4701","0","Cloudflare","3","0","0","0","0","0","14","1","0","1","7","3","18","0","1","1","0","0","0","0","889","nl-ams-gcp-a04-10.164.0.9","1683467650.2233","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683467652.1348","113.0.0.0","113.0.0.0","949","12.101910828","https://mpa.thibautwittevrongel.com/recipe.html?id=1","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","34","856","430","430","","","dora.ns.cloudflare.com","Chrome","Step_1","6153","https://mpa.thibautwittevrongel.com/recipe.html?id=1","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[{""url"":""https://via.placeholder.com/500"",""width"":500,""height"":500,""naturalWidth"":500,""naturalHeight"":500}]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","36.71","0.56","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/recipe.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link rel=""stylesheet"" href=""assets/css/recipe.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menu</p>
+<h2>Pannenkoeken</h2>
+<img src=""https://via.placeholder.com/500"" alt=""recipe image"">
+<h3>Ingredients list:</h3>
+<ul>
+<li>zelfrijzende bloem 250 gram</li><li>eieren 3</li><li>melk 5 dl</li><li>vanillesuiker 1 zakje</li></ul>
+<h3>Instructions</h3>
+<ol>
+<li>Zeef de bloem met de vanillesuiker. Maak in het midden een kuiltje, breek daarin de eieren. Roer alles door elkaar met een garde.</li><li>Schenk er in een straaltje 300 ml melk bij. Bewerk tot een glad mengsel.</li><li>Klop dan de rest van de melk door het beslag zodat het lichter wordt. Vind je het beslag nog te dik, voeg dan eventueel nog wat extra melk toe (in totaal heb je 500 à 600 ml melk nodig).</li><li>Bak de pannenkoeken in een grote koekenpan, in hete boter of olie.</li></ol>
+</main>
+
+</body></html>","900","400","900","900","900","900","900","539","image","IMG","https://via.placeholder.com/500","39","16","210","203","289","289","293","863","209","209","209","210","437","437","437","860","614","864","864","884","615","893","893","0.1879396114","0.1879396114","3974","400","230507_AiDc8J_57Y","3","1","295392","0","0","41","0","0","1","0","0","327876","436","2","993","2167","3","7386","2637","4","7773","4701","1","4701","0","0","0","213136","1","8109","0","0","0","436","1","770","230507_AiDc8J_57Y",
+"898","898","1007","37201","34092","223109","223010","13","13","12","11","1","1","99999","0","0","1","8B54EE40206AEEE83A9F363634F3A96C","895","895","316","320","https://mpa.thibautwittevrongel.com/recipe.html?id=1","6","0","F090B892D260DA1B28438D293DC5CEC5","https://mpa.thibautwittevrongel.com/recipe.html?id=1","316","442.700000003","446","625","975","4","3","179","60","50","92","100","-1","100","-1","-1","100","-1","-1","8350","0","-1","-1","4701","0","Cloudflare","2","7","0","0","0","0","10","1","1","1","7","4","17","0","1","1","0","0","0","0","955","nl-ams-gcp-a03-10.164.0.8","1683467657.8407","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683467659.7564","113.0.0.0","113.0.0.0","1040","13.0817610063","https://mpa.thibautwittevrongel.com/recipe.html?id=1","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","34","895","442.700000003","442.700000003","","","dora.ns.cloudflare.com","Chrome","Step_1","6415","https://mpa.thibautwittevrongel.com/recipe.html?id=1","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[{""url"":""https://via.placeholder.com/500"",""width"":500,""height"":500,""naturalWidth"":500,""naturalHeight"":500}]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","36.71","0.56","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/recipe.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link rel=""stylesheet"" href=""assets/css/recipe.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menu</p>
+<h2>Pannenkoeken</h2>
+<img src=""https://via.placeholder.com/500"" alt=""recipe image"">
+<h3>Ingredients list:</h3>
+<ul>
+<li>zelfrijzende bloem 250 gram</li><li>eieren 3</li><li>melk 5 dl</li><li>vanillesuiker 1 zakje</li></ul>
+<h3>Instructions</h3>
+<ol>
+<li>Zeef de bloem met de vanillesuiker. Maak in het midden een kuiltje, breek daarin de eieren. Roer alles door elkaar met een garde.</li><li>Schenk er in een straaltje 300 ml melk bij. Bewerk tot een glad mengsel.</li><li>Klop dan de rest van de melk door het beslag zodat het lichter wordt. Vind je het beslag nog te dik, voeg dan eventueel nog wat extra melk toe (in totaal heb je 500 à 600 ml melk nodig).</li><li>Bak de pannenkoeken in een grote koekenpan, in hete boter of olie.</li></ol>
+</main>
+
+</body></html>","1000","500","1000","1000","1000","1000","1000","637","image","IMG","https://via.placeholder.com/500","37","12","201","193","319","319","323","898","201","201","201","201","446","446","446","894","624","898","898","975","625","987","987","0.1879396114","0.1879396114","4036","500","230507_AiDc8J_57Y","4","1","269455","0","0","41","0","0","1","0","0","310166","436","2","993","2035","3","6258","2266","4","6287","4701","1","4701","0","0","0","213136","1","10881","0","0","0","436","1","770","230507_AiDc8J_57Y",
+"868","868","937","37201","37201","223612","223612","13","13","13","11","1","1","99999","0","0","1","28890E99AE38F8D211C5A2F45BD113CA","864","864","303","311","https://mpa.thibautwittevrongel.com/recipe.html?id=1","6","0","9204FC9FD1EF66528B896D44BDB0A2B1","https://mpa.thibautwittevrongel.com/recipe.html?id=1","303","422.8000000007","428","631","884","4","3","166","54","28","92","100","-1","100","-1","-1","100","-1","-1","8720","0","-1","-1","4701","0","Cloudflare","4","0","0","0","0","0","6","1","0","0","10","4","16","0","1","1","0","0","0","0","893","nl-ams-gcp-a01-10.164.0.6","1683467658.3731","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683467660.2462","113.0.0.0","113.0.0.0","989","12.3134328358","https://mpa.thibautwittevrongel.com/recipe.html?id=1","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","34","863","422.8000000007","422.8000000007","","","dora.ns.cloudflare.com","Chrome","Step_1","5991","https://mpa.thibautwittevrongel.com/recipe.html?id=1","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[{""url"":""https://via.placeholder.com/500"",""width"":500,""height"":500,""naturalWidth"":500,""naturalHeight"":500}]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","36.71","0.56","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/recipe.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link rel=""stylesheet"" href=""assets/css/recipe.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menu</p>
+<h2>Pannenkoeken</h2>
+<img src=""https://via.placeholder.com/500"" alt=""recipe image"">
+<h3>Ingredients list:</h3>
+<ul>
+<li>zelfrijzende bloem 250 gram</li><li>eieren 3</li><li>melk 5 dl</li><li>vanillesuiker 1 zakje</li></ul>
+<h3>Instructions</h3>
+<ol>
+<li>Zeef de bloem met de vanillesuiker. Maak in het midden een kuiltje, breek daarin de eieren. Roer alles door elkaar met een garde.</li><li>Schenk er in een straaltje 300 ml melk bij. Bewerk tot een glad mengsel.</li><li>Klop dan de rest van de melk door het beslag zodat het lichter wordt. Vind je het beslag nog te dik, voeg dan eventueel nog wat extra melk toe (in totaal heb je 500 à 600 ml melk nodig).</li><li>Bak de pannenkoeken in een grote koekenpan, in hete boter of olie.</li></ol>
+</main>
+
+</body></html>","900","400","900","900","900","900","900","539","image","IMG","https://via.placeholder.com/500","34","14","190","182","307","307","316","868","189","189","189","190","427","427","427","870","630","868","868","884","631","884","884","0.1879396114","0.1879396114","3964","400","230507_AiDc8J_57Y","5","1","290028","0","0","35","0","0","1","0","0","318535","436","2","993","2167","3","7386","2637","4","7773","4701","1","4701","0","0","0","213136","1","9497","0","0","0","436","1","770","230507_AiDc8J_57Y",
