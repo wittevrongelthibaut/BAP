@@ -1,0 +1,1001 @@
+"loadTime","docTime","fullyLoaded","bytesOut","bytesOutDoc","bytesIn","bytesInDoc","requests","requestsFull","requestsDoc","responses_200","responses_404","responses_other","result","testStartOffset","cached","optimization_checked","main_frame","loadEventStart","loadEventEnd","domContentLoadedEventStart","domContentLoadedEventEnd","URL","connections","final_base_page_request","final_base_page_request_id","final_url","domInteractive","firstPaint","firstContentfulPaint","firstMeaningfulPaint","renderBlockingCSS","renderBlockingJS","TTFB","basePageSSLTime","score_cache","score_cdn","score_gzip","score_cookies","score_keep-alive","score_minify","score_combine","score_compress","score_etags","score_progressive_jpeg","gzip_total","gzip_savings","minify_total","minify_savings","image_total","image_savings","base_page_cdn","cpu.ParseHTML","cpu.HTMLDocumentParser::FetchQueuedPreloads","cpu.EventDispatch","cpu.MarkDOMContent","cpu.V8.GC_TIME_TO_SAFEPOINT","cpu.CommitLoad","cpu.ResourceFetcher::requestResource","cpu.EvaluateScript","cpu.v8.compile","cpu.ParseAuthorStyleSheet","cpu.FunctionCall","cpu.MarkLoad","cpu.UpdateLayoutTree","cpu.Layout","cpu.PrePaint","cpu.HitTest","cpu.Paint","cpu.Layerize","cpu.largestContentfulPaint::Candidate","cpu.Idle","tester","start_epoch","osVersion","os_version","osPlatform","date","browserVersion","browser_version","fullyLoadedCPUms","fullyLoadedCPUpct","document_URL","document_hostname","document_origin","domElements","domComplete","PerformancePaintTiming.first-paint","PerformancePaintTiming.first-contentful-paint","base_page_ip_ptr","base_page_cname","base_page_dns_server","browser_name","eventName","test_run_time_ms","testUrl","Colordepth","Dpi","Images","Resolution","generated-content-percent","generated-content-size","meta-viewport","rendered-html","lastVisualChange","render","visualComplete85","visualComplete90","visualComplete95","visualComplete99","visualComplete","SpeedIndex","LargestContentfulPaintType","LargestContentfulPaintNodeType","chromeUserTiming.navigationStart","chromeUserTiming.fetchStart","chromeUserTiming.domLoading","chromeUserTiming.responseEnd","chromeUserTiming.domInteractive","chromeUserTiming.domContentLoadedEventStart","chromeUserTiming.domContentLoadedEventEnd","chromeUserTiming.domComplete","chromeUserTiming.unloadEventStart","chromeUserTiming.unloadEventEnd","chromeUserTiming.markAsMainFrame","chromeUserTiming.commitNavigationEnd","chromeUserTiming.loadEventStart","chromeUserTiming.loadEventEnd","chromeUserTiming.firstPaint","chromeUserTiming.firstContentfulPaint","chromeUserTiming.firstMeaningfulPaintCandidate","chromeUserTiming.firstMeaningfulPaint","chromeUserTiming.LargestTextPaint","chromeUserTiming.LargestContentfulPaint","chromeUserTiming.TotalLayoutShift","chromeUserTiming.CumulativeLayoutShift","TTIMeasurementEnd","LastInteractive","testID","run","step","effectiveBps","domTime","aft","titleTime","domLoading","server_rtt","edge-processed","maxFID","TotalBlockingTime","effectiveBpsDoc","bytes.html","requests.html","bytesUncompressed.html","bytes.js","requests.js","bytesUncompressed.js","bytes.css","requests.css","bytesUncompressed.css","bytes.image","requests.image","bytesUncompressed.image","bytes.flash","requests.flash","bytesUncompressed.flash","bytes.font","requests.font","bytesUncompressed.font","bytes.video","requests.video","bytesUncompressed.video","bytes.other","requests.other","bytesUncompressed.other","id",
+"416","416","487","27861","25898","10614","10515","15","15","14","14","1","0","99999","0","0","1","0A73D87DEFEE045293E9D4819744E3AC","413","413","370","372","https://spa.thibautwittevrongel.com/","3","0","00CCE5EB70741C9747D4D2AE0DC01A43","https://spa.thibautwittevrongel.com/","370","468.4000000022","471","471","3","10","185","57","50","100","100","-1","100","-1","-1","-1","-1","-1","15261","0","-1","-1","0","0","Cloudflare","14","0","1","0","0","0","11","4","1","1","3","0","8","8","0","0","1","0","0","434","nl-ams-gcp-a04-10.164.0.9","1683469164.2541","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683469166.1997","113.0.0.0","113.0.0.0","1000","13.8312586445","https://spa.thibautwittevrongel.com/","spa.thibautwittevrongel.com","https://spa.thibautwittevrongel.com","54","413","468.4000000022","468.4000000022","","","dora.ns.cloudflare.com","Chrome","Step_1","5380","https://spa.thibautwittevrongel.com/","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-0.27","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/navigationHandler.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/auth.js""></script>
+<script src=""assets/js/recipe.js""></script>
+<script src=""assets/js/menuCreator.js""></script>
+<script src=""assets/js/ingredients.js""></script>
+<script src=""assets/js/viewMenu.js""></script>
+<script src=""assets/js/savedMenus.js""></script>
+<script src=""assets/js/script.js""></script>
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan to Plate</title>
+</head>
+<body>
+<div id=""overlay"" class=""hidden""></div>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""#login"">login</a>
+</header>
+<main>
+<div id=""mealGen"">
+<h2>Select the type of recipes you want to receive and how many per type.</h2>
+<form action=""index.html"" method=""post"">
+<div id=""checkboxList"">
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""breakfast"" id=""breakfast"">
+<label for=""breakfast"">Breakfast</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""lunch"" id=""lunch"">
+<label for=""lunch"">Lunch</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""dinner"" id=""dinner"">
+<label for=""dinner"">Dinner</label>
+</div>
+</div>
+<label for=""amount"">Number of recipes per type</label>
+<input type=""number"" name=""amount"" min=""1"" max=""10"" value=""1"" id=""amount"">
+<input class=""button"" type=""submit"" value=""Generate Menus"">
+</form>
+</div>
+</main>
+<template id=""mealGenTemplate"">
+<div id=""mealGen"">
+<h2>Select the type of recipes you want to receive and how many per type.</h2>
+<form action=""index.html"" method=""post"">
+<div id=""checkboxList"">
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""breakfast"" id=""breakfast"">
+<label for=""breakfast"">Breakfast</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""lunch"" id=""lunch"">
+<label for=""lunch"">Lunch</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""dinner"" id=""dinner"">
+<label for=""dinner"">Dinner</label>
+</div>
+</div>
+<label for=""amount"">Number of recipes per type</label>
+<input type=""number"" name=""amount"" min=""1"" max=""10"" value=""1"" id=""amount"">
+<input class=""button"" type=""submit"" value=""Generate Menus"">
+</form>
+</div>
+</template>
+<template id=""loginFormTemplate"">
+<form action=""index.html"" method=""post"" class=""auth-form"">
+<label for=""email"">Email</label>
+<input type=""text"" name=""email"" id=""email"">
+<label for=""password"">Password</label>
+<input type=""password"" name=""password"" id=""password"">
+<input type=""submit"" class=""button"" value=""Login"">
+<p>Don’t have an account? <a href=""#register"">Register here!</a></p>
+</form>
+</template>
+<template id=""registerFormTemplate"">
+<form action=""index.html"" method=""post"" class=""auth-form"">
+<label for=""name"">Username</label>
+<input type=""text"" name=""name"" id=""name"">
+<label for=""email"">Email</label>
+<input type=""email"" name=""email"" id=""email"">
+<label for=""password"">Password</label>
+<input type=""password"" name=""password"" id=""password"">
+<input type=""submit"" class=""button"" value=""Register"">
+</form>
+</template>
+<template id=""profileTemplate"">
+<div id=""profile"">
+<a class=""button"" href=""#savedMenus"">Saved Menus</a>
+<a class=""button"" href=""#"">Logout</a>
+</div>
+</template>
+<template id=""menuCreatorTemplate"">
+<article id=""breakfast"" class=""hidden"">
+<h2>Recipes: Breakfast</h2>
+</article>
+<article id=""lunch"" class=""hidden"">
+<h2>Recipes: Lunch</h2>
+</article>
+<article id=""dinner"" class=""hidden"">
+<h2>Recipes: Dinner</h2>
+</article>
+<button class=""button hidden"">Save Menu</button>
+</template>
+<template id=""recipeCreatorCardTemplate"">
+<article class=""article"" data-id="""">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">refresh</span>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+<template id=""recipeTemplate"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menu</p>
+<h2>RecipeName</h2>
+<img src=""https://via.placeholder.com/500"" alt=""recipe image"">
+<div id=""recipe"">
+<h3>Ingredients list:</h3>
+<ul>
+</ul>
+<h3>Instructions</h3>
+<ol>
+</ol>
+</div>
+</template>
+<template id=""savedMenuScreenTemplate"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to profile</p>
+<h2>Saved Menus</h2>
+</template>
+<template id=""savedMenuTemplate"">
+<article class=""article"" data-id="""">
+<p>date</p>
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+<template id=""menuTemplate"">
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right hidden"">ingredients</button>
+</div>
+<article id=""breakfast"" class=""hidden"">
+<h2>Recipes: Breakfast</h2>
+</article>
+<article id=""lunch"" class=""hidden"">
+<h2>Recipes: Lunch</h2>
+</article>
+<article id=""dinner"" class=""hidden"">
+<h2>Recipes: Dinner</h2>
+</article>
+</template>
+<template id=""recipeCardTemplate"">
+<article class=""article"" data-id="""">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+<template id=""ingredientTemplate"">
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right hidden"">download</button>
+ </div>
+<article id=""breakfast"" class=""hidden"">
+<h2>Ingredients: Breakfast</h2>
+</article>
+<article id=""lunch"" class=""hidden"">
+<h2>Ingredients: Lunch</h2>
+</article>
+<article id=""dinner"" class=""hidden"">
+<h2>Ingredients: Dinner</h2>
+</article>
+</template>
+<template id=""confirmation-div"">
+<div id=""final-confirmation"">
+<form>
+<h3>Save menu</h3>
+<label for=""menu-name"">Menu Name</label>
+<input type=""text"" id=""menu-name"" name=""menu-name"">
+<input type=""submit"" class=""button"" value=""Save"">
+<button class=""button"">Cancel</button>
+</form>
+</div>
+</template>
+
+</body></html>","500","500","500","500","500","500","500","500","text","H2","34","9","207","199","373","373","375","416","206","206","206","206","416","416","471","471","471","471","471","471","0","0","3515","500","230507_BiDcJZ_5HA","1","1","35145","0","0","35","0","0","1","0","0","45519","1284","1","6356","6592","10","20913","2639","3","8566","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230507_BiDcJZ_5HA",
+"449","449","500","27861","25898","10259","10160","15","15","14","14","1","0","99999","0","0","1","2DAA45FB2D048EA09ADBF23A9108CDF9","433","433","334","337","https://spa.thibautwittevrongel.com/","3","0","66FE9671DCEA466FE47091AC93ED2D16","https://spa.thibautwittevrongel.com/","334","484.8999999985","501","501","3","10","195","58","50","100","100","-1","100","-1","-1","-1","-1","-1","14969","0","-1","-1","0","0","Cloudflare","4","0","1","0","0","0","18","3","1","1","2","0","7","7","0","0","1","0","0","455","nl-ams-gcp-a01-10.164.0.6","1683469167.1292","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683469168.9114","113.0.0.0","113.0.0.0","779","10.8938547486","https://spa.thibautwittevrongel.com/","spa.thibautwittevrongel.com","https://spa.thibautwittevrongel.com","54","433","484.8999999985","484.8999999985","","","dora.ns.cloudflare.com","Chrome","Step_1","5300","https://spa.thibautwittevrongel.com/","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-0.27","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/navigationHandler.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/auth.js""></script>
+<script src=""assets/js/recipe.js""></script>
+<script src=""assets/js/menuCreator.js""></script>
+<script src=""assets/js/ingredients.js""></script>
+<script src=""assets/js/viewMenu.js""></script>
+<script src=""assets/js/savedMenus.js""></script>
+<script src=""assets/js/script.js""></script>
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan to Plate</title>
+</head>
+<body>
+<div id=""overlay"" class=""hidden""></div>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""#login"">login</a>
+</header>
+<main>
+<div id=""mealGen"">
+<h2>Select the type of recipes you want to receive and how many per type.</h2>
+<form action=""index.html"" method=""post"">
+<div id=""checkboxList"">
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""breakfast"" id=""breakfast"">
+<label for=""breakfast"">Breakfast</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""lunch"" id=""lunch"">
+<label for=""lunch"">Lunch</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""dinner"" id=""dinner"">
+<label for=""dinner"">Dinner</label>
+</div>
+</div>
+<label for=""amount"">Number of recipes per type</label>
+<input type=""number"" name=""amount"" min=""1"" max=""10"" value=""1"" id=""amount"">
+<input class=""button"" type=""submit"" value=""Generate Menus"">
+</form>
+</div>
+</main>
+<template id=""mealGenTemplate"">
+<div id=""mealGen"">
+<h2>Select the type of recipes you want to receive and how many per type.</h2>
+<form action=""index.html"" method=""post"">
+<div id=""checkboxList"">
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""breakfast"" id=""breakfast"">
+<label for=""breakfast"">Breakfast</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""lunch"" id=""lunch"">
+<label for=""lunch"">Lunch</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""dinner"" id=""dinner"">
+<label for=""dinner"">Dinner</label>
+</div>
+</div>
+<label for=""amount"">Number of recipes per type</label>
+<input type=""number"" name=""amount"" min=""1"" max=""10"" value=""1"" id=""amount"">
+<input class=""button"" type=""submit"" value=""Generate Menus"">
+</form>
+</div>
+</template>
+<template id=""loginFormTemplate"">
+<form action=""index.html"" method=""post"" class=""auth-form"">
+<label for=""email"">Email</label>
+<input type=""text"" name=""email"" id=""email"">
+<label for=""password"">Password</label>
+<input type=""password"" name=""password"" id=""password"">
+<input type=""submit"" class=""button"" value=""Login"">
+<p>Don’t have an account? <a href=""#register"">Register here!</a></p>
+</form>
+</template>
+<template id=""registerFormTemplate"">
+<form action=""index.html"" method=""post"" class=""auth-form"">
+<label for=""name"">Username</label>
+<input type=""text"" name=""name"" id=""name"">
+<label for=""email"">Email</label>
+<input type=""email"" name=""email"" id=""email"">
+<label for=""password"">Password</label>
+<input type=""password"" name=""password"" id=""password"">
+<input type=""submit"" class=""button"" value=""Register"">
+</form>
+</template>
+<template id=""profileTemplate"">
+<div id=""profile"">
+<a class=""button"" href=""#savedMenus"">Saved Menus</a>
+<a class=""button"" href=""#"">Logout</a>
+</div>
+</template>
+<template id=""menuCreatorTemplate"">
+<article id=""breakfast"" class=""hidden"">
+<h2>Recipes: Breakfast</h2>
+</article>
+<article id=""lunch"" class=""hidden"">
+<h2>Recipes: Lunch</h2>
+</article>
+<article id=""dinner"" class=""hidden"">
+<h2>Recipes: Dinner</h2>
+</article>
+<button class=""button hidden"">Save Menu</button>
+</template>
+<template id=""recipeCreatorCardTemplate"">
+<article class=""article"" data-id="""">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">refresh</span>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+<template id=""recipeTemplate"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menu</p>
+<h2>RecipeName</h2>
+<img src=""https://via.placeholder.com/500"" alt=""recipe image"">
+<div id=""recipe"">
+<h3>Ingredients list:</h3>
+<ul>
+</ul>
+<h3>Instructions</h3>
+<ol>
+</ol>
+</div>
+</template>
+<template id=""savedMenuScreenTemplate"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to profile</p>
+<h2>Saved Menus</h2>
+</template>
+<template id=""savedMenuTemplate"">
+<article class=""article"" data-id="""">
+<p>date</p>
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+<template id=""menuTemplate"">
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right hidden"">ingredients</button>
+</div>
+<article id=""breakfast"" class=""hidden"">
+<h2>Recipes: Breakfast</h2>
+</article>
+<article id=""lunch"" class=""hidden"">
+<h2>Recipes: Lunch</h2>
+</article>
+<article id=""dinner"" class=""hidden"">
+<h2>Recipes: Dinner</h2>
+</article>
+</template>
+<template id=""recipeCardTemplate"">
+<article class=""article"" data-id="""">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+<template id=""ingredientTemplate"">
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right hidden"">download</button>
+ </div>
+<article id=""breakfast"" class=""hidden"">
+<h2>Ingredients: Breakfast</h2>
+</article>
+<article id=""lunch"" class=""hidden"">
+<h2>Ingredients: Lunch</h2>
+</article>
+<article id=""dinner"" class=""hidden"">
+<h2>Ingredients: Dinner</h2>
+</article>
+</template>
+<template id=""confirmation-div"">
+<div id=""final-confirmation"">
+<form>
+<h3>Save menu</h3>
+<label for=""menu-name"">Menu Name</label>
+<input type=""text"" id=""menu-name"" name=""menu-name"">
+<input type=""submit"" class=""button"" value=""Save"">
+<button class=""button"">Cancel</button>
+</form>
+</div>
+</template>
+
+</body></html>","500","500","500","500","500","500","500","500","text","H2","45","22","228","220","350","350","352","449","227","227","227","228","449","449","500","500","500","500","501","501","0","0","3536","500","230507_BiDcJZ_5HA","2","1","33636","0","0","46","0","0","1","0","0","40000","1284","1","6356","6430","10","20118","2446","3","7125","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230507_BiDcJZ_5HA",
+"424","424","495","27861","25898","10614","10515","15","15","14","14","1","0","99999","0","0","1","6BC723E5563A49C669344CDD9FF4366B","420","420","354","357","https://spa.thibautwittevrongel.com/","3","0","7024E24D399734E39691168206B9D3F2","https://spa.thibautwittevrongel.com/","354","475.700000003","479","479","3","10","179","57","50","100","100","-1","100","-1","-1","-1","-1","-1","15257","0","-1","-1","0","0","Cloudflare","2","0","0","0","0","0","10","6","1","1","4","0","7","13","0","0","1","0","0","448","nl-ams-gcp-a03-10.164.0.8","1683469167.8242","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683469169.8647","113.0.0.0","113.0.0.0","930","13.0985915493","https://spa.thibautwittevrongel.com/","spa.thibautwittevrongel.com","https://spa.thibautwittevrongel.com","54","420","475.700000003","475.700000003","","","dora.ns.cloudflare.com","Chrome","Step_1","5578","https://spa.thibautwittevrongel.com/","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-0.27","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/navigationHandler.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/auth.js""></script>
+<script src=""assets/js/recipe.js""></script>
+<script src=""assets/js/menuCreator.js""></script>
+<script src=""assets/js/ingredients.js""></script>
+<script src=""assets/js/viewMenu.js""></script>
+<script src=""assets/js/savedMenus.js""></script>
+<script src=""assets/js/script.js""></script>
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan to Plate</title>
+</head>
+<body>
+<div id=""overlay"" class=""hidden""></div>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""#login"">login</a>
+</header>
+<main>
+<div id=""mealGen"">
+<h2>Select the type of recipes you want to receive and how many per type.</h2>
+<form action=""index.html"" method=""post"">
+<div id=""checkboxList"">
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""breakfast"" id=""breakfast"">
+<label for=""breakfast"">Breakfast</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""lunch"" id=""lunch"">
+<label for=""lunch"">Lunch</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""dinner"" id=""dinner"">
+<label for=""dinner"">Dinner</label>
+</div>
+</div>
+<label for=""amount"">Number of recipes per type</label>
+<input type=""number"" name=""amount"" min=""1"" max=""10"" value=""1"" id=""amount"">
+<input class=""button"" type=""submit"" value=""Generate Menus"">
+</form>
+</div>
+</main>
+<template id=""mealGenTemplate"">
+<div id=""mealGen"">
+<h2>Select the type of recipes you want to receive and how many per type.</h2>
+<form action=""index.html"" method=""post"">
+<div id=""checkboxList"">
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""breakfast"" id=""breakfast"">
+<label for=""breakfast"">Breakfast</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""lunch"" id=""lunch"">
+<label for=""lunch"">Lunch</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""dinner"" id=""dinner"">
+<label for=""dinner"">Dinner</label>
+</div>
+</div>
+<label for=""amount"">Number of recipes per type</label>
+<input type=""number"" name=""amount"" min=""1"" max=""10"" value=""1"" id=""amount"">
+<input class=""button"" type=""submit"" value=""Generate Menus"">
+</form>
+</div>
+</template>
+<template id=""loginFormTemplate"">
+<form action=""index.html"" method=""post"" class=""auth-form"">
+<label for=""email"">Email</label>
+<input type=""text"" name=""email"" id=""email"">
+<label for=""password"">Password</label>
+<input type=""password"" name=""password"" id=""password"">
+<input type=""submit"" class=""button"" value=""Login"">
+<p>Don’t have an account? <a href=""#register"">Register here!</a></p>
+</form>
+</template>
+<template id=""registerFormTemplate"">
+<form action=""index.html"" method=""post"" class=""auth-form"">
+<label for=""name"">Username</label>
+<input type=""text"" name=""name"" id=""name"">
+<label for=""email"">Email</label>
+<input type=""email"" name=""email"" id=""email"">
+<label for=""password"">Password</label>
+<input type=""password"" name=""password"" id=""password"">
+<input type=""submit"" class=""button"" value=""Register"">
+</form>
+</template>
+<template id=""profileTemplate"">
+<div id=""profile"">
+<a class=""button"" href=""#savedMenus"">Saved Menus</a>
+<a class=""button"" href=""#"">Logout</a>
+</div>
+</template>
+<template id=""menuCreatorTemplate"">
+<article id=""breakfast"" class=""hidden"">
+<h2>Recipes: Breakfast</h2>
+</article>
+<article id=""lunch"" class=""hidden"">
+<h2>Recipes: Lunch</h2>
+</article>
+<article id=""dinner"" class=""hidden"">
+<h2>Recipes: Dinner</h2>
+</article>
+<button class=""button hidden"">Save Menu</button>
+</template>
+<template id=""recipeCreatorCardTemplate"">
+<article class=""article"" data-id="""">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">refresh</span>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+<template id=""recipeTemplate"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menu</p>
+<h2>RecipeName</h2>
+<img src=""https://via.placeholder.com/500"" alt=""recipe image"">
+<div id=""recipe"">
+<h3>Ingredients list:</h3>
+<ul>
+</ul>
+<h3>Instructions</h3>
+<ol>
+</ol>
+</div>
+</template>
+<template id=""savedMenuScreenTemplate"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to profile</p>
+<h2>Saved Menus</h2>
+</template>
+<template id=""savedMenuTemplate"">
+<article class=""article"" data-id="""">
+<p>date</p>
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+<template id=""menuTemplate"">
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right hidden"">ingredients</button>
+</div>
+<article id=""breakfast"" class=""hidden"">
+<h2>Recipes: Breakfast</h2>
+</article>
+<article id=""lunch"" class=""hidden"">
+<h2>Recipes: Lunch</h2>
+</article>
+<article id=""dinner"" class=""hidden"">
+<h2>Recipes: Dinner</h2>
+</article>
+</template>
+<template id=""recipeCardTemplate"">
+<article class=""article"" data-id="""">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+<template id=""ingredientTemplate"">
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right hidden"">download</button>
+ </div>
+<article id=""breakfast"" class=""hidden"">
+<h2>Ingredients: Breakfast</h2>
+</article>
+<article id=""lunch"" class=""hidden"">
+<h2>Ingredients: Lunch</h2>
+</article>
+<article id=""dinner"" class=""hidden"">
+<h2>Ingredients: Dinner</h2>
+</article>
+</template>
+<template id=""confirmation-div"">
+<div id=""final-confirmation"">
+<form>
+<h3>Save menu</h3>
+<label for=""menu-name"">Menu Name</label>
+<input type=""text"" id=""menu-name"" name=""menu-name"">
+<input type=""submit"" class=""button"" value=""Save"">
+<button class=""button"">Cancel</button>
+</form>
+</div>
+</template>
+
+</body></html>","500","500","500","500","500","500","500","500","text","H2","37","13","204","196","358","358","361","424","202","202","202","203","424","424","479","479","479","479","479","479","0","0","3529","500","230507_BiDcJZ_5HA","3","1","33588","0","0","39","0","0","1","0","0","42918","1284","1","6356","6592","10","20913","2639","3","8566","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230507_BiDcJZ_5HA",
+"400","400","446","27861","27861","9720","9720","15","15","15","14","1","0","99999","0","0","1","1E1F6EBA5B05A0F617E5BA6A4D94EFF7","388","388","329","331","https://spa.thibautwittevrongel.com/","3","0","F36B66FCD2C8A956CF0642D0CA4EB3DF","https://spa.thibautwittevrongel.com/","329","437.5","451","451","3","10","163","55","50","100","100","-1","100","-1","-1","-1","-1","-1","14560","0","-1","-1","0","0","Cloudflare","3","0","0","0","0","0","21","1","1","1","2","0","6","7","0","0","1","1","0","402","nl-ams-gcp-a04-10.164.0.9","1683469173.097","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683469174.9884","113.0.0.0","113.0.0.0","839","11.9487908962","https://spa.thibautwittevrongel.com/","spa.thibautwittevrongel.com","https://spa.thibautwittevrongel.com","54","387","437.5","437.5","","","dora.ns.cloudflare.com","Chrome","Step_1","5355","https://spa.thibautwittevrongel.com/","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-0.27","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/navigationHandler.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/auth.js""></script>
+<script src=""assets/js/recipe.js""></script>
+<script src=""assets/js/menuCreator.js""></script>
+<script src=""assets/js/ingredients.js""></script>
+<script src=""assets/js/viewMenu.js""></script>
+<script src=""assets/js/savedMenus.js""></script>
+<script src=""assets/js/script.js""></script>
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan to Plate</title>
+</head>
+<body>
+<div id=""overlay"" class=""hidden""></div>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""#login"">login</a>
+</header>
+<main>
+<div id=""mealGen"">
+<h2>Select the type of recipes you want to receive and how many per type.</h2>
+<form action=""index.html"" method=""post"">
+<div id=""checkboxList"">
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""breakfast"" id=""breakfast"">
+<label for=""breakfast"">Breakfast</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""lunch"" id=""lunch"">
+<label for=""lunch"">Lunch</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""dinner"" id=""dinner"">
+<label for=""dinner"">Dinner</label>
+</div>
+</div>
+<label for=""amount"">Number of recipes per type</label>
+<input type=""number"" name=""amount"" min=""1"" max=""10"" value=""1"" id=""amount"">
+<input class=""button"" type=""submit"" value=""Generate Menus"">
+</form>
+</div>
+</main>
+<template id=""mealGenTemplate"">
+<div id=""mealGen"">
+<h2>Select the type of recipes you want to receive and how many per type.</h2>
+<form action=""index.html"" method=""post"">
+<div id=""checkboxList"">
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""breakfast"" id=""breakfast"">
+<label for=""breakfast"">Breakfast</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""lunch"" id=""lunch"">
+<label for=""lunch"">Lunch</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""dinner"" id=""dinner"">
+<label for=""dinner"">Dinner</label>
+</div>
+</div>
+<label for=""amount"">Number of recipes per type</label>
+<input type=""number"" name=""amount"" min=""1"" max=""10"" value=""1"" id=""amount"">
+<input class=""button"" type=""submit"" value=""Generate Menus"">
+</form>
+</div>
+</template>
+<template id=""loginFormTemplate"">
+<form action=""index.html"" method=""post"" class=""auth-form"">
+<label for=""email"">Email</label>
+<input type=""text"" name=""email"" id=""email"">
+<label for=""password"">Password</label>
+<input type=""password"" name=""password"" id=""password"">
+<input type=""submit"" class=""button"" value=""Login"">
+<p>Don’t have an account? <a href=""#register"">Register here!</a></p>
+</form>
+</template>
+<template id=""registerFormTemplate"">
+<form action=""index.html"" method=""post"" class=""auth-form"">
+<label for=""name"">Username</label>
+<input type=""text"" name=""name"" id=""name"">
+<label for=""email"">Email</label>
+<input type=""email"" name=""email"" id=""email"">
+<label for=""password"">Password</label>
+<input type=""password"" name=""password"" id=""password"">
+<input type=""submit"" class=""button"" value=""Register"">
+</form>
+</template>
+<template id=""profileTemplate"">
+<div id=""profile"">
+<a class=""button"" href=""#savedMenus"">Saved Menus</a>
+<a class=""button"" href=""#"">Logout</a>
+</div>
+</template>
+<template id=""menuCreatorTemplate"">
+<article id=""breakfast"" class=""hidden"">
+<h2>Recipes: Breakfast</h2>
+</article>
+<article id=""lunch"" class=""hidden"">
+<h2>Recipes: Lunch</h2>
+</article>
+<article id=""dinner"" class=""hidden"">
+<h2>Recipes: Dinner</h2>
+</article>
+<button class=""button hidden"">Save Menu</button>
+</template>
+<template id=""recipeCreatorCardTemplate"">
+<article class=""article"" data-id="""">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">refresh</span>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+<template id=""recipeTemplate"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menu</p>
+<h2>RecipeName</h2>
+<img src=""https://via.placeholder.com/500"" alt=""recipe image"">
+<div id=""recipe"">
+<h3>Ingredients list:</h3>
+<ul>
+</ul>
+<h3>Instructions</h3>
+<ol>
+</ol>
+</div>
+</template>
+<template id=""savedMenuScreenTemplate"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to profile</p>
+<h2>Saved Menus</h2>
+</template>
+<template id=""savedMenuTemplate"">
+<article class=""article"" data-id="""">
+<p>date</p>
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+<template id=""menuTemplate"">
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right hidden"">ingredients</button>
+</div>
+<article id=""breakfast"" class=""hidden"">
+<h2>Recipes: Breakfast</h2>
+</article>
+<article id=""lunch"" class=""hidden"">
+<h2>Recipes: Lunch</h2>
+</article>
+<article id=""dinner"" class=""hidden"">
+<h2>Recipes: Dinner</h2>
+</article>
+</template>
+<template id=""recipeCardTemplate"">
+<article class=""article"" data-id="""">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+<template id=""ingredientTemplate"">
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right hidden"">download</button>
+ </div>
+<article id=""breakfast"" class=""hidden"">
+<h2>Ingredients: Breakfast</h2>
+</article>
+<article id=""lunch"" class=""hidden"">
+<h2>Ingredients: Lunch</h2>
+</article>
+<article id=""dinner"" class=""hidden"">
+<h2>Ingredients: Dinner</h2>
+</article>
+</template>
+<template id=""confirmation-div"">
+<div id=""final-confirmation"">
+<form>
+<h3>Save menu</h3>
+<label for=""menu-name"">Menu Name</label>
+<input type=""text"" id=""menu-name"" name=""menu-name"">
+<input type=""submit"" class=""button"" value=""Save"">
+<button class=""button"">Cancel</button>
+</form>
+</div>
+</template>
+
+</body></html>","500","500","500","500","500","500","500","500","text","H2","45","26","200","192","342","342","344","400","198","198","199","199","400","400","450","450","450","450","451","451","0","0","3490","500","230507_BiDcJZ_5HA","4","1","34346","0","0","51","0","0","1","0","0","41012","1284","1","6356","6082","10","17457","2255","3","6806","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230507_BiDcJZ_5HA",
+"430","430","497","27861","25898","9720","9621","15","15","14","14","1","0","99999","0","0","1","966DCE4C55360235BD796A27B03BEB52","426","426","340","343","https://spa.thibautwittevrongel.com/","3","0","BBF00294C7E69F8033775BC11CBBC49D","https://spa.thibautwittevrongel.com/","340","472.1999999993","476","476","3","10","177","57","50","100","100","-1","100","-1","-1","-1","-1","-1","14547","0","-1","-1","0","0","Cloudflare","3","0","0","0","0","0","26","4","1","2","3","0","5","7","0","0","1","0","0","444","nl-ams-gcp-a01-10.164.0.6","1683469175.4388","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683469177.4031","113.0.0.0","113.0.0.0","830","11.6736990155","https://spa.thibautwittevrongel.com/","spa.thibautwittevrongel.com","https://spa.thibautwittevrongel.com","54","426","472.1999999993","472.1999999993","","","dora.ns.cloudflare.com","Chrome","Step_1","5271","https://spa.thibautwittevrongel.com/","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-0.27","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/navigationHandler.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/auth.js""></script>
+<script src=""assets/js/recipe.js""></script>
+<script src=""assets/js/menuCreator.js""></script>
+<script src=""assets/js/ingredients.js""></script>
+<script src=""assets/js/viewMenu.js""></script>
+<script src=""assets/js/savedMenus.js""></script>
+<script src=""assets/js/script.js""></script>
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan to Plate</title>
+</head>
+<body>
+<div id=""overlay"" class=""hidden""></div>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""#login"">login</a>
+</header>
+<main>
+<div id=""mealGen"">
+<h2>Select the type of recipes you want to receive and how many per type.</h2>
+<form action=""index.html"" method=""post"">
+<div id=""checkboxList"">
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""breakfast"" id=""breakfast"">
+<label for=""breakfast"">Breakfast</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""lunch"" id=""lunch"">
+<label for=""lunch"">Lunch</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""dinner"" id=""dinner"">
+<label for=""dinner"">Dinner</label>
+</div>
+</div>
+<label for=""amount"">Number of recipes per type</label>
+<input type=""number"" name=""amount"" min=""1"" max=""10"" value=""1"" id=""amount"">
+<input class=""button"" type=""submit"" value=""Generate Menus"">
+</form>
+</div>
+</main>
+<template id=""mealGenTemplate"">
+<div id=""mealGen"">
+<h2>Select the type of recipes you want to receive and how many per type.</h2>
+<form action=""index.html"" method=""post"">
+<div id=""checkboxList"">
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""breakfast"" id=""breakfast"">
+<label for=""breakfast"">Breakfast</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""lunch"" id=""lunch"">
+<label for=""lunch"">Lunch</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""dinner"" id=""dinner"">
+<label for=""dinner"">Dinner</label>
+</div>
+</div>
+<label for=""amount"">Number of recipes per type</label>
+<input type=""number"" name=""amount"" min=""1"" max=""10"" value=""1"" id=""amount"">
+<input class=""button"" type=""submit"" value=""Generate Menus"">
+</form>
+</div>
+</template>
+<template id=""loginFormTemplate"">
+<form action=""index.html"" method=""post"" class=""auth-form"">
+<label for=""email"">Email</label>
+<input type=""text"" name=""email"" id=""email"">
+<label for=""password"">Password</label>
+<input type=""password"" name=""password"" id=""password"">
+<input type=""submit"" class=""button"" value=""Login"">
+<p>Don’t have an account? <a href=""#register"">Register here!</a></p>
+</form>
+</template>
+<template id=""registerFormTemplate"">
+<form action=""index.html"" method=""post"" class=""auth-form"">
+<label for=""name"">Username</label>
+<input type=""text"" name=""name"" id=""name"">
+<label for=""email"">Email</label>
+<input type=""email"" name=""email"" id=""email"">
+<label for=""password"">Password</label>
+<input type=""password"" name=""password"" id=""password"">
+<input type=""submit"" class=""button"" value=""Register"">
+</form>
+</template>
+<template id=""profileTemplate"">
+<div id=""profile"">
+<a class=""button"" href=""#savedMenus"">Saved Menus</a>
+<a class=""button"" href=""#"">Logout</a>
+</div>
+</template>
+<template id=""menuCreatorTemplate"">
+<article id=""breakfast"" class=""hidden"">
+<h2>Recipes: Breakfast</h2>
+</article>
+<article id=""lunch"" class=""hidden"">
+<h2>Recipes: Lunch</h2>
+</article>
+<article id=""dinner"" class=""hidden"">
+<h2>Recipes: Dinner</h2>
+</article>
+<button class=""button hidden"">Save Menu</button>
+</template>
+<template id=""recipeCreatorCardTemplate"">
+<article class=""article"" data-id="""">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">refresh</span>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+<template id=""recipeTemplate"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menu</p>
+<h2>RecipeName</h2>
+<img src=""https://via.placeholder.com/500"" alt=""recipe image"">
+<div id=""recipe"">
+<h3>Ingredients list:</h3>
+<ul>
+</ul>
+<h3>Instructions</h3>
+<ol>
+</ol>
+</div>
+</template>
+<template id=""savedMenuScreenTemplate"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to profile</p>
+<h2>Saved Menus</h2>
+</template>
+<template id=""savedMenuTemplate"">
+<article class=""article"" data-id="""">
+<p>date</p>
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+<template id=""menuTemplate"">
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right hidden"">ingredients</button>
+</div>
+<article id=""breakfast"" class=""hidden"">
+<h2>Recipes: Breakfast</h2>
+</article>
+<article id=""lunch"" class=""hidden"">
+<h2>Recipes: Lunch</h2>
+</article>
+<article id=""dinner"" class=""hidden"">
+<h2>Recipes: Dinner</h2>
+</article>
+</template>
+<template id=""recipeCardTemplate"">
+<article class=""article"" data-id="""">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+<template id=""ingredientTemplate"">
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right hidden"">download</button>
+ </div>
+<article id=""breakfast"" class=""hidden"">
+<h2>Ingredients: Breakfast</h2>
+</article>
+<article id=""lunch"" class=""hidden"">
+<h2>Ingredients: Lunch</h2>
+</article>
+<article id=""dinner"" class=""hidden"">
+<h2>Ingredients: Dinner</h2>
+</article>
+</template>
+<template id=""confirmation-div"">
+<div id=""final-confirmation"">
+<form>
+<h3>Save menu</h3>
+<label for=""menu-name"">Menu Name</label>
+<input type=""text"" id=""menu-name"" name=""menu-name"">
+<input type=""submit"" class=""button"" value=""Save"">
+<button class=""button"">Cancel</button>
+</form>
+</div>
+</template>
+
+</body></html>","500","500","500","500","500","500","500","500","text","H2","34","11","198","191","343","343","346","430","197","197","197","198","430","430","476","476","476","476","476","476","0","0","3523","500","230507_BiDcJZ_5HA","5","1","30375","0","0","35","0","0","1","0","0","38027","1284","1","6356","6082","10","17457","2255","3","6806","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230507_BiDcJZ_5HA",
