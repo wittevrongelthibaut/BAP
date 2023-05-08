@@ -1,0 +1,401 @@
+"loadTime","docTime","fullyLoaded","bytesOut","bytesOutDoc","bytesIn","bytesInDoc","requests","requestsFull","requestsDoc","responses_200","responses_404","responses_other","result","testStartOffset","cached","optimization_checked","main_frame","loadEventStart","loadEventEnd","domContentLoadedEventStart","domContentLoadedEventEnd","URL","connections","final_base_page_request","final_base_page_request_id","final_url","domInteractive","firstPaint","firstContentfulPaint","renderBlockingCSS","renderBlockingJS","TTFB","basePageSSLTime","score_cache","score_cdn","score_gzip","score_cookies","score_keep-alive","score_minify","score_combine","score_compress","score_etags","score_progressive_jpeg","gzip_total","gzip_savings","minify_total","minify_savings","image_total","image_savings","base_page_cdn","cpu.ParseHTML","cpu.HTMLDocumentParser::FetchQueuedPreloads","cpu.EventDispatch","cpu.MarkDOMContent","cpu.V8.GC_TIME_TO_SAFEPOINT","cpu.CommitLoad","cpu.ResourceFetcher::requestResource","cpu.EvaluateScript","cpu.v8.compile","cpu.ParseAuthorStyleSheet","cpu.FunctionCall","cpu.MarkLoad","cpu.UpdateLayoutTree","cpu.Layout","cpu.PrePaint","cpu.HitTest","cpu.Paint","cpu.Layerize","cpu.largestContentfulPaint::Candidate","cpu.Idle","tester","start_epoch","osVersion","os_version","osPlatform","date","browserVersion","browser_version","fullyLoadedCPUms","fullyLoadedCPUpct","document_URL","document_hostname","document_origin","domElements","domComplete","PerformancePaintTiming.first-paint","PerformancePaintTiming.first-contentful-paint","base_page_ip_ptr","base_page_cname","base_page_dns_server","browser_name","eventName","test_run_time_ms","testUrl","Colordepth","Dpi","Images","Resolution","generated-content-percent","generated-content-size","meta-viewport","rendered-html","lastVisualChange","render","visualComplete85","visualComplete90","visualComplete95","visualComplete99","visualComplete","SpeedIndex","LargestContentfulPaintType","LargestContentfulPaintNodeType","chromeUserTiming.navigationStart","chromeUserTiming.fetchStart","chromeUserTiming.domLoading","chromeUserTiming.responseEnd","chromeUserTiming.domInteractive","chromeUserTiming.domContentLoadedEventStart","chromeUserTiming.domContentLoadedEventEnd","chromeUserTiming.domComplete","chromeUserTiming.unloadEventStart","chromeUserTiming.unloadEventEnd","chromeUserTiming.markAsMainFrame","chromeUserTiming.commitNavigationEnd","chromeUserTiming.loadEventStart","chromeUserTiming.loadEventEnd","chromeUserTiming.firstPaint","chromeUserTiming.firstContentfulPaint","chromeUserTiming.firstMeaningfulPaintCandidate","chromeUserTiming.InteractiveTime","chromeUserTiming.LayoutShift","chromeUserTiming.LargestTextPaint","chromeUserTiming.LargestContentfulPaint","chromeUserTiming.TotalLayoutShift","chromeUserTiming.CumulativeLayoutShift","FirstInteractive","TimeToInteractive","TTIMeasurementEnd","LastInteractive","FirstCPUIdle","testID","run","step","effectiveBps","domTime","aft","titleTime","domLoading","server_rtt","edge-processed","maxFID","TotalBlockingTime","effectiveBpsDoc","bytes.html","requests.html","bytesUncompressed.html","bytes.js","requests.js","bytesUncompressed.js","bytes.css","requests.css","bytesUncompressed.css","bytes.image","requests.image","bytesUncompressed.image","bytes.flash","requests.flash","bytesUncompressed.flash","bytes.font","requests.font","bytesUncompressed.font","bytes.video","requests.video","bytesUncompressed.video","bytes.other","requests.other","bytesUncompressed.other","id",
+"3802","3802","5589","31298","21142","217607","4441","11","11","7","9","1","1","99999","0","0","1","D8C71B14AEF99D9C314B30F14187426E","3799","3799","2522","2526","https://mpa.thibautwittevrongel.com/savedMenus.html","5","0","8DD61268EB1C0645C8CCFBD64B65A8C8","https://mpa.thibautwittevrongel.com/savedMenus.html","2522","3835.8999999985","3839","3","3","1803","521","50","100","100","-1","100","-1","-1","-1","-1","-1","7487","0","-1","-1","0","0","Cloudflare","1","2","0","0","0","0","12","0","1","1","7","0","6","13","1","0","1","0","0","5544","nl-ams-gcp-a04-10.164.0.9","1683568256.0568","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683568258.0442","113.0.0.0","113.0.0.0","2219","6.5544729849","https://mpa.thibautwittevrongel.com/savedMenus.html","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","51","3799","3835.8999999985","3835.8999999985","","","dora.ns.cloudflare.com","Chrome","Step_1","21430","https://mpa.thibautwittevrongel.com/savedMenus.html","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","51.22","1.04","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/savedMenus.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to profile</p>
+<h2>Saved Menus</h2>
+<template id=""savedMenuTemplate"">
+<article class=""article"" data-id="""">
+<p>date</p>
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+
+<article class=""article"" data-id=""81"">
+<p>2023-05-06T14:27:40.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""82"">
+<p>2023-05-06T19:47:46.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""83"">
+<p>2023-05-06T19:48:48.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""84"">
+<p>2023-05-06T19:51:17.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""85"">
+<p>2023-05-07T13:23:40.000000Z</p>
+<h3>performanceTest</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""86"">
+<p>2023-05-08T17:49:11.000000Z</p>
+<h3>testtesttest</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</main>
+
+</body></html>","5000","3800","5000","5000","5000","5000","5000","4688","text","H1","34","11","1825","1819","2526","2526","2529","3802","1824","1824","1824","1824","3802","3802","3838","3838","3838","3839","4989","3839","3839","4.83307E-5","4.83307E-5","3800","3800","17616","3800","3800","230508_BiDcR4_GM1","1","1","57476","0","0","35","0","0","1","0","0","2221","439","2","1019","1951","3","5799","2051","3","5835","0","0","0","0","0","0","212905","1","1377","0","0","0","162","1","758","230508_BiDcR4_GM1",
+"7537","7537","9401","31298","21142","217613","4441","11","11","7","9","1","1","99999","0","0","1","A3556A37458056217F3B09216C21F67C","7524","7524","2516","2521","https://mpa.thibautwittevrongel.com/savedMenus.html","5","0","D7D09CD24BD528FA7C8D84DF513641A8","https://mpa.thibautwittevrongel.com/savedMenus.html","2516","7566.5","7580","3","3","1796","519","50","100","100","-1","100","-1","-1","-1","-1","-1","7496","0","-1","-1","0","0","Cloudflare","4","3","0","0","0","0","10","1","1","1","5","0","3","19","1","0","2","0","0","9351","nl-ams-gcp-a01-10.164.0.6","1683568256.749","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683568258.6221","113.0.0.0","113.0.0.0","2480","5.9932334461","https://mpa.thibautwittevrongel.com/savedMenus.html","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","51","7524","7566.5","7566.5","","","dora.ns.cloudflare.com","Chrome","Step_1","25095","https://mpa.thibautwittevrongel.com/savedMenus.html","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","51.22","1.04","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/savedMenus.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to profile</p>
+<h2>Saved Menus</h2>
+<template id=""savedMenuTemplate"">
+<article class=""article"" data-id="""">
+<p>date</p>
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+
+<article class=""article"" data-id=""81"">
+<p>2023-05-06T14:27:40.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""82"">
+<p>2023-05-06T19:47:46.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""83"">
+<p>2023-05-06T19:48:48.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""84"">
+<p>2023-05-06T19:51:17.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""85"">
+<p>2023-05-07T13:23:40.000000Z</p>
+<h3>performanceTest</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""86"">
+<p>2023-05-08T17:49:11.000000Z</p>
+<h3>testtesttest</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</main>
+
+</body></html>","8900","7600","8900","8900","8900","8900","8900","8562","text","H1","43","22","1828","1824","2530","2530","2534","7537","1828","1828","1828","1828","7537","7537","7579","7579","7579","7580","8814","7580","7580","4.83307E-5","4.83307E-5","7600","7600","21428","7600","7600","230508_BiDcR4_GM1","2","1","28614","0","0","44","0","0","1","0","0","773","439","2","1019","1951","3","5799","2051","3","5835","0","0","0","0","0","0","212911","1","1377","0","0","0","162","1","758","230508_BiDcR4_GM1",
+"3664","3664","5489","31298","21142","217601","4441","11","11","7","9","1","1","99999","0","0","1","0B5CABCBA9BFA1A9216631CB6EFD06B2","3655","3655","2524","2527","https://mpa.thibautwittevrongel.com/savedMenus.html","5","0","B044B832C5B091381B36741303FF271B","https://mpa.thibautwittevrongel.com/savedMenus.html","2524","3691.6999999993","3701","3","3","1801","523","50","100","100","-1","100","-1","-1","-1","-1","-1","7492","0","-1","-1","0","0","Cloudflare","3","0","0","0","0","0","10","2","1","1","2","0","3","18","1","0","2","0","0","5446","nl-ams-gcp-a03-10.164.0.8","1683568257.3103","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683568259.4057","113.0.0.0","113.0.0.0","1670","5.0590730082","https://mpa.thibautwittevrongel.com/savedMenus.html","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","51","3654","3691.6999999993","3691.6999999993","","","dora.ns.cloudflare.com","Chrome","Step_1","21547","https://mpa.thibautwittevrongel.com/savedMenus.html","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","51.22","1.04","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/savedMenus.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to profile</p>
+<h2>Saved Menus</h2>
+<template id=""savedMenuTemplate"">
+<article class=""article"" data-id="""">
+<p>date</p>
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+
+<article class=""article"" data-id=""81"">
+<p>2023-05-06T14:27:40.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""82"">
+<p>2023-05-06T19:47:46.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""83"">
+<p>2023-05-06T19:48:48.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""84"">
+<p>2023-05-06T19:51:17.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""85"">
+<p>2023-05-07T13:23:40.000000Z</p>
+<h3>performanceTest</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""86"">
+<p>2023-05-08T17:49:11.000000Z</p>
+<h3>testtesttest</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</main>
+
+</body></html>","5000","3700","5000","5000","5000","5000","5000","4662","text","H1","43","17","1830","1824","2533","2534","2536","3664","1829","1829","1829","1830","3664","3664","3701","3701","3701","3701","4962","3701","3701","4.83307E-5","4.83307E-5","3700","3700","17525","3700","3700","230508_BiDcR4_GM1","3","1","59002","0","0","49","0","0","1","0","0","2383","439","2","1019","1951","3","5799","2051","3","5835","0","0","0","0","0","0","212899","1","1377","0","0","0","162","1","758","230508_BiDcR4_GM1",
+"3659","3659","5525","31298","21142","217838","4441","11","11","7","9","1","1","99999","0","0","1","49A3BBF048AABA92F086B26B1DE0DC0C","3656","3656","2505","2511","https://mpa.thibautwittevrongel.com/savedMenus.html","5","0","4627497DCD42AB675C99C7A629D7E38A","https://mpa.thibautwittevrongel.com/savedMenus.html","2505","3690.3999999985","3693","3","3","1787","519","50","100","100","-1","100","-1","-1","-1","-1","-1","7486","0","-1","-1","0","0","Cloudflare","6","0","0","0","0","0","8","1","1","1","6","0","3","17","1","0","1","0","0","5479","nl-ams-gcp-a04-10.164.0.9","1683568281.3741","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683568283.2408","113.0.0.0","113.0.0.0","1449","4.3846386453","https://mpa.thibautwittevrongel.com/savedMenus.html","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","51","3656","3690.3999999985","3690.3999999985","","","dora.ns.cloudflare.com","Chrome","Step_1","21345","https://mpa.thibautwittevrongel.com/savedMenus.html","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","51.22","1.04","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/savedMenus.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to profile</p>
+<h2>Saved Menus</h2>
+<template id=""savedMenuTemplate"">
+<article class=""article"" data-id="""">
+<p>date</p>
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+
+<article class=""article"" data-id=""81"">
+<p>2023-05-06T14:27:40.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""82"">
+<p>2023-05-06T19:47:46.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""83"">
+<p>2023-05-06T19:48:48.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""84"">
+<p>2023-05-06T19:51:17.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""85"">
+<p>2023-05-07T13:23:40.000000Z</p>
+<h3>performanceTest</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""86"">
+<p>2023-05-08T17:49:11.000000Z</p>
+<h3>testtesttest</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</main>
+
+</body></html>","4900","3700","4900","4900","4900","4900","4900","4588","text","H1","36","11","1810","1806","2508","2508","2513","3659","1809","1809","1809","1810","3659","3659","3693","3693","3693","3693","4887","3693","3693","4.83307E-5","4.83307E-5","3700","3700","17554","3700","3700","230508_BiDcR4_GM1","4","1","58276","0","0","37","0","0","1","0","0","2372","439","2","1019","1951","3","5799","2051","3","5835","0","0","0","0","0","0","213136","1","1377","0","0","0","162","1","758","230508_BiDcR4_GM1",
+"3896","3896","5669","31298","22952","217838","4441","11","11","8","9","1","1","99999","0","0","1","2ACA6141D4E22A2E1A1E1CA77C77621A","3893","3893","2466","2470","https://mpa.thibautwittevrongel.com/savedMenus.html","5","0","C956127E20ACF80DBAF8BBB4AC7570A1","https://mpa.thibautwittevrongel.com/savedMenus.html","2466","3926.1999999993","3929","3","3","1796","518","50","100","100","-1","100","-1","-1","-1","-1","-1","7486","0","-1","-1","0","0","Cloudflare","1","1","0","0","0","0","27","1","1","1","10","0","3","16","1","0","1","2","0","5603","nl-ams-gcp-a03-10.164.0.8","1683568282.475","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683568284.4581","113.0.0.0","113.0.0.0","2340","6.906729634","https://mpa.thibautwittevrongel.com/savedMenus.html","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","51","3893","3926.1999999993","3926.1999999993","","","dora.ns.cloudflare.com","Chrome","Step_1","21693","https://mpa.thibautwittevrongel.com/savedMenus.html","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","51.22","1.04","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/savedMenus.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to profile</p>
+<h2>Saved Menus</h2>
+<template id=""savedMenuTemplate"">
+<article class=""article"" data-id="""">
+<p>date</p>
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+
+<article class=""article"" data-id=""81"">
+<p>2023-05-06T14:27:40.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""82"">
+<p>2023-05-06T19:47:46.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""83"">
+<p>2023-05-06T19:48:48.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""84"">
+<p>2023-05-06T19:51:17.000000Z</p>
+<h3>test</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""85"">
+<p>2023-05-07T13:23:40.000000Z</p>
+<h3>performanceTest</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+
+<article class=""article"" data-id=""86"">
+<p>2023-05-08T17:49:11.000000Z</p>
+<h3>testtesttest</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</main>
+
+</body></html>","4900","3900","4900","4900","4900","4900","4900","4640","text","H1","36","13","1823","1814","2469","2469","2473","3896","1822","1822","1822","1823","3896","3896","3929","3929","3929","3929","4905","3929","3929","4.83307E-5","4.83307E-5","3900","3900","17698","3900","3900","230508_BiDcR4_GM1","5","1","56245","0","0","37","0","0","1","0","0","2114","439","2","1019","1951","3","5799","2051","3","5835","0","0","0","0","0","0","213136","1","1377","0","0","0","162","1","758","230508_BiDcR4_GM1",

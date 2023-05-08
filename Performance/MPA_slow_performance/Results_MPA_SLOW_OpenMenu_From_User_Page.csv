@@ -1,0 +1,336 @@
+"loadTime","docTime","fullyLoaded","bytesOut","bytesOutDoc","bytesIn","bytesInDoc","requests","requestsFull","requestsDoc","responses_200","responses_404","responses_other","result","testStartOffset","cached","optimization_checked","main_frame","loadEventStart","loadEventEnd","domContentLoadedEventStart","domContentLoadedEventEnd","URL","connections","final_base_page_request","final_base_page_request_id","final_url","domInteractive","firstPaint","firstContentfulPaint","firstImagePaint","renderBlockingCSS","renderBlockingJS","TTFB","basePageSSLTime","score_cache","score_cdn","score_gzip","score_cookies","score_keep-alive","score_minify","score_combine","score_compress","score_etags","score_progressive_jpeg","gzip_total","gzip_savings","minify_total","minify_savings","image_total","image_savings","base_page_cdn","cpu.ParseHTML","cpu.HTMLDocumentParser::FetchQueuedPreloads","cpu.EventDispatch","cpu.MarkDOMContent","cpu.V8.GC_TIME_TO_SAFEPOINT","cpu.CommitLoad","cpu.ResourceFetcher::requestResource","cpu.EvaluateScript","cpu.v8.compile","cpu.ParseAuthorStyleSheet","cpu.FunctionCall","cpu.MarkLoad","cpu.UpdateLayoutTree","cpu.Layout","cpu.PrePaint","cpu.Paint","cpu.Layerize","cpu.largestContentfulPaint::Candidate","cpu.HitTest","cpu.ResourceChangePriority","cpu.Idle","tester","start_epoch","osVersion","os_version","osPlatform","date","browserVersion","browser_version","fullyLoadedCPUms","fullyLoadedCPUpct","document_URL","document_hostname","document_origin","domElements","domComplete","PerformancePaintTiming.first-paint","PerformancePaintTiming.first-contentful-paint","base_page_ip_ptr","base_page_cname","base_page_dns_server","browser_name","eventName","test_run_time_ms","testUrl","Colordepth","Dpi","Images","Resolution","generated-content-percent","generated-content-size","meta-viewport","rendered-html","lastVisualChange","render","visualComplete85","visualComplete90","visualComplete95","visualComplete99","visualComplete","SpeedIndex","LargestContentfulPaintType","LargestContentfulPaintNodeType","chromeUserTiming.navigationStart","chromeUserTiming.fetchStart","chromeUserTiming.domLoading","chromeUserTiming.responseEnd","chromeUserTiming.domInteractive","chromeUserTiming.domContentLoadedEventStart","chromeUserTiming.domContentLoadedEventEnd","chromeUserTiming.domComplete","chromeUserTiming.unloadEventStart","chromeUserTiming.unloadEventEnd","chromeUserTiming.markAsMainFrame","chromeUserTiming.commitNavigationEnd","chromeUserTiming.loadEventStart","chromeUserTiming.loadEventEnd","chromeUserTiming.firstPaint","chromeUserTiming.firstContentfulPaint","chromeUserTiming.firstMeaningfulPaintCandidate","chromeUserTiming.InteractiveTime","chromeUserTiming.LayoutShift","chromeUserTiming.firstImagePaint","chromeUserTiming.LargestTextPaint","chromeUserTiming.LargestContentfulPaint","chromeUserTiming.LargestImagePaint","chromeUserTiming.TotalLayoutShift","chromeUserTiming.CumulativeLayoutShift","FirstInteractive","TimeToInteractive","TTIMeasurementEnd","LastInteractive","FirstCPUIdle","testID","run","step","effectiveBps","domTime","aft","titleTime","domLoading","server_rtt","edge-processed","maxFID","TotalBlockingTime","effectiveBpsDoc","bytes.html","requests.html","bytesUncompressed.html","bytes.js","requests.js","bytesUncompressed.js","bytes.css","requests.css","bytesUncompressed.css","bytes.image","requests.image","bytesUncompressed.image","bytes.flash","requests.flash","bytesUncompressed.flash","bytes.font","requests.font","bytesUncompressed.font","bytes.video","requests.video","bytesUncompressed.video","bytes.other","requests.other","bytesUncompressed.other","id",
+"7095","7095","11664","34380","21136","219590","4489","12","12","7","10","1","1","99999","0","0","1","18714BEB9CD35135E5D8B7258F71AD9F","7093","7093","5522","5530","https://mpa.thibautwittevrongel.com/menu.html?id=81","6","0","D89EDFF5D54E4B3A15EB996D8E615FB6","https://mpa.thibautwittevrongel.com/menu.html?id=81","5522","7126.200000003","7129","11697","3","3","1804","520","56","92","100","-1","100","-1","-1","100","-1","-1","8637","0","-1","-1","581","0","Cloudflare","1","1","2","0","0","0","15","1","1","0","5","0","4","20","1","1","2","0","0","0","11610","nl-ams-gcp-a04-10.164.0.9","1683569270.7336","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683569272.8317","113.0.0.0","113.0.0.0","2499","5.6407942238","https://mpa.thibautwittevrongel.com/menu.html?id=81","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","43","7093","7126.200000003","7126.200000003","","","dora.ns.cloudflare.com","Chrome","Step_1","28102","https://mpa.thibautwittevrongel.com/menu.html?id=81","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[{""url"":""https://via.placeholder.com/100"",""width"":100,""height"":100,""naturalWidth"":100,""naturalHeight"":100},{""url"":""https://via.placeholder.com/100"",""width"":100,""height"":100,""naturalWidth"":100,""naturalHeight"":100},{""url"":""https://via.placeholder.com/100"",""width"":100,""height"":100,""naturalWidth"":100,""naturalHeight"":100}]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","31.63","0.62","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/viewMenu.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right"">ingredients</button>
+</div>
+<article id=""breakfast"" class="""">
+<h2>Recipes: Breakfast</h2>
+
+<article class=""article"" data-id=""1"">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Pannenkoeken</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</article>
+<article id=""lunch"" class="""">
+<h2>Recipes: Lunch</h2>
+
+<article class=""article"" data-id=""10"">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Creamy Tomato Soup</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</article>
+<article id=""dinner"" class="""">
+<h2>Recipes: Dinner</h2>
+
+<article class=""article"" data-id=""11"">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Grilled Chicken and Vegetable Skewers</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</article>
+<template id=""recipeCardTemplate"">
+<article class=""article"" data-id="""">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+</main>
+
+</body></html>","11700","7100","8400","11700","11700","11700","11700","8224","text","H3","40","13","1828","1824","5525","5525","5532","7095","1827","1827","1827","1828","7095","7095","7128","7128","7128","7129","11680","11697","8355","8355","11702","0.0423505129","0.0422356142","7100","7100","23737","7100","7100","230508_BiDcYY_H03","1","1","22270","0","0","41","0","0","1","0","0","848","553","2","1362","1885","3","5433","2051","3","5835","581","1","581","0","0","0","213136","1","1377","0","0","0","1285","1","3099","230508_BiDcYY_H03",
+"3697","3697","9574","34380","21136","182552","4489","12","12","7","10","1","1","99999","0","0","1","ED85948F3BBBD08F76F069780EEA0020","3683","3683","2529","2538","https://mpa.thibautwittevrongel.com/menu.html?id=81","6","0","4445AFE95AE1668CEF245DBA2B8FDC50","https://mpa.thibautwittevrongel.com/menu.html?id=81","2529","3719.299999997","3733","9617","3","3","1803","521","56","92","100","-1","100","-1","-1","100","-1","-1","8669","0","-1","-1","581","0","Cloudflare","1","3","2","0","0","0","12","3","1","0","16","0","5","21","1","1","1","0","0","0","9507","nl-ams-gcp-a01-10.164.0.6","1683569273.1538","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683569275.1452","113.0.0.0","113.0.0.0","2630","6.3588007737","https://mpa.thibautwittevrongel.com/menu.html?id=81","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","43","3683","3719.299999997","3719.299999997","","","dora.ns.cloudflare.com","Chrome","Step_1","28058","https://mpa.thibautwittevrongel.com/menu.html?id=81","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[{""url"":""https://via.placeholder.com/100"",""width"":100,""height"":100,""naturalWidth"":100,""naturalHeight"":100},{""url"":""https://via.placeholder.com/100"",""width"":100,""height"":100,""naturalWidth"":100,""naturalHeight"":100},{""url"":""https://via.placeholder.com/100"",""width"":100,""height"":100,""naturalWidth"":100,""naturalHeight"":100}]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","31.63","0.62","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/viewMenu.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right"">ingredients</button>
+</div>
+<article id=""breakfast"" class="""">
+<h2>Recipes: Breakfast</h2>
+
+<article class=""article"" data-id=""1"">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Pannenkoeken</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</article>
+<article id=""lunch"" class="""">
+<h2>Recipes: Lunch</h2>
+
+<article class=""article"" data-id=""10"">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Creamy Tomato Soup</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</article>
+<article id=""dinner"" class="""">
+<h2>Recipes: Dinner</h2>
+
+<article class=""article"" data-id=""11"">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Grilled Chicken and Vegetable Skewers</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</article>
+<template id=""recipeCardTemplate"">
+<article class=""article"" data-id="""">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+</main>
+
+</body></html>","9600","3700","5000","9600","9600","9600","9600","4980","text","H3","55","22","1839","1832","2543","2543","2552","3697","1838","1838","1838","1839","3697","3697","3732","3732","3732","3733","9602","9616","5032","5032","9617","0.0423505129","0.0422356142","3700","3700","21648","3700","3700","230508_BiDcYY_H03","2","1","23491","0","0","57","0","0","1","0","0","2370","553","2","1362","1885","3","5433","2051","3","5835","581","1","581","0","0","0","176098","1","1377","0","0","0","1285","1","3099","230508_BiDcYY_H03",
+"3695","3695","8319","34380","21136","219590","4489","12","12","7","10","1","1","99999","0","0","1","810437243090761657A6AA53509F0891","3690","3690","2533","2538","https://mpa.thibautwittevrongel.com/menu.html?id=81","6","0","69A5C79059519588AA2F6B4FBD5AC12D","https://mpa.thibautwittevrongel.com/menu.html?id=81","2533","3736.8000000045","3741","8356","3","3","1805","522","56","92","100","-1","100","-1","-1","100","-1","-1","8662","0","-1","-1","581","0","Cloudflare","2","3","2","0","0","0","9","2","1","0","6","0","5","21","1","1","1","0","0","0","8265","nl-ams-gcp-a04-10.164.0.9","1683569302.5793","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683569304.4589","113.0.0.0","113.0.0.0","1850","4.8607461902","https://mpa.thibautwittevrongel.com/menu.html?id=81","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","43","3690","3736.8000000045","3736.8000000045","","","dora.ns.cloudflare.com","Chrome","Step_1","24471","https://mpa.thibautwittevrongel.com/menu.html?id=81","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[{""url"":""https://via.placeholder.com/100"",""width"":100,""height"":100,""naturalWidth"":100,""naturalHeight"":100},{""url"":""https://via.placeholder.com/100"",""width"":100,""height"":100,""naturalWidth"":100,""naturalHeight"":100},{""url"":""https://via.placeholder.com/100"",""width"":100,""height"":100,""naturalWidth"":100,""naturalHeight"":100}]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","31.63","0.62","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/viewMenu.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right"">ingredients</button>
+</div>
+<article id=""breakfast"" class="""">
+<h2>Recipes: Breakfast</h2>
+
+<article class=""article"" data-id=""1"">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Pannenkoeken</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</article>
+<article id=""lunch"" class="""">
+<h2>Recipes: Lunch</h2>
+
+<article class=""article"" data-id=""10"">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Creamy Tomato Soup</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</article>
+<article id=""dinner"" class="""">
+<h2>Recipes: Dinner</h2>
+
+<article class=""article"" data-id=""11"">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Grilled Chicken and Vegetable Skewers</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</article>
+<template id=""recipeCardTemplate"">
+<article class=""article"" data-id="""">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+</main>
+
+</body></html>","8400","3800","5000","8400","8400","8400","8400","4880","text","H3","41","13","1830","1821","2538","2538","2542","3695","1830","1830","1830","1830","3695","3695","3741","3741","3741","3741","8335","8355","4981","4981","8356","0.0423505129","0.0422356142","3800","3800","20392","3800","3800","230508_BiDcYY_H03","3","1","33710","0","0","42","0","0","1","0","0","2375","553","2","1362","1885","3","5433","2051","3","5835","581","1","581","0","0","0","213136","1","1377","0","0","0","1285","1","3099","230508_BiDcYY_H03",
+"3885","3885","8624","34380","22985","219590","4489","12","12","8","10","1","1","99999","0","0","1","DF2C49E7999B3D56DF7EA00E8864AC66","3880","3880","2472","2478","https://mpa.thibautwittevrongel.com/menu.html?id=81","6","0","622746C0639648C47B2954698FA7DF72","https://mpa.thibautwittevrongel.com/menu.html?id=81","2472","3917.8999999985","3923","8668","3","3","1810","520","56","92","100","-1","100","-1","-1","100","-1","-1","8673","0","-1","-1","581","0","Cloudflare","2","3","6","0","0","0","21","9","1","2","10","0","4","25","1","3","0","0","0","0","8537","nl-ams-gcp-a01-10.164.0.6","1683569305.6869","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683569307.8032","113.0.0.0","113.0.0.0","1929","4.9614395887","https://mpa.thibautwittevrongel.com/menu.html?id=81","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","43","3880","3917.8999999985","3917.8999999985","","","dora.ns.cloudflare.com","Chrome","Step_1","24470","https://mpa.thibautwittevrongel.com/menu.html?id=81","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[{""url"":""https://via.placeholder.com/100"",""width"":100,""height"":100,""naturalWidth"":100,""naturalHeight"":100},{""url"":""https://via.placeholder.com/100"",""width"":100,""height"":100,""naturalWidth"":100,""naturalHeight"":100},{""url"":""https://via.placeholder.com/100"",""width"":100,""height"":100,""naturalWidth"":100,""naturalHeight"":100}]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","31.63","0.62","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/viewMenu.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right"">ingredients</button>
+</div>
+<article id=""breakfast"" class="""">
+<h2>Recipes: Breakfast</h2>
+
+<article class=""article"" data-id=""1"">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Pannenkoeken</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</article>
+<article id=""lunch"" class="""">
+<h2>Recipes: Lunch</h2>
+
+<article class=""article"" data-id=""10"">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Creamy Tomato Soup</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</article>
+<article id=""dinner"" class="""">
+<h2>Recipes: Dinner</h2>
+
+<article class=""article"" data-id=""11"">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Grilled Chicken and Vegetable Skewers</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</article>
+<template id=""recipeCardTemplate"">
+<article class=""article"" data-id="""">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+</main>
+
+</body></html>","8700","3900","5000","8700","8700","8700","8700","4960","text","H3","43","14","1836","1829","2477","2477","2483","3885","1834","1834","1834","1835","3885","3885","3922","3922","3922","3923","8644","8668","5039","5039","8668","0.0423505129","0.0422356142","3900","3900","20699","3900","3900","230508_BiDcYY_H03","4","1","32226","0","0","45","0","0","1","0","0","2163","553","2","1362","1885","3","5433","2051","3","5835","581","1","581","0","0","0","213136","1","1377","0","0","0","1285","1","3099","230508_BiDcYY_H03",
+"7025","7025","11778","34380","21136","219355","4489","12","12","7","10","1","1","99999","0","0","1","03580CACE4094DA45DE36C4034E87D91","7021","7021","5818","5822","https://mpa.thibautwittevrongel.com/menu.html?id=81","6","0","F433250B6CF1DC2E2A943D156D486FC5","https://mpa.thibautwittevrongel.com/menu.html?id=81","5818","7070.1000000015","7074","11810","3","3","2005","519","56","92","100","-1","100","-1","-1","100","-1","-1","8669","0","-1","-1","581","0","Cloudflare","3","0","0","0","0","0","9","1","1","2","2","0","4","20","1","1","1","0","0","0","11733","nl-ams-gcp-a04-10.164.0.9","1683569331.4876","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683569333.4465","113.0.0.0","113.0.0.0","2319","5.2252252252","https://mpa.thibautwittevrongel.com/menu.html?id=81","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","43","7021","7070.1000000015","7070.1000000015","","","dora.ns.cloudflare.com","Chrome","Step_1","28191","https://mpa.thibautwittevrongel.com/menu.html?id=81","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[{""url"":""https://via.placeholder.com/100"",""width"":100,""height"":100,""naturalWidth"":100,""naturalHeight"":100},{""url"":""https://via.placeholder.com/100"",""width"":100,""height"":100,""naturalWidth"":100,""naturalHeight"":100},{""url"":""https://via.placeholder.com/100"",""width"":100,""height"":100,""naturalWidth"":100,""naturalHeight"":100}]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","31.63","0.62","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/viewMenu.js""></script>
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link href=""https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"" rel=""stylesheet"">
+<title>Plan To Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<div class=""controls"">
+<p id=""backwards""><span class=""material-symbols-outlined"">arrow_back_ios</span>Back to menus</p>
+<button class=""button align-right"">ingredients</button>
+</div>
+<article id=""breakfast"" class="""">
+<h2>Recipes: Breakfast</h2>
+
+<article class=""article"" data-id=""1"">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Pannenkoeken</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</article>
+<article id=""lunch"" class="""">
+<h2>Recipes: Lunch</h2>
+
+<article class=""article"" data-id=""10"">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Creamy Tomato Soup</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</article>
+<article id=""dinner"" class="""">
+<h2>Recipes: Dinner</h2>
+
+<article class=""article"" data-id=""11"">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Grilled Chicken and Vegetable Skewers</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</article>
+<template id=""recipeCardTemplate"">
+<article class=""article"" data-id="""">
+<img src=""https://via.placeholder.com/100"" alt=""recipe image"">
+<h3>Recipe Name</h3>
+<div>
+<span class=""material-symbols-outlined"">arrow_forward_ios</span>
+</div>
+</article>
+</template>
+</main>
+
+</body></html>","11800","7100","8300","11800","11800","11800","11800","8192","text","H3","39","12","2030","2023","5823","5823","5827","7025","2029","2029","2029","2029","7025","7025","7074","7074","7074","7074","11794","11809","8291","8291","11810","0.0423505129","0.0422356142","7100","7100","23849","7100","7100","230508_BiDcYY_H03","5","1","22445","0","0","40","0","0","1","0","0","894","553","2","1362","1885","3","5433","2051","3","5835","581","1","581","0","0","0","212901","1","1377","0","0","0","1285","1","3099","230508_BiDcYY_H03",

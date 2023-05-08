@@ -1,0 +1,116 @@
+"loadTime","docTime","fullyLoaded","bytesOut","bytesOutDoc","bytesIn","bytesInDoc","requests","requestsFull","requestsDoc","responses_200","responses_404","responses_other","result","testStartOffset","cached","optimization_checked","main_frame","loadEventStart","loadEventEnd","domContentLoadedEventStart","domContentLoadedEventEnd","URL","connections","final_base_page_request","final_base_page_request_id","final_url","domInteractive","firstPaint","firstContentfulPaint","firstMeaningfulPaint","renderBlockingCSS","renderBlockingJS","TTFB","basePageSSLTime","score_cache","score_cdn","score_gzip","score_cookies","score_keep-alive","score_minify","score_combine","score_compress","score_etags","score_progressive_jpeg","gzip_total","gzip_savings","minify_total","minify_savings","image_total","image_savings","base_page_cdn","cpu.ParseHTML","cpu.HTMLDocumentParser::FetchQueuedPreloads","cpu.EventDispatch","cpu.MarkDOMContent","cpu.V8.GC_TIME_TO_SAFEPOINT","cpu.CommitLoad","cpu.ResourceFetcher::requestResource","cpu.EvaluateScript","cpu.v8.compile","cpu.ParseAuthorStyleSheet","cpu.UpdateLayoutTree","cpu.Layout","cpu.PrePaint","cpu.Paint","cpu.Layerize","cpu.FunctionCall","cpu.MarkLoad","cpu.largestContentfulPaint::Candidate","cpu.Idle","tester","start_epoch","osVersion","os_version","osPlatform","date","browserVersion","browser_version","fullyLoadedCPUms","fullyLoadedCPUpct","document_URL","document_hostname","document_origin","domElements","domComplete","PerformancePaintTiming.first-paint","PerformancePaintTiming.first-contentful-paint","base_page_ip_ptr","base_page_cname","base_page_dns_server","browser_name","eventName","test_run_time_ms","testUrl","Colordepth","Dpi","Images","Resolution","generated-content-percent","generated-content-size","meta-viewport","rendered-html","lastVisualChange","render","visualComplete85","visualComplete90","visualComplete95","visualComplete99","visualComplete","SpeedIndex","LargestContentfulPaintType","LargestContentfulPaintNodeType","chromeUserTiming.navigationStart","chromeUserTiming.fetchStart","chromeUserTiming.domLoading","chromeUserTiming.responseEnd","chromeUserTiming.domInteractive","chromeUserTiming.domContentLoadedEventStart","chromeUserTiming.domContentLoadedEventEnd","chromeUserTiming.domComplete","chromeUserTiming.unloadEventStart","chromeUserTiming.unloadEventEnd","chromeUserTiming.markAsMainFrame","chromeUserTiming.commitNavigationEnd","chromeUserTiming.loadEventStart","chromeUserTiming.loadEventEnd","chromeUserTiming.firstPaint","chromeUserTiming.firstContentfulPaint","chromeUserTiming.firstMeaningfulPaintCandidate","chromeUserTiming.firstMeaningfulPaint","chromeUserTiming.InteractiveTime","chromeUserTiming.LargestTextPaint","chromeUserTiming.LargestContentfulPaint","chromeUserTiming.TotalLayoutShift","chromeUserTiming.CumulativeLayoutShift","FirstInteractive","TimeToInteractive","TTIMeasurementEnd","LastInteractive","FirstCPUIdle","testID","run","step","effectiveBps","domTime","aft","titleTime","domLoading","server_rtt","edge-processed","maxFID","TotalBlockingTime","effectiveBpsDoc","bytes.html","requests.html","bytesUncompressed.html","bytes.js","requests.js","bytesUncompressed.js","bytes.css","requests.css","bytesUncompressed.css","bytes.image","requests.image","bytesUncompressed.image","bytes.flash","requests.flash","bytesUncompressed.flash","bytes.font","requests.font","bytesUncompressed.font","bytes.video","requests.video","bytesUncompressed.video","bytes.other","requests.other","bytesUncompressed.other","id","cpu.HitTest",
+"2550","2550","2973","24110","24110","3784","3784","8","8","8","7","1","0","99999","0","0","1","7CF85F78B183EC21072BA632A9809FB5","2540","2540","2538","2539","https://mpa.thibautwittevrongel.com/profile.html","1","0","5873BD4633AC6F19F50E682A578E1262","https://mpa.thibautwittevrongel.com/profile.html","2538","2555.3000000045","2566","2566","3","3","1802","523","33","100","100","-1","100","-1","-1","-1","-1","-1","6130","0","-1","-1","0","0","Cloudflare","1","0","0","0","0","0","13","1","3","1","1","6","0","0","0","2","0","0","2943","nl-ams-gcp-a04-10.164.0.9","1683570098.1808","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683570100.1745","113.0.0.0","113.0.0.0","1729","5.9903047091","https://mpa.thibautwittevrongel.com/profile.html","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","19","2540","2555.3000000045","2555.3000000045","","","dora.ns.cloudflare.com","Chrome","Step_1","18528","https://mpa.thibautwittevrongel.com/profile.html","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-2.32","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link rel=""stylesheet"" href=""assets/css/profile.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/profile.js""></script>
+<title>Plan to Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<a class=""button"" href=""savedMenus.html"">Saved Menus</a>
+<a class=""button"" href=""login.html"">Logout</a>
+</main>
+
+</body></html>","2600","2600","2600","2600","2600","2600","2600","2600","text","H1","50","19","1833","1828","2548","2548","2550","2550","1831","1831","1832","1833","2550","2550","2565","2565","2565","2565","2566","2566","2566","0","0","2600","2600","15039","2600","2600","230508_BiDc3Y_H31","1","1","3231","0","0","51","0","0","1","0","0","5058","283","1","751","1701","3","4989","1701","3","5228","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230508_BiDc3Y_H31","",
+"2565","2565","2984","24110","24110","3784","3784","8","8","8","7","1","0","99999","0","0","1","572110D11988F09E2B87531AA93A51DF","2547","2547","2545","2546","https://mpa.thibautwittevrongel.com/profile.html","1","0","6F71A5B057C0A8363EE8BD06324B9794","https://mpa.thibautwittevrongel.com/profile.html","2545","2557.1000000015","2575","2575","3","3","1796","519","33","100","100","-1","100","-1","-1","-1","-1","-1","6096","0","-1","-1","0","0","Cloudflare","4","0","1","0","0","0","10","1","1","1","1","6","0","0","0","2","0","0","2956","nl-ams-gcp-a03-10.164.0.8","1683570102.7885","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683570104.6906","113.0.0.0","113.0.0.0","1720","5.9310344828","https://mpa.thibautwittevrongel.com/profile.html","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","19","2547","2557.1000000015","2557.1000000015","","","dora.ns.cloudflare.com","Chrome","Step_1","18501","https://mpa.thibautwittevrongel.com/profile.html","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-2.32","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link rel=""stylesheet"" href=""assets/css/profile.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/profile.js""></script>
+<title>Plan to Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<a class=""button"" href=""savedMenus.html"">Saved Menus</a>
+<a class=""button"" href=""login.html"">Logout</a>
+</main>
+
+</body></html>","2600","2600","2600","2600","2600","2600","2600","2600","text","H1","56","27","1832","1832","2562","2562","2564","2565","1831","1831","1831","1832","2565","2565","2574","2574","2574","2574","2575","2575","2575","0","0","2600","2600","15063","2600","2600","230508_BiDc3Y_H31","2","1","3185","0","0","58","0","0","1","0","0","4920","283","1","751","1701","3","4989","1701","3","5228","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230508_BiDc3Y_H31","",
+"2530","2530","2970","24110","24110","3784","3784","8","8","8","7","1","0","99999","0","0","1","36F8EA7ECDDF051BD39E2F44F308F750","2519","2519","2515","2517","https://mpa.thibautwittevrongel.com/profile.html","1","0","9997DCD5BF57D5AD1346B37AAEAD6BC5","https://mpa.thibautwittevrongel.com/profile.html","2515","2534.200000003","2546","2546","3","3","1793","520","33","100","100","-1","100","-1","-1","-1","-1","-1","6120","0","-1","-1","0","0","Cloudflare","1","1","0","0","0","0","18","1","1","1","1","4","0","0","0","3","0","0","2938","nl-ams-gcp-a01-10.164.0.6","1683570102.4452","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683570104.4144","113.0.0.0","113.0.0.0","1599","5.5305910819","https://mpa.thibautwittevrongel.com/profile.html","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","19","2519","2534.200000003","2534.200000003","","","dora.ns.cloudflare.com","Chrome","Step_1","18507","https://mpa.thibautwittevrongel.com/profile.html","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-2.32","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link rel=""stylesheet"" href=""assets/css/profile.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/profile.js""></script>
+<title>Plan to Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<a class=""button"" href=""savedMenus.html"">Saved Menus</a>
+<a class=""button"" href=""login.html"">Logout</a>
+</main>
+
+</body></html>","2600","2600","2600","2600","2600","2600","2600","2600","text","H1","50","21","1827","1820","2526","2526","2528","2530","1825","1825","1825","1826","2530","2530","2545","2545","2545","2545","2546","2546","2546","0","0","2600","2600","15035","2600","2600","230508_BiDc3Y_H31","3","1","3214","0","0","52","0","0","1","0","0","5134","283","1","751","1701","3","4989","1701","3","5228","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230508_BiDc3Y_H31","0",
+"2496","2496","2924","24110","24110","3784","3784","8","8","8","7","1","0","99999","0","0","1","47ACF1F25DE4A680A13FEC9BCF0D60A8","2493","2493","2491","2493","https://mpa.thibautwittevrongel.com/profile.html","1","0","64F27FD45A162F17AD91817EB1AEE416","https://mpa.thibautwittevrongel.com/profile.html","2491","2506","2509","2509","3","3","1782","519","33","100","100","-1","100","-1","-1","-1","-1","-1","6146","0","-1","-1","0","0","Cloudflare","2","0","0","0","0","0","18","2","1","1","4","5","0","0","0","2","0","0","2887","nl-ams-gcp-a04-10.164.0.9","1683570120.1663","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683570122.134","113.0.0.0","113.0.0.0","1700","5.9027777778","https://mpa.thibautwittevrongel.com/profile.html","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","19","2493","2506","2506","","","dora.ns.cloudflare.com","Chrome","Step_1","18440","https://mpa.thibautwittevrongel.com/profile.html","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-2.32","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link rel=""stylesheet"" href=""assets/css/profile.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/profile.js""></script>
+<title>Plan to Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<a class=""button"" href=""savedMenus.html"">Saved Menus</a>
+<a class=""button"" href=""login.html"">Logout</a>
+</main>
+
+</body></html>","2500","2500","2500","2500","2500","2500","2500","2500","text","H1","38","13","1807","1800","2494","2494","2496","2496","1806","1806","1807","1807","2496","2496","2508","2508","2508","2508","2509","2509","2509","0","0","2500","2500","14982","2500","2500","230508_BiDc3Y_H31","4","1","3313","0","0","39","0","0","1","0","0","5299","283","1","751","1701","3","4989","1701","3","5228","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230508_BiDc3Y_H31","",
+"2540","2540","2958","24110","24110","3784","3784","8","8","8","7","1","0","99999","0","0","1","997E07662E6CC8C4BB9A053AA40EE128","2529","2529","2527","2529","https://mpa.thibautwittevrongel.com/profile.html","1","0","64D3F9D21601361B72407B96F0A03FF1","https://mpa.thibautwittevrongel.com/profile.html","2527","2540.3999999985","2551","2551","3","3","1793","526","33","100","100","-1","100","-1","-1","-1","-1","-1","6125","0","-1","-1","0","0","Cloudflare","4","0","0","0","0","0","6","1","1","1","1","4","0","0","0","2","0","0","2937","nl-ams-gcp-a01-10.164.0.6","1683570124.3144","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683570126.2825","113.0.0.0","113.0.0.0","1100","3.8650737878","https://mpa.thibautwittevrongel.com/profile.html","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","19","2529","2540.3999999985","2540.3999999985","","","dora.ns.cloudflare.com","Chrome","Step_1","18377","https://mpa.thibautwittevrongel.com/profile.html","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-2.32","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<link rel=""stylesheet"" href=""assets/css/profile.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/profile.js""></script>
+<title>Plan to Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<a class=""button"" href=""savedMenus.html"">Saved Menus</a>
+<a class=""button"" href=""login.html"">Logout</a>
+</main>
+
+</body></html>","2600","2600","2600","2600","2600","2600","2600","2600","text","H1","43","18","1825","1817","2538","2538","2539","2540","1824","1824","1824","1824","2540","2540","2550","2550","2550","2550","2551","2551","2551","0","0","2600","2600","15021","2600","2600","230508_BiDc3Y_H31","5","1","3248","0","0","45","0","0","1","0","0","5065","283","1","751","1701","3","4989","1701","3","5228","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230508_BiDc3Y_H31","",

@@ -1,0 +1,211 @@
+"loadTime","docTime","fullyLoaded","bytesOut","bytesOutDoc","bytesIn","bytesInDoc","requests","requestsFull","requestsDoc","responses_200","responses_404","responses_other","result","testStartOffset","cached","optimization_checked","main_frame","loadEventStart","loadEventEnd","domContentLoadedEventStart","domContentLoadedEventEnd","URL","connections","final_base_page_request","final_base_page_request_id","final_url","domInteractive","firstPaint","firstContentfulPaint","firstMeaningfulPaint","renderBlockingCSS","renderBlockingJS","TTFB","basePageSSLTime","score_cache","score_cdn","score_gzip","score_cookies","score_keep-alive","score_minify","score_combine","score_compress","score_etags","score_progressive_jpeg","gzip_total","gzip_savings","minify_total","minify_savings","image_total","image_savings","base_page_cdn","cpu.ParseHTML","cpu.HTMLDocumentParser::FetchQueuedPreloads","cpu.EventDispatch","cpu.MarkDOMContent","cpu.V8.GC_TIME_TO_SAFEPOINT","cpu.CommitLoad","cpu.ResourceFetcher::requestResource","cpu.EvaluateScript","cpu.v8.compile","cpu.ParseAuthorStyleSheet","cpu.UpdateLayoutTree","cpu.Layout","cpu.PrePaint","cpu.Paint","cpu.Layerize","cpu.FunctionCall","cpu.MarkLoad","cpu.largestContentfulPaint::Candidate","cpu.Idle","tester","start_epoch","osVersion","os_version","osPlatform","date","browserVersion","browser_version","fullyLoadedCPUms","fullyLoadedCPUpct","document_URL","document_hostname","document_origin","domElements","domComplete","PerformancePaintTiming.first-paint","PerformancePaintTiming.first-contentful-paint","base_page_ip_ptr","base_page_cname","base_page_dns_server","browser_name","eventName","test_run_time_ms","testUrl","Colordepth","Dpi","Images","Resolution","generated-content-percent","generated-content-size","meta-viewport","rendered-html","lastVisualChange","render","visualComplete85","visualComplete90","visualComplete95","visualComplete99","visualComplete","SpeedIndex","LargestContentfulPaintType","LargestContentfulPaintNodeType","chromeUserTiming.navigationStart","chromeUserTiming.fetchStart","chromeUserTiming.domLoading","chromeUserTiming.responseEnd","chromeUserTiming.domInteractive","chromeUserTiming.domContentLoadedEventStart","chromeUserTiming.domContentLoadedEventEnd","chromeUserTiming.domComplete","chromeUserTiming.unloadEventStart","chromeUserTiming.unloadEventEnd","chromeUserTiming.markAsMainFrame","chromeUserTiming.commitNavigationEnd","chromeUserTiming.loadEventStart","chromeUserTiming.loadEventEnd","chromeUserTiming.firstPaint","chromeUserTiming.firstContentfulPaint","chromeUserTiming.firstMeaningfulPaintCandidate","chromeUserTiming.firstMeaningfulPaint","chromeUserTiming.InteractiveTime","chromeUserTiming.LargestTextPaint","chromeUserTiming.LargestContentfulPaint","chromeUserTiming.TotalLayoutShift","chromeUserTiming.CumulativeLayoutShift","FirstInteractive","TimeToInteractive","TTIMeasurementEnd","LastInteractive","FirstCPUIdle","testID","run","step","effectiveBps","domTime","aft","titleTime","domLoading","server_rtt","edge-processed","maxFID","TotalBlockingTime","effectiveBpsDoc","bytes.html","requests.html","bytesUncompressed.html","bytes.js","requests.js","bytesUncompressed.js","bytes.css","requests.css","bytesUncompressed.css","bytes.image","requests.image","bytesUncompressed.image","bytes.flash","requests.flash","bytesUncompressed.flash","bytes.font","requests.font","bytesUncompressed.font","bytes.video","requests.video","bytesUncompressed.video","bytes.other","requests.other","bytesUncompressed.other","id","cpu.HitTest",
+"2561","2561","2987","13177","13177","4450","4450","7","7","7","6","1","0","99999","0","0","1","D8FDFDFFE8E1D8EFE19088D4C1E931B0","2557","2557","2552","2556","https://mpa.thibautwittevrongel.com/","1","0","B3CC590581789DFD668F83CEE8D96016","https://mpa.thibautwittevrongel.com/","2552","2571.8999999985","2577","2577","2","3","1807","520","50","100","100","-1","100","-1","-1","-1","-1","-1","6381","0","-1","-1","0","0","Cloudflare","3","0","1","0","0","0","5","1","1","1","4","6","0","0","0","5","0","0","2959","nl-ams-gcp-a01-10.164.0.6","1683567222.854","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683567224.6102","113.0.0.0","113.0.0.0","920","3.2044583769","https://mpa.thibautwittevrongel.com/","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","32","2557","2571.8999999985","2571.8999999985","","","dora.ns.cloudflare.com","Chrome","Step_1","18131","https://mpa.thibautwittevrongel.com/","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-1.30","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/script.js""></script>
+<title>Plan to Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<div id=""mealGen"">
+<h2>Select the type of recipes you want to receive and how many per type.</h2>
+<form action=""index.html"" method=""post"">
+<div id=""checkboxList"">
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""breakfast"" id=""breakfast"">
+<label for=""breakfast"">Breakfast</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""lunch"" id=""lunch"">
+<label for=""lunch"">Lunch</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""dinner"" id=""dinner"">
+<label for=""dinner"">Dinner</label>
+</div>
+</div>
+<label for=""amount"">Number of recipes per type</label>
+<input type=""number"" name=""amount"" min=""1"" max=""10"" value=""1"" id=""amount"">
+<input class=""button"" type=""submit"" value=""Generate Menus"">
+</form>
+</div>
+</main>
+
+</body></html>","2600","2600","2600","2600","2600","2600","2600","2600","text","H2","35","13","1829","1827","2556","2556","2560","2561","1828","1828","1828","1829","2561","2561","2576","2576","2576","2576","2577","2577","2577","0","0","2600","2600","15036","2600","2600","230508_AiDcZ9_G3H","1","1","3771","0","0","36","0","0","1","0","0","5901","474","1","1320","1892","3","6260","1985","2","6625","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230508_AiDcZ9_G3H","",
+"2583","2583","3001","13177","13177","4450","4450","7","7","7","6","1","0","99999","0","0","1","F298369A6209DFDD602585BA62CEC6BC","2565","2565","2561","2564","https://mpa.thibautwittevrongel.com/","1","0","33F1097BF217F4123D38D2C3B0A9558B","https://mpa.thibautwittevrongel.com/","2561","2575.3000000045","2593","2593","2","3","1812","522","50","100","100","-1","100","-1","-1","-1","-1","-1","6396","0","-1","-1","0","0","Cloudflare","8","0","0","0","0","0","16","2","1","1","7","9","0","1","0","4","0","0","2951","nl-ams-gcp-a04-10.164.0.9","1683567220.9003","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683567222.8358","113.0.0.0","113.0.0.0","940","3.3110250088","https://mpa.thibautwittevrongel.com/","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","32","2565","2575.3000000045","2575.3000000045","","","dora.ns.cloudflare.com","Chrome","Step_1","18459","https://mpa.thibautwittevrongel.com/","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-1.30","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/script.js""></script>
+<title>Plan to Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<div id=""mealGen"">
+<h2>Select the type of recipes you want to receive and how many per type.</h2>
+<form action=""index.html"" method=""post"">
+<div id=""checkboxList"">
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""breakfast"" id=""breakfast"">
+<label for=""breakfast"">Breakfast</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""lunch"" id=""lunch"">
+<label for=""lunch"">Lunch</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""dinner"" id=""dinner"">
+<label for=""dinner"">Dinner</label>
+</div>
+</div>
+<label for=""amount"">Number of recipes per type</label>
+<input type=""number"" name=""amount"" min=""1"" max=""10"" value=""1"" id=""amount"">
+<input class=""button"" type=""submit"" value=""Generate Menus"">
+</form>
+</div>
+</main>
+
+</body></html>","2600","2600","2600","2600","2600","2600","2600","2600","text","H2","51","25","1849","1842","2578","2578","2582","2583","1848","1848","1848","1849","2583","2583","2592","2592","2592","2592","2593","2593","2593","0","0","2600","2600","15072","2600","2600","230508_AiDcZ9_G3H","2","1","3742","0","0","53","0","0","1","0","0","5771","474","1","1320","1892","3","6260","1985","2","6625","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230508_AiDcZ9_G3H","",
+"2564","2564","2990","13177","13177","4450","4450","7","7","7","6","1","0","99999","0","0","1","0A9A9E71C4E93F384E38402F3DCC5246","2555","2555","2537","2539","https://mpa.thibautwittevrongel.com/","1","0","221BAA604C8C7EA979211DED3F08D8A1","https://mpa.thibautwittevrongel.com/","2537","2586.1000000015","2595","2595","2","3","1806","520","50","100","100","-1","100","-1","-1","-1","-1","-1","6402","0","-1","-1","0","0","Cloudflare","2","0","0","0","0","0","11","1","1","1","5","10","0","1","0","3","0","0","2954","nl-ams-gcp-a03-10.164.0.8","1683567223.7708","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683567225.6815","113.0.0.0","113.0.0.0","1039","3.6671368124","https://mpa.thibautwittevrongel.com/","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","32","2555","2586.1000000015","2586.1000000015","","","dora.ns.cloudflare.com","Chrome","Step_1","18540","https://mpa.thibautwittevrongel.com/","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-1.30","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/script.js""></script>
+<title>Plan to Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<div id=""mealGen"">
+<h2>Select the type of recipes you want to receive and how many per type.</h2>
+<form action=""index.html"" method=""post"">
+<div id=""checkboxList"">
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""breakfast"" id=""breakfast"">
+<label for=""breakfast"">Breakfast</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""lunch"" id=""lunch"">
+<label for=""lunch"">Lunch</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""dinner"" id=""dinner"">
+<label for=""dinner"">Dinner</label>
+</div>
+</div>
+<label for=""amount"">Number of recipes per type</label>
+<input type=""number"" name=""amount"" min=""1"" max=""10"" value=""1"" id=""amount"">
+<input class=""button"" type=""submit"" value=""Generate Menus"">
+</form>
+</div>
+</main>
+
+</body></html>","2600","2600","2600","2600","2600","2600","2600","2600","text","H2","41","17","1836","1830","2545","2545","2547","2564","1835","1835","1835","1836","2564","2564","2594","2594","2594","2594","2595","2595","2595","0","0","2600","2600","15054","2600","2600","230508_AiDcZ9_G3H","3","1","3758","0","0","43","0","0","1","0","0","5870","474","1","1320","1892","3","6260","1985","2","6625","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230508_AiDcZ9_G3H","0",
+"2534","2534","2976","13177","11214","4450","4351","7","7","6","6","1","0","99999","0","0","1","88187F1B15C6207E11C3F931736374E9","2529","2529","2513","2516","https://mpa.thibautwittevrongel.com/","1","0","B91D2EB255A0AA7A2B3827A7AFAE411E","https://mpa.thibautwittevrongel.com/","2513","2569.400000006","2574","2574","2","3","1782","519","50","100","100","-1","100","-1","-1","-1","-1","-1","6395","0","-1","-1","0","0","Cloudflare","2","0","0","0","0","0","6","1","0","1","5","8","0","1","0","3","0","0","2948","nl-ams-gcp-a04-10.164.0.9","1683567242.6292","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683567244.5637","113.0.0.0","113.0.0.0","1010","3.5600986958","https://mpa.thibautwittevrongel.com/","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","32","2529","2569.400000006","2569.400000006","","","dora.ns.cloudflare.com","Chrome","Step_1","18348","https://mpa.thibautwittevrongel.com/","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-1.30","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/script.js""></script>
+<title>Plan to Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<div id=""mealGen"">
+<h2>Select the type of recipes you want to receive and how many per type.</h2>
+<form action=""index.html"" method=""post"">
+<div id=""checkboxList"">
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""breakfast"" id=""breakfast"">
+<label for=""breakfast"">Breakfast</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""lunch"" id=""lunch"">
+<label for=""lunch"">Lunch</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""dinner"" id=""dinner"">
+<label for=""dinner"">Dinner</label>
+</div>
+</div>
+<label for=""amount"">Number of recipes per type</label>
+<input type=""number"" name=""amount"" min=""1"" max=""10"" value=""1"" id=""amount"">
+<input class=""button"" type=""submit"" value=""Generate Menus"">
+</form>
+</div>
+</main>
+
+</body></html>","2600","2600","2600","2600","2600","2600","2600","2600","text","H2","37","14","1810","1803","2518","2518","2520","2534","1808","1808","1808","1810","2534","2534","2573","2573","2573","2573","2574","2574","2574","0","0","2600","2600","15043","2600","2600","230508_AiDcZ9_G3H","4","1","3726","0","0","38","0","0","1","0","0","5785","474","1","1320","1892","3","6260","1985","2","6625","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230508_AiDcZ9_G3H","0",
+"2516","2516","2947","13177","11214","3934","3835","7","7","6","6","1","0","99999","0","0","1","DCE6C32C2A6F994236F23D7D5307854F","2512","2512","2508","2511","https://mpa.thibautwittevrongel.com/","1","0","B774FDC93F0498E5717111690C7FAF3A","https://mpa.thibautwittevrongel.com/","2508","2526.299999997","2529","2529","2","3","1786","520","50","100","100","-1","100","-1","-1","-1","-1","-1","5986","0","-1","-1","0","0","Cloudflare","2","0","0","0","0","0","5","1","0","1","5","6","0","0","0","4","0","0","2922","nl-ams-gcp-a01-10.164.0.6","1683567244.3884","Linux 5.4.0-1104-gcp","Linux 5.4.0-1104-gcp","x86_64 x86_64","1683567246.1459","113.0.0.0","113.0.0.0","959","3.3472803347","https://mpa.thibautwittevrongel.com/","mpa.thibautwittevrongel.com","https://mpa.thibautwittevrongel.com","32","2512","2526.299999997","2526.299999997","","","dora.ns.cloudflare.com","Chrome","Step_1","18067","https://mpa.thibautwittevrongel.com/","24","{""dppx"":1,""dpcm"":37.79527559055118,""dpi"":96}","[]","{""absolute"":{""height"":1200,""width"":1920},""available"":{""height"":1200,""width"":1920}}","-1.30","-0.02","width=device-width, initial-scale=1.0","<html lang=""en""><head>
+<meta charset=""UTF-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<link rel=""stylesheet"" href=""assets/css/reset.css"">
+<link rel=""stylesheet"" href=""assets/css/screen.css"">
+<script src=""assets/js/api.js""></script>
+<script src=""assets/js/util.js""></script>
+<script src=""assets/js/script.js""></script>
+<title>Plan to Plate</title>
+</head>
+<body>
+<header>
+<h1><a href=""index.html"">Plan To Plate</a></h1>
+<a href=""login.html"">login</a>
+</header>
+<main>
+<div id=""mealGen"">
+<h2>Select the type of recipes you want to receive and how many per type.</h2>
+<form action=""index.html"" method=""post"">
+<div id=""checkboxList"">
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""breakfast"" id=""breakfast"">
+<label for=""breakfast"">Breakfast</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""lunch"" id=""lunch"">
+<label for=""lunch"">Lunch</label>
+</div>
+<div>
+<input type=""checkbox"" name=""mealtime"" value=""dinner"" id=""dinner"">
+<label for=""dinner"">Dinner</label>
+</div>
+</div>
+<label for=""amount"">Number of recipes per type</label>
+<input type=""number"" name=""amount"" min=""1"" max=""10"" value=""1"" id=""amount"">
+<input class=""button"" type=""submit"" value=""Generate Menus"">
+</form>
+</div>
+</main>
+
+</body></html>","2500","2500","2500","2500","2500","2500","2500","2500","text","H2","33","11","1808","1803","2512","2512","2515","2516","1807","1807","1807","1808","2516","2516","2529","2529","2529","2529","2529","2529","2529","0","0","2511","2511","14991","2500","2511","230508_AiDcZ9_G3H","5","1","3388","0","0","34","0","0","1","0","0","5253","474","1","1320","1747","3","5085","1614","2","5139","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","230508_AiDcZ9_G3H","",
